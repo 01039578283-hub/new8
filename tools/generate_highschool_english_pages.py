@@ -113,6 +113,20 @@ def make_reviews(local: str, title: str, review_lines: list[str], idx: int) -> l
     return reviews
 
 
+REVIEW_TITLE_BANK = [
+    "본문 흐름을 이해하게 됐어요",
+    "어휘 복습이 꾸준해졌어요",
+    "문법 적용이 편해졌어요",
+    "독해 오답을 다시 보게 됐어요",
+    "시험 준비가 덜 흔들렸어요",
+    "학습 방향이 분명해졌어요",
+]
+
+
+def review_card_title(idx: int) -> str:
+    return REVIEW_TITLE_BANK[idx % len(REVIEW_TITLE_BANK)]
+
+
 def nav_html(depth: int) -> str:
     return shared.nav_html(depth, active="전국학원")
 
@@ -426,7 +440,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
     )
     related_html = "\n".join(f'<a href="{esc(url)}"><strong>{esc(name)} 고등영어학원</strong><small>{esc(area)} 지역 페이지</small></a>' for name, url, area in related)
     faq_html = "\n".join(f'<details class="faq-item"{" open" if i == 0 else ""}><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for i, (q, a) in enumerate(faqs))
-    review_html = "\n".join(f'<article class="review-card"><span>PARENT REVIEW</span><h3>{esc(local)} 고등영어 상담 후기</h3><p class="star-line">{"★" * int(r["rating"])}{"☆" * (5 - int(r["rating"]))}</p><p>{esc(r["body"])}</p></article>' for r in reviews)
+    review_html = "\n".join(f'<article class="review-card"><span>REVIEW {i + 1:02d}</span><h3>{esc(review_card_title(i))}</h3><p class="star-line">{"★" * int(r["rating"])}{"☆" * (5 - int(r["rating"]))}</p><p>{esc(r["body"])}</p></article>' for i, r in enumerate(reviews))
     fee_html = f'<p><a href="{esc(fee_link)}" target="_blank" rel="noopener noreferrer">교습비 안내 확인</a></p>' if fee_link else "<p>교습비는 상담 시 과정과 과목 구성에 따라 안내합니다.</p>"
 
     body = f"""{nav_html(3)}
@@ -465,7 +479,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
 
     <section class="section"><div class="section-panel"><div class="section-title"><p class="eyebrow">FAQ</p><h2>{esc(title)} 자주 묻는 질문</h2></div><div class="faq-list">{faq_html}</div></div></section>
 
-    <section class="section"><div class="section-panel"><div class="section-title"><p class="eyebrow">PARENT REVIEW</p><h2>{esc(local)} 고등영어 상담 후기</h2></div><div class="review-grid">{review_html}</div><div class="internal-links"><div class="directory-head"><h2>{esc(local)} 주변 고등영어학원 페이지</h2><p>같은 카테고리 안에서 가까운 지역 페이지로 이동할 수 있도록 정리했습니다.</p></div><div class="related-grid"><a href="../index.html"><strong>고등영어학원 전체</strong><small>카테고리 허브</small></a><a href="../../index.html"><strong>전국학원</strong><small>전체 허브</small></a>{related_html}</div></div></div></section>
+    <section class="section"><div class="section-panel"><div class="section-title"><p class="eyebrow">PARENT REVIEW</p><h2>{esc(local)} 학부모가 전한 영어 학습 변화</h2></div><div class="review-grid">{review_html}</div><div class="internal-links"><div class="directory-head"><h2>{esc(local)} 주변 고등영어학원 페이지</h2><p>같은 카테고리 안에서 가까운 지역 페이지로 이동할 수 있도록 정리했습니다.</p></div><div class="related-grid"><a href="../index.html"><strong>고등영어학원 전체</strong><small>카테고리 허브</small></a><a href="../../index.html"><strong>전국학원</strong><small>전체 허브</small></a>{related_html}</div></div></div></section>
   </main>
 {footer_html(3)}"""
     return shared.page_shell(head, body)

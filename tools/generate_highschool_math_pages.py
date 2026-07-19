@@ -210,6 +210,20 @@ def make_reviews(local: str, title: str, review_lines: list[str], idx: int) -> l
     return reviews
 
 
+REVIEW_TITLE_BANK = [
+    "풀이 과정을 다시 보게 됐어요",
+    "오답을 그냥 넘기지 않게 됐어요",
+    "시험 준비 흐름이 차분해졌어요",
+    "개념을 설명하는 습관이 생겼어요",
+    "학습 계획을 지키기 쉬워졌어요",
+    "부족한 단원이 분명해졌어요",
+]
+
+
+def review_card_title(idx: int) -> str:
+    return REVIEW_TITLE_BANK[idx % len(REVIEW_TITLE_BANK)]
+
+
 def school_names(row: dict[str, str]) -> list[str]:
     names: list[str] = []
     for key in ("타깃학교\n(고)", "타깃학교\n(중)", "타깃학교\n(초)"):
@@ -428,8 +442,8 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
         for i, (q, a) in enumerate(faqs)
     )
     review_html = "\n".join(
-        f'<article class="review-card"><span>PARENT REVIEW</span><h3>{esc(local)} 고등수학 상담 후기</h3><p class="star-line">{"★" * int(r["rating"])}{"☆" * (5 - int(r["rating"]))}</p><p>{esc(r["body"])}</p></article>'
-        for r in reviews
+        f'<article class="review-card"><span>REVIEW {i + 1:02d}</span><h3>{esc(review_card_title(i))}</h3><p class="star-line">{"★" * int(r["rating"])}{"☆" * (5 - int(r["rating"]))}</p><p>{esc(r["body"])}</p></article>'
+        for i, r in enumerate(reviews)
     )
     fee_html = f'<p><a href="{esc(fee_link)}" target="_blank" rel="noopener noreferrer">교습비 안내 확인</a></p>' if fee_link else "<p>교습비는 상담 시 과정과 과목 구성에 따라 안내합니다.</p>"
     body = f"""{nav_html(3)}
@@ -559,7 +573,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
       <div class="section-panel">
         <div class="section-title">
           <p class="eyebrow">PARENT REVIEW</p>
-          <h2>{esc(local)} 고등수학 상담 후기</h2>
+          <h2>{esc(local)} 학부모가 전한 수학 학습 변화</h2>
         </div>
         <div class="review-grid">
           {review_html}

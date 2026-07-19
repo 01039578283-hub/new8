@@ -278,6 +278,20 @@ def make_reviews(local: str, title: str, review_lines: list[str], idx: int) -> l
     return reviews
 
 
+REVIEW_TITLE_BANK = [
+    "두 과목의 우선순위가 잡혔어요",
+    "오답 관리가 더 선명해졌어요",
+    "시험 계획을 세우기 쉬워졌어요",
+    "영어와 수학을 함께 보게 됐어요",
+    "복습 흐름이 안정됐어요",
+    "상담 후 방향이 분명해졌어요",
+]
+
+
+def review_card_title(idx: int) -> str:
+    return REVIEW_TITLE_BANK[idx % len(REVIEW_TITLE_BANK)]
+
+
 def star_line(rating: int) -> str:
     return "★★★★★" if rating >= 5 else "★★★★☆"
 
@@ -535,8 +549,8 @@ def page_html(row: dict[str, str], school_row: dict[str, str], rows: list[dict[s
         for i, (q, a) in enumerate(faqs)
     )
     review_html = "\n".join(
-        f'<article class="review-card"><span>PARENT REVIEW</span><h3>{esc(local)} 고등영수 상담 후기</h3><p class="star-line">{star_line(int(review["rating"]))}</p><p>{esc(review["body"])}</p></article>'
-        for review in reviews
+        f'<article class="review-card"><span>REVIEW {i + 1:02d}</span><h3>{esc(review_card_title(i))}</h3><p class="star-line">{star_line(int(review["rating"]))}</p><p>{esc(review["body"])}</p></article>'
+        for i, review in enumerate(reviews)
     )
     nearby_links = "\n".join(
         f'<a href="/전국학원/{CATEGORY}/{slug_ko(item["name"].replace(" " + CATEGORY, ""))}/"><strong>{esc(item["name"])}</strong><small>{esc(item["city"])} 지역 페이지</small></a>'
@@ -680,7 +694,7 @@ def page_html(row: dict[str, str], school_row: dict[str, str], rows: list[dict[s
       <div class="section-panel">
         <div class="section-title">
           <p class="eyebrow">PARENT REVIEW</p>
-          <h2>{esc(local)} 고등영수 상담 후기</h2>
+          <h2>{esc(local)} 학부모가 전한 영수 학습 변화</h2>
         </div>
         <div class="review-grid">
           {review_html}
