@@ -95,6 +95,7 @@ def nav_html(depth: int) -> str:
         <a href="{p}학습가이드/index.html">학습가이드</a>
         <a href="{p}상담문의/index.html">상담문의</a>
         <a class="active" href="{p}전국학원/index.html">전국학원</a>
+        <a href="{p}과목별학원/index.html">과목별학원</a>
       </div>
     </nav>
   </header>"""
@@ -131,7 +132,7 @@ def head_html(title: str, description: str, depth: int, canonical: str, og_type:
   <meta property="og:image" content="{esc(image)}">
   <link rel="icon" type="image/png" href="{p}assets/favicon.png">
   <link rel="apple-touch-icon" href="{p}assets/favicon.png">
-  <link rel="stylesheet" href="{p}assets/site.css?v=20260724-4">
+  <link rel="stylesheet" href="{p}assets/site.css?v=20260724-5">
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>"""
 
@@ -883,7 +884,7 @@ def category_hub(rows: list[dict[str, str]]) -> None:
     head = head_html(title, description, 2, canonical, "website", asset_url("assets/generated/coaching-center-hero-v2.webp"), ld)
     head = head.replace(
         "</head>",
-        '  <script defer src="../../assets/directory.js?v=20260724-4"></script>\n</head>',
+        '  <script defer src="../../assets/directory.js?v=20260724-5"></script>\n</head>',
     )
     body = f"""{nav_html(2)}
   <main>

@@ -68,6 +68,7 @@ def nav_html(depth: int, active: str = "전국학원") -> str:
         ("학습가이드", f"{p}학습가이드/index.html"),
         ("상담문의", f"{p}상담문의/index.html"),
         ("전국학원", f"{p}전국학원/index.html"),
+        ("과목별학원", f"{p}과목별학원/index.html"),
     ]
     items = "\n".join(
         f'        <a{" class=\"active\"" if name == active else ""} href="{href}">{name}</a>'
@@ -114,7 +115,7 @@ def head_html(title: str, description: str, depth: int, canonical: str, og_type:
   <meta property="og:image" content="{esc(image)}">
   <link rel="icon" type="image/png" href="{p}assets/favicon.png">
   <link rel="apple-touch-icon" href="{p}assets/favicon.png">
-  <link rel="stylesheet" href="{p}assets/site.css?v=20260724-4">
+  <link rel="stylesheet" href="{p}assets/site.css?v=20260724-5">
   <script type="application/ld+json">{json_script(ld)}</script>
 </head>"""
 
@@ -660,7 +661,7 @@ def hub_pages(rows: list[dict[str, str]]) -> None:
     head = head_html(f"{CATEGORY} | {SITE_NAME}", "전국 371개 지역의 고등수학학원 학습관리 페이지를 지역별로 정리한 허브입니다.", 2, f"/전국학원/{CATEGORY}/", "website", rep, ld_cat)
     head = head.replace(
         "</head>",
-        '  <script defer src="../../assets/directory.js?v=20260724-4"></script>\n</head>',
+        '  <script defer src="../../assets/directory.js?v=20260724-5"></script>\n</head>',
     )
     body = f"""{nav_html(2)}
   <main>

@@ -3,7 +3,7 @@
     "서울", "경기", "인천", "충청", "대전", "세종", "대구",
     "울산", "부산", "경상", "광주", "전라", "강원", "제주"
   ];
-  const subjectSuffix = /\s+고등(?:수학|영어|영수).*$/;
+  const subjectSuffix = /\s+(?:고등(?:수학|영어|영수)|국영수).*$/;
 
   document.querySelectorAll(".directory-page .academy-directory").forEach((directory) => {
     const originalBlocks = Array.from(directory.querySelectorAll(".region-block"));
@@ -18,7 +18,8 @@
 
       block.querySelectorAll(".local-button-grid > a").forEach((anchor) => {
         const small = anchor.querySelector("small")?.textContent.trim() || "";
-        let district = small.replace(subjectSuffix, "").trim();
+        let district = anchor.dataset.district?.trim()
+          || small.replace(subjectSuffix, "").trim();
         if (!district || district === province) {
           district = regionTitle.replace(new RegExp(`^${province}\\s*`), "").trim() || "주요 지역";
         }

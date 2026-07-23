@@ -276,7 +276,7 @@ def category_hub(rows: list[dict[str, str]]) -> None:
     )
     head = head.replace(
         "</head>",
-        '  <script defer src="../../assets/directory.js?v=20260724-4"></script>\n</head>',
+        '  <script defer src="../../assets/directory.js?v=20260724-5"></script>\n</head>',
     )
     body = f"""{nav_html(2)}
   <main>

@@ -24,19 +24,25 @@ def priority_for(path: str) -> str:
     if path == "/":
         return "1.0"
     depth = path.strip("/").count("/") + 1
-    if path == "/전국학원/":
+    if path in {"/전국학원/", "/과목별학원/"}:
         return "0.9"
-    if path.startswith("/전국학원/") and depth == 2:
+    if (
+        path.startswith("/전국학원/")
+        or path.startswith("/과목별학원/")
+    ) and depth == 2:
         return "0.85"
-    if path.startswith("/전국학원/") and depth >= 3:
+    if (
+        path.startswith("/전국학원/")
+        or path.startswith("/과목별학원/")
+    ) and depth >= 3:
         return "0.75"
     return "0.8"
 
 
 def changefreq_for(path: str) -> str:
-    if path == "/" or path == "/전국학원/":
+    if path in {"/", "/전국학원/", "/과목별학원/"}:
         return "weekly"
-    if path.startswith("/전국학원/"):
+    if path.startswith("/전국학원/") or path.startswith("/과목별학원/"):
         return "monthly"
     return "weekly"
 
