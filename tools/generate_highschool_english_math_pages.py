@@ -223,11 +223,11 @@ def find_map(row: dict[str, str]) -> str:
             p = maps / f"{base}{ext}"
             if p.exists():
                 return f"assets/maps/{p.name}"
-    return "assets/centers/common/local6839.jpg"
+    return "assets/centers/common/local6839.webp"
 
 
 def center_image(row: dict[str, str]) -> str:
-    return "assets/centers/common/seoul6839.jpg" if row.get("지역") == "서울" else "assets/centers/common/local6839.jpg"
+    return "assets/centers/common/seoul6839.webp" if row.get("지역") == "서울" else "assets/centers/common/local6839.webp"
 
 
 def make_faqs(local: str, district: str, title: str, base_faq: list[tuple[str, str]], idx: int) -> list[tuple[str, str]]:
@@ -598,7 +598,7 @@ def page_html(row: dict[str, str], school_row: dict[str, str], rows: list[dict[s
     <section class="local-media-section">
       <img src="../../../{esc(rep)}" alt="{esc(title)} {SITE_NAME} 대표" style="display:none;">
       <figure class="local-media-card">
-        <img src="../../../{esc(body_img)}" alt="{esc(title)} 본문 {SITE_NAME}">
+        <img src="../../../{esc(body_img)}" width="918" height="16116" loading="lazy" decoding="async" alt="{esc(title)} 본문 {SITE_NAME}">
       </figure>
       <figure class="local-map-card">
         <img src="../../../{esc(map_img)}" alt="{esc(title)} 지도 {SITE_NAME}">
@@ -773,7 +773,7 @@ def category_hub(rows: list[dict[str, str]]) -> None:
                 "url": DOMAIN + "/",
                 "telephone": PHONE_DISPLAY,
                 "logo": DOMAIN + "/assets/favicon.png",
-                "image": asset_url("assets/generated/coaching-center-hero-v2.png"),
+                "image": asset_url("assets/generated/coaching-center-hero-v2.webp"),
                 "areaServed": [{"@type": "Country", "name": "대한민국"}],
                 "openingHoursSpecification": [
                     {
@@ -836,7 +836,7 @@ def category_hub(rows: list[dict[str, str]]) -> None:
                 "@id": canonical + "#article",
                 "headline": title,
                 "description": description,
-                "image": [asset_url("assets/generated/coaching-center-hero-v2.png")],
+                "image": [asset_url("assets/generated/coaching-center-hero-v2.webp")],
                 "inLanguage": "ko-KR",
                 "datePublished": LASTMOD,
                 "dateModified": LASTMOD,
@@ -876,7 +876,7 @@ def category_hub(rows: list[dict[str, str]]) -> None:
             },
         ],
     }
-    head = head_html(title, description, 2, canonical, "website", asset_url("assets/generated/coaching-center-hero-v2.png"), ld)
+    head = head_html(title, description, 2, canonical, "website", asset_url("assets/generated/coaching-center-hero-v2.webp"), ld)
     body = f"""{nav_html(2)}
   <main>
     <section class="academy-hero">

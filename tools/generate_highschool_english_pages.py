@@ -181,7 +181,7 @@ def root_hub(rows: list[dict[str, str]]) -> None:
         1,
         "/전국학원/",
         "website",
-        "/assets/generated/coaching-center-hero-v2.png",
+        "/assets/generated/coaching-center-hero-v2.webp",
         ld,
     )
     cards = "\n".join(
@@ -264,7 +264,7 @@ def category_hub(rows: list[dict[str, str]]) -> None:
         2,
         f"/전국학원/{CATEGORY}/",
         "website",
-        "/assets/generated/coaching-center-hero-v2.png",
+        "/assets/generated/coaching-center-hero-v2.webp",
         ld,
     )
     body = f"""{nav_html(2)}
@@ -300,7 +300,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
     description = f"{region} {district} {local} 고등학생을 위한 고등영어학원 안내입니다. 영어 내신, 학교 본문, 어휘, 문법, 독해, 오답 재학습 기준을 상담 전 확인할 수 있습니다."
     canonical = f"/전국학원/{CATEGORY}/{slug}/"
     rep_root = "/" + rep_image.replace("\\", "/")
-    center_img = "assets/centers/common/seoul6839.jpg" if region == "서울" else "assets/centers/common/local6839.jpg"
+    center_img = "assets/centers/common/seoul6839.webp" if region == "서울" else "assets/centers/common/local6839.webp"
     map_img = shared.find_map(row)
     schools = school_names(row)
     high_schools = split_items(row.get("타깃학교\n(고)", ""))
@@ -463,7 +463,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
 
     <section class="local-media-section">
       <img src="{esc(rep_rel)}" alt="{esc(title + ' ' + SITE_NAME + ' 대표')}" style="display:none;">
-      <figure class="local-media-card"><img src="{esc(center_rel)}" alt="{esc(title + ' 본문 ' + SITE_NAME)}"></figure>
+      <figure class="local-media-card"><img src="{esc(center_rel)}" width="918" height="16116" loading="lazy" decoding="async" alt="{esc(title + ' 본문 ' + SITE_NAME)}"></figure>
       <figure class="local-map-card"><img src="{esc(map_rel)}" alt="{esc(title + ' 지도 ' + SITE_NAME)}"><figcaption>{esc(center)} 기준으로 {esc(local)} 학생의 고등영어 상담 범위를 확인합니다. 실제 방문·상담 전에는 주소와 이동 동선을 함께 확인해 주세요.</figcaption></figure>
     </section>
 

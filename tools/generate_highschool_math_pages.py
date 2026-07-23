@@ -144,7 +144,7 @@ def find_map(row: dict[str, str]) -> str:
             p = maps / f"{base}{ext}"
             if p.exists():
                 return f"assets/maps/{p.name}"
-    return "assets/centers/common/local6839.jpg"
+    return "assets/centers/common/local6839.webp"
 
 
 def choose_rep_images(rows: list[dict[str, str]]) -> list[str]:
@@ -252,7 +252,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
     breadcrumb_id = f"{canonical}#breadcrumb"
     faq_id = f"{canonical}#faq"
     rep_root = "/" + rep_image.replace("\\", "/")
-    center_img = "assets/centers/common/seoul6839.jpg" if region == "서울" else "assets/centers/common/local6839.jpg"
+    center_img = "assets/centers/common/seoul6839.webp" if region == "서울" else "assets/centers/common/local6839.webp"
     map_img = find_map(row)
     schools = school_names(row)
     high_schools = split_items(row.get("타깃학교\n(고)", ""))
@@ -477,7 +477,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
     <section class="local-media-section">
       <img src="{esc(rep_rel)}" alt="{esc(title + ' ' + SITE_NAME + ' 대표')}" style="display:none;">
       <figure class="local-media-card">
-        <img src="{esc(center_rel)}" alt="{esc(title + ' 본문 ' + SITE_NAME)}">
+        <img src="{esc(center_rel)}" width="918" height="16116" loading="lazy" decoding="async" alt="{esc(title + ' 본문 ' + SITE_NAME)}">
       </figure>
       <figure class="local-map-card">
         <img src="{esc(map_rel)}" alt="{esc(title + ' 지도 ' + SITE_NAME)}">
@@ -599,7 +599,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
 
 
 def hub_pages(rows: list[dict[str, str]]) -> None:
-    rep = "/assets/generated/coaching-center-hero-v2.png"
+    rep = "/assets/generated/coaching-center-hero-v2.webp"
     ld_root = {
         "@context": "https://schema.org",
         "@graph": [
