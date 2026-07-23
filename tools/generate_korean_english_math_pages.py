@@ -847,6 +847,207 @@ REPEATED_SENTENCE_BANKS.update(
 )
 
 
+KOREAN_ENGLISH_MATH_SENTENCE_BANKS: dict[str, list[str]] = {
+    "{TITLE} 선택에서 가장 중요한 질문은 세 과목을 모두 가르치는지가 아니라 이 학생의 다음 행동을 구체적으로 정해 주는가입니다.": [
+        "{TITLE}을 살펴볼 때는 세 과목 개설 여부보다 학생이 다음 주에 실천할 과제를 구체적으로 정해 주는지 확인해야 합니다.",
+        "국어·영어·수학을 함께 배운다는 사실보다 {LOCAL} 학생의 다음 학습 행동이 분명해지는지가 더 중요한 선택 기준입니다.",
+        "{TITLE} 비교에서는 과목 수보다 진단 결과가 학생의 다음 과제와 복습 일정으로 이어지는지를 먼저 보세요.",
+        "세 과목 수업의 장점은 한곳에서 배운다는 데 그치지 않고 {LOCAL} 학생의 다음 행동을 하나의 계획으로 묶을 때 생깁니다.",
+        "{TITLE} 상담에서는 무엇을 가르치는지와 함께 학생이 다음 수업 전까지 무엇을 실행할지도 구체적으로 물어보아야 합니다.",
+        "국영수 수업을 고를 때는 과목 구성이 아니라 진단 뒤 학생에게 제시되는 첫 행동이 명확한지를 살펴보는 편이 좋습니다.",
+        "{LOCAL} 학생에게 필요한 것은 세 과목의 단순한 병행보다 약점에 따라 다음 행동을 우선순위로 정하는 과정입니다.",
+        "{TITLE}의 적합성은 과목 개수보다 학생의 다음 과제·질문·재풀이가 구체적으로 정해지는지로 판단할 수 있습니다.",
+        "상담의 핵심은 국영수를 모두 다룬다는 설명보다 {LOCAL} 학생이 바로 실행할 한 주 계획을 확인하는 데 있습니다.",
+        "{TITLE}을 선택하기 전에는 세 과목 제공 여부와 별개로 진단 결과가 구체적인 다음 행동으로 바뀌는지 확인하세요.",
+        "과목을 한곳에서 관리하더라도 학생의 다음 행동이 모호하면 효과를 판단하기 어렵습니다. {LOCAL} 상담에서 실행 단위를 물어보세요.",
+        "세 과목 통합 관리가 학생에게 맞는지는 {TITLE} 상담 뒤 첫 주 행동을 자신의 말로 설명할 수 있는지로 살펴볼 수 있습니다.",
+    ],
+    "학부모가 {TITLE}에 대해 바로 확인할 답은 다음과 같습니다.": [
+        "{TITLE} 상담 전에 보호자가 먼저 확인할 핵심을 정리하면 다음과 같습니다.",
+        "{LOCAL}에서 국영수 수업을 비교할 때 바로 답을 들어야 할 항목은 아래와 같습니다.",
+        "보호자가 {TITLE}을 살펴보며 우선 확인할 내용은 다음 기준으로 나눌 수 있습니다.",
+        "{TITLE} 선택을 앞두고 가장 먼저 정리할 판단 기준은 아래와 같습니다.",
+        "{LOCAL} 학부모가 세 과목 학습관리를 비교할 때 확인할 답을 다음과 같이 정리했습니다.",
+        "국영수 상담에서 막연한 설명 대신 구체적으로 답을 들어야 할 내용은 다음과 같습니다.",
+        "{TITLE}에 관한 핵심 질문은 아래 항목을 기준으로 확인하는 편이 좋습니다.",
+        "{LOCAL} 학생의 수업을 알아볼 때 보호자가 먼저 점검할 답은 다음과 같습니다.",
+        "상담 내용을 비교하기 쉽도록 {TITLE}에서 확인할 핵심 답변을 아래에 나누었습니다.",
+        "{TITLE}이 학생에게 맞는지 판단하려면 다음 항목에 대한 설명부터 확인하세요.",
+        "보호자가 세 과목 수업의 차이를 파악할 때 사용할 수 있는 확인 기준은 다음과 같습니다.",
+        "{LOCAL} 국영수 상담을 준비하며 놓치지 말아야 할 답변을 아래 순서로 살펴보세요.",
+    ],
+    "{TITLE} 상담에서 학생이 다음 주 계획의 이유를 자신의 말로 설명한다면 수업 구조를 이해하고 있다는 신호로 볼 수 있습니다.": [
+        "{TITLE} 상담 뒤 학생이 다음 주 계획이 왜 필요한지 설명할 수 있다면 관리 흐름을 이해했다는 신호입니다.",
+        "{LOCAL} 학생이 자신의 다음 과제와 그 이유를 말로 정리할 수 있는지 확인하면 수업 구조의 이해도를 살펴볼 수 있습니다.",
+        "학생이 다음 주에 할 일과 순서를 스스로 설명한다면 {TITLE}의 계획을 수동적으로 따르지 않고 이해한 것으로 볼 수 있습니다.",
+        "{TITLE}에서 정한 계획을 학생이 자신의 말로 다시 설명할 수 있어야 실제 실행으로 이어질 가능성도 커집니다.",
+        "다음 주 학습량의 이유를 {LOCAL} 학생이 직접 말할 수 있는지는 상담 설명이 충분했는지 판단하는 기준이 됩니다.",
+        "학생이 과목별 우선순위와 다음 행동을 설명할 수 있다면 {TITLE}의 관리 방식을 이해하고 있다는 뜻입니다.",
+        "{LOCAL} 상담 후 학생에게 첫 주 계획을 다시 말해 보게 하면 수업 구조를 제대로 받아들였는지 확인할 수 있습니다.",
+        "수업 계획의 이유를 학생이 납득하고 설명할 수 있어야 {TITLE}에서 정한 과제도 주도적으로 실행하기 쉽습니다.",
+        "{TITLE} 상담에서 들은 다음 주 계획을 학생의 표현으로 바꾸어 말하게 해 보면 이해 여부가 드러납니다.",
+        "학생이 왜 이 과목을 먼저 복습하는지 설명할 수 있다면 {LOCAL} 학습 계획의 연결 구조를 이해한 것으로 볼 수 있습니다.",
+        "{TITLE}의 첫 계획이 학생에게 전달됐는지는 과제 목록보다 그 이유를 학생이 설명할 수 있는지로 확인하세요.",
+        "다음 행동의 목적을 학생이 직접 설명하는 과정은 {LOCAL} 상담에서 계획의 현실성을 검토하는 좋은 방법입니다.",
+    ],
+    "{LOCAL}의 평일 귀가 일정에 넣어 현실적으로 계산하는 편이 좋습니다.": [
+        "{LOCAL} 학생의 평일 귀가 시간표에 실제로 대입해 가능한 일정인지 확인하는 편이 좋습니다.",
+        "제시된 계획은 {LOCAL}의 학교 종료와 귀가 시간을 반영해 현실적으로 계산해야 합니다.",
+        "{LOCAL} 학생의 평일 이동·식사·귀가 시간을 함께 넣어 실행 가능한지 살펴보세요.",
+        "수업 일정은 {LOCAL} 학생이 평일에 집으로 돌아오는 시각까지 고려해 판단해야 합니다.",
+        "{LOCAL} 생활권에서는 학교가 끝난 뒤 이동과 귀가 시간을 포함해 계획의 여유를 계산하는 것이 필요합니다.",
+        "평일 계획은 {LOCAL} 학생의 실제 귀가 일정 안에서 지킬 수 있는 분량인지 확인하는 편이 안전합니다.",
+        "{LOCAL}에서 가능한 시간표인지는 수업 종료뿐 아니라 최종 귀가 시각까지 계산해 보아야 합니다.",
+        "등원 계획을 {LOCAL} 학생의 평일 귀가 흐름과 맞추어 보아야 과제와 복습 시간도 현실적으로 잡을 수 있습니다.",
+        "{LOCAL}의 학교 일정과 집에 도착하는 시간을 기준으로 수업 전후 시간을 다시 계산하세요.",
+        "제안받은 시간표는 {LOCAL} 학생의 실제 평일 귀가 패턴에 넣어 무리가 없는지 확인해야 합니다.",
+        "{LOCAL}에서의 이동 시간은 귀가 후 복습까지 고려해 계산해야 계획을 꾸준히 유지할 수 있습니다.",
+        "학생의 평일 귀가 시간을 기준으로 {LOCAL} 수업 일정과 가정 복습 시간을 함께 맞추는 편이 좋습니다.",
+    ],
+    "{TITLE} 비교표에는 비용·거리·시간뿐 아니라 진단 근거, 학교 자료 반영, 피드백 주기, 계획 수정 가능성을 같은 비중으로 적어야 합니다.": [
+        "{TITLE}을 비교할 때 비용과 거리 외에도 진단 근거, 학교 자료 활용, 피드백 주기와 계획 조정 방식을 함께 기록하세요.",
+        "비용·이동 시간만 적기보다 {LOCAL} 상담에서 확인한 진단 절차와 학교 자료 반영, 피드백·수정 기준을 같은 표에 담는 편이 좋습니다.",
+        "{TITLE} 비교표는 수업료와 위치뿐 아니라 어떤 자료로 진단하고 언제 계획을 바꾸는지도 나란히 볼 수 있어야 합니다.",
+        "세 과목 수업을 비교할 때는 거리와 시간에 더해 학교 자료 반영 방식, 피드백 간격과 수정 가능성을 함께 살펴보세요.",
+        "{LOCAL} 학부모는 비용·동선과 함께 진단의 근거, 학교별 준비, 주간 피드백과 계획 수정 절차를 같은 비중으로 확인할 수 있습니다.",
+        "{TITLE} 선택표에는 객관적인 비용·거리 정보와 수업 안의 진단·피드백·조정 기준을 함께 적는 것이 필요합니다.",
+        "수업료와 통학 시간만으로 결정하지 말고 {LOCAL} 학생의 자료가 계획에 반영되는 과정과 수정 주기도 함께 비교하세요.",
+        "{TITLE} 비교 기준에는 접근성 외에 진단 자료, 내신 반영 방식, 피드백 시점과 계획 변경 조건이 포함되어야 합니다.",
+        "보호자가 표로 정리할 때는 비용·위치와 더불어 학생 진단, 학교 자료 활용, 피드백과 재계획 방식을 나란히 적어 보세요.",
+        "{LOCAL} 국영수 수업 비교에서는 외부 조건과 학습관리 절차를 분리하지 말고 같은 기준표에서 확인하는 편이 좋습니다.",
+        "{TITLE}의 차이는 비용보다 학생 자료를 어떻게 읽고 피드백 뒤 계획을 어떻게 조정하는지에서 더 분명하게 나타납니다.",
+        "비교표 한쪽에는 비용과 이동 시간을, 다른 쪽에는 진단·학교 자료·피드백·계획 조정 기준을 적어 균형 있게 판단하세요.",
+    ],
+    "{LOCAL} 학부모가 마지막으로 확인할 점은 다음과 같습니다: 수준별 또는 맞춤형이라는 표현은 진단 결과가 교재·진도·숙제량·피드백 문장에 실제로 달라질 때 의미가 생깁니다.": [
+        "{LOCAL} 학부모가 끝으로 확인할 부분은 맞춤형이라는 말이 실제 교재·진도·과제량·피드백의 차이로 나타나는지입니다.",
+        "수준별 수업이라는 표현은 {LOCAL} 학생의 진단 결과에 따라 교재와 진도, 숙제와 피드백이 달라질 때 구체적인 의미가 생깁니다.",
+        "{LOCAL} 상담의 마지막에는 학생별 진단이 실제 수업 자료·속도·과제·피드백 조정으로 이어지는지 확인하세요.",
+        "맞춤 관리 여부는 홍보 문구가 아니라 {LOCAL} 학생에게 배정된 교재, 진도, 과제량과 피드백 내용으로 판단해야 합니다.",
+        "{LOCAL} 학부모는 수준별이라는 설명 뒤에 학생별 교재·속도·숙제·피드백 차이가 실제로 있는지 물어보는 편이 좋습니다.",
+        "학생 맞춤형 수업은 {LOCAL} 상담 결과가 교재 선택과 진도, 과제 분량, 피드백 문장에 반영될 때 확인할 수 있습니다.",
+        "{LOCAL}에서 수업을 비교할 때 맞춤형이라는 단어보다 진단 뒤 무엇이 구체적으로 달라지는지를 살펴보세요.",
+        "진단 결과가 모든 학생에게 같은 교재와 숙제로 이어진다면 맞춤 관리라 보기 어렵습니다. {LOCAL} 학생에게 달라지는 항목을 확인하세요.",
+        "{LOCAL} 보호자가 마지막으로 물어볼 내용은 학생의 상태에 따라 수업 계획과 피드백이 어떻게 조정되는가입니다.",
+        "수준별 관리의 실체는 {LOCAL} 학생에게 정해지는 교재·진도·과제와 피드백 기준의 차이에서 드러납니다.",
+        "{LOCAL} 상담에서는 맞춤이라는 표현을 그대로 받아들이기보다 학생별로 달라지는 계획 항목을 구체적으로 확인해야 합니다.",
+        "학생 진단이 수업 운영에 반영되는지는 {LOCAL} 학생의 교재, 진도, 숙제량과 다음 피드백을 보면 판단할 수 있습니다.",
+    ],
+    "{TITLE}을 찾는 학부모에게 먼저 답하면, 세 과목을 한곳에서 배운다는 편의성보다 학생의 실제 약점을 진단하고 학교 진도·과제·오답·복습을 하나의 주간 계획으로 연결하는지가 더 중요합니다.": [
+        "{TITLE}을 알아볼 때는 한곳에서 세 과목을 배운다는 편리함보다 학생의 약점을 진단해 학교 진도·과제·오답·복습을 한 주 계획으로 잇는지 먼저 보세요.",
+        "{LOCAL} 학부모에게 필요한 첫 답은 과목 수보다 학생의 실제 공백이 학교 학습과 과제, 오답·복습 계획에 어떻게 반영되는가입니다.",
+        "세 과목 통합의 장점은 편의성이 아니라 {TITLE}에서 확인한 약점을 하나의 주간 실행 계획으로 조정할 때 생깁니다.",
+        "{TITLE} 선택에서는 국영수를 함께 제공하는지보다 진단 결과가 학교 진도와 과제·재풀이·복습 일정으로 이어지는지가 중요합니다.",
+        "{LOCAL} 학생의 세 과목을 한곳에서 관리하더라도 과목별 공백과 학교 일정이 주간 계획에 구체적으로 반영되어야 합니다.",
+        "학부모가 {TITLE}을 비교할 때 먼저 볼 것은 통합 수업의 편리함이 아니라 학생 자료를 바탕으로 만든 실행 계획입니다.",
+        "{TITLE}은 세 과목 수강 자체보다 학생의 약점, 학교 일정, 과제와 오답을 같은 주간표 안에서 조정하는지가 핵심입니다.",
+        "{LOCAL}에서 국영수 수업을 찾는다면 과목 묶음보다 진단·학교 진도·과제·복습이 한 흐름으로 연결되는지 확인하세요.",
+        "세 과목을 함께 배우는 편의만으로는 충분하지 않습니다. {TITLE}이 학생의 약점을 다음 주 행동으로 바꾸는지 살펴보세요.",
+        "{TITLE}의 가치는 여러 과목을 제공하는 데서 끝나지 않고 학생의 학교 학습과 오답·복습을 하나의 계획으로 묶는 데 있습니다.",
+        "{LOCAL} 학부모가 우선 확인할 것은 세 과목의 동시 수강보다 학생별 약점과 일정을 반영한 주간 실행 구조입니다.",
+        "국영수 학원을 선택할 때는 편리함과 함께 {TITLE}의 진단이 학교 진도, 과제와 재학습 계획으로 이어지는지 확인해야 합니다.",
+    ],
+    "{TITLE}을 고를 때 수업 횟수나 홍보 표현만 보면 학생에게 맞는지 알기 어렵습니다.": [
+        "{TITLE} 선택에서는 수업 횟수와 광고 문구만으로 학생과의 적합성을 판단하기 어렵습니다.",
+        "{LOCAL}에서 국영수 수업을 비교할 때 횟수보다 진단과 피드백이 학생에게 맞는지를 먼저 확인하세요.",
+        "수업 횟수가 많다는 설명만으로는 {TITLE}이 현재 학생에게 필요한지 알기 어렵습니다.",
+        "{TITLE}의 적합성은 홍보 표현이 아니라 학생 자료에 따른 계획과 점검 방식으로 판단해야 합니다.",
+        "{LOCAL} 학부모는 횟수와 문구보다 실제 진단·과제·오답 피드백 절차를 비교하는 편이 좋습니다.",
+        "광고에서 강조하는 수업 횟수보다 {TITLE}에서 학생별로 무엇을 다르게 관리하는지 살펴보세요.",
+        "{TITLE}을 알아볼 때는 횟수 자체가 아니라 한 번의 수업이 진단과 복습으로 어떻게 이어지는지 확인해야 합니다.",
+        "{LOCAL} 학생에게 맞는 수업인지는 홍보 문구가 아닌 첫 계획과 피드백 기록에서 확인할 수 있습니다.",
+        "수업 횟수만 비교하면 {TITLE}의 실제 관리 방식과 학생 적합성을 놓치기 쉽습니다.",
+        "{TITLE} 상담에서는 홍보 표현보다 학생의 현재 공백을 어떻게 진단하고 보완할지 구체적으로 물어보세요.",
+        "횟수가 많아도 학생의 약점과 일정에 맞지 않으면 유지하기 어렵습니다. {LOCAL} 상담에서 실행 가능성을 먼저 확인하세요.",
+        "{TITLE}의 차이는 횟수보다 진단 근거와 학생별 과제·피드백 조정에서 더 분명하게 드러납니다.",
+    ],
+}
+
+KOREAN_ENGLISH_MATH_SENTENCE_BANKS.update(
+    {
+        "{LOCAL} 기준으로는 수업 이름보다 한 회 안에서 설명, 학생 풀이, 질문, 채점, 오답 정리 시간이 어떻게 배분되는지를 살펴야 합니다.": [
+            "{LOCAL}에서는 과정명보다 한 수업 안에서 설명·독립 풀이·질문·채점·오답 정리에 각각 얼마나 시간을 쓰는지 확인하세요.",
+            "수업 이름보다 중요한 것은 {LOCAL} 학생이 설명을 듣고 직접 풀며 질문과 오답 정리까지 마칠 시간이 확보되는가입니다.",
+            "{LOCAL} 상담에서는 한 회 수업을 설명, 학생 풀이, 질문, 채점과 재풀이 단계로 나누어 시간 배분을 물어보는 편이 좋습니다.",
+            "과정명만 비교하지 말고 {LOCAL} 수업에서 학생이 혼자 푸는 시간과 질문·오답 확인 시간이 실제로 얼마나 되는지 살펴보세요.",
+            "{LOCAL} 학생에게 맞는 수업인지는 한 회 안에 설명 이후 풀이와 채점, 틀린 이유 확인까지 이어지는지로 판단할 수 있습니다.",
+            "한 번의 수업에서 설명이 차지하는 비중과 {LOCAL} 학생의 독립 풀이·질문·재학습 시간을 구체적으로 확인해야 합니다.",
+            "{LOCAL} 국영수 상담에서는 수업 명칭보다 설명부터 학생 풀이와 오답 정리까지의 순서와 시간을 물어보세요.",
+            "학생이 듣기만 하는 시간이 길지 않은지, {LOCAL} 수업 안에서 풀이·질문·채점·재도전이 균형 있게 배치되는지 확인하세요.",
+        ],
+        "{LOCAL}의 중간 점검에서는 점수 약속보다 시작 시각, 질문 수, 재풀이 완료처럼 관찰할 수 있는 변화를 확인해야 합니다.": [
+            "{LOCAL}의 중간 점검은 성적 예측보다 공부 시작 시각, 질문 기록과 오답 재풀이 완료처럼 확인 가능한 행동을 살펴야 합니다.",
+            "점수 약속 대신 {LOCAL} 학생의 시작 시간, 질문 횟수, 과제와 재풀이 완료 기록이 달라졌는지 확인하세요.",
+            "{LOCAL} 학생의 변화는 중간 점검에서 공부를 시작하는 시각과 질문·재풀이 기록처럼 관찰할 수 있는 지표로 판단하는 편이 좋습니다.",
+            "중간 상담에서는 결과를 미리 말하기보다 {LOCAL} 학생의 계획 시작, 질문 남기기와 오답 재도전이 실제로 이어지는지 보세요.",
+            "{LOCAL} 학습의 중간 성과는 점수만이 아니라 시작 시각, 질문의 구체성, 재풀이 완료율을 함께 기록해 확인할 수 있습니다.",
+            "성적 변화 전에도 {LOCAL} 학생이 제때 시작하고 질문을 남기며 틀린 문제를 다시 푸는지는 객관적으로 점검할 수 있습니다.",
+            "{LOCAL} 중간 점검에서는 막연한 향상 기대보다 학생의 시작·질문·과제·재풀이 기록을 이전 주와 비교하세요.",
+            "확인 가능한 변화에 집중하려면 {LOCAL} 학생의 학습 시작 시간과 질문, 오답 재도전 기록을 중간 점검 자료로 남기는 편이 좋습니다.",
+        ],
+        "{LOCAL} 학부모가 마지막으로 확인할 점은 다음과 같습니다: 자율성을 키우려면 보호자의 확인을 갑자기 없애기보다 학생이 선택할 부분과 반드시 보고할 부분을 단계적으로 나누는 편이 좋습니다.": [
+            "{LOCAL} 학부모는 자율성을 이유로 확인을 한꺼번에 없애기보다 학생이 스스로 정할 항목과 반드시 공유할 항목을 단계적으로 나누는 편이 좋습니다.",
+            "학생의 자율성은 방임과 다릅니다. {LOCAL} 보호자는 선택 가능한 과제와 꼭 보고할 기록을 구분해 확인 범위를 서서히 줄일 수 있습니다.",
+            "{LOCAL} 학생이 스스로 관리하도록 돕고 싶다면 보호자 점검을 갑자기 중단하지 말고 선택 영역과 필수 보고 영역을 먼저 정하세요.",
+            "보호자의 확인 범위는 {LOCAL} 학생의 실행 기록에 맞춰 단계적으로 조정하고, 결석·미완·반복 오답은 계속 공유하는 편이 안전합니다.",
+            "{LOCAL} 상담에서는 학생이 직접 결정할 부분과 보호자에게 알려야 할 부분을 나누어 자율성의 범위를 구체적으로 정할 수 있습니다.",
+            "자율성을 키울 때는 {LOCAL} 학생의 선택 권한을 조금씩 늘리되 반드시 확인할 과제·오답 기록은 명확히 남겨야 합니다.",
+            "{LOCAL} 보호자는 매일 모든 내용을 검사하기보다 학생이 선택할 학습과 꼭 보고할 결과를 구분해 점검을 줄여 갈 수 있습니다.",
+            "학생에게 관리를 넘기는 과정은 단계적이어야 합니다. {LOCAL}에서는 자율 항목과 필수 공유 항목을 먼저 합의해 보세요.",
+        ],
+        "{LOCAL} 학부모에게 모든 수업 내용을 길게 전달할 필요는 없지만 결석·미완 과제·반복 오답·시험 일정 변경처럼 계획에 영향을 주는 정보는 정해진 방식으로 공유되어야 합니다.": [
+            "{LOCAL} 학부모에게 매 수업을 길게 보고할 필요는 없지만 결석, 미완 과제, 반복 오답과 시험 일정 변경은 약속한 방식으로 공유해야 합니다.",
+            "수업 내용을 모두 전달하기보다 {LOCAL} 학생의 계획을 바꾸는 결석·과제 미완·반복 실수·평가 일정 변화는 빠짐없이 알리는 편이 좋습니다.",
+            "{LOCAL} 보호자 피드백은 분량보다 기준이 중요합니다. 계획에 영향을 주는 결석, 과제와 오답, 시험 일정 변화를 정기적으로 공유해야 합니다.",
+            "매 시간 상세 보고 대신 {LOCAL} 학생의 다음 계획을 조정해야 하는 미완 과제와 반복 오답, 일정 변화가 생겼을 때 명확히 전달하세요.",
+            "{LOCAL} 학부모는 모든 풀이 과정을 받을 필요는 없지만 수업 계획이 달라지는 핵심 정보는 정해진 채널로 확인할 수 있어야 합니다.",
+            "피드백은 길이보다 행동 연결이 중요합니다. {LOCAL} 학생의 결석·미완·반복 오답·시험 변경이 다음 계획에 어떻게 반영되는지 공유하세요.",
+            "{LOCAL} 보호자에게는 수업 요약보다 계획 수정에 필요한 사건과 다음 조치를 간결하고 일정한 형식으로 전달하는 편이 효과적입니다.",
+            "결석이나 미완 과제처럼 실행 흐름을 바꾸는 내용은 {LOCAL} 학부모와 공유하고, 단순한 수업 기록은 필요한 범위로 줄일 수 있습니다.",
+        ],
+        "{LOCAL}에서는 실제 다닐 요일과 비슷한 시간대에 확인하는 편이 정확합니다.": [
+            "{LOCAL} 센터 이동은 실제 등원할 요일과 유사한 시간에 확인해야 현실적인 소요 시간을 알 수 있습니다.",
+            "평일 교통과 학생 일정은 달라질 수 있으므로 {LOCAL}에서는 예정된 수업 요일과 비슷한 시간대에 동선을 살펴보세요.",
+            "{LOCAL} 등원 시간을 정확히 판단하려면 학생이 실제 다닐 요일과 시간에 이동해 보는 편이 좋습니다.",
+            "주말이나 한가한 시간보다 {LOCAL} 학생의 예정 수업 시간대에 맞춰 이동 시간을 확인하는 것이 정확합니다.",
+            "{LOCAL}의 통학 편의는 주소만으로 판단하지 말고 실제 등원 요일의 학교 종료 시각에 맞춰 계산하세요.",
+            "예정된 요일과 시간대에 {LOCAL} 센터까지의 이동·귀가 시간을 확인하면 일정의 현실성을 판단하기 쉽습니다.",
+            "{LOCAL}에서는 평일 혼잡도와 학교 종료 시간이 반영되도록 실제 수업 예정 시간에 동선을 확인하는 편이 안전합니다.",
+            "센터 위치를 볼 때는 {LOCAL} 학생이 다닐 요일의 출발 지점과 시간대를 기준으로 이동 시간을 재어 보세요.",
+        ],
+        "{LOCAL}에서 이 학생을 상담할 때는 점수만 묻지 말고 문제를 읽는 순서, 숙제 시작 시각, 질문을 남기는 방식, 재풀이 간격을 확인해야 원인이 드러납니다.": [
+            "{LOCAL} 상담에서는 점수 외에 문제 읽기 순서, 숙제 시작 시간, 질문 기록과 오답 재도전 간격을 확인해야 학습 원인을 찾을 수 있습니다.",
+            "학생의 점수만으로는 부족합니다. {LOCAL}에서는 문제를 시작하는 방식과 과제 시각, 질문·재풀이 기록을 함께 살펴보세요.",
+            "{LOCAL} 학생의 어려움은 문제 접근 순서, 숙제 착수 시간, 질문 습관과 다시 푸는 간격을 나누어 볼 때 더 분명해집니다.",
+            "상담에서 성적표와 함께 {LOCAL} 학생이 언제 시작하고 어떻게 질문하며 틀린 문제를 언제 다시 푸는지도 확인해야 합니다.",
+            "{LOCAL}에서는 결과 점수보다 문제 읽기, 과제 시작, 질문 남기기와 재풀이 시점의 흐름을 추적해 원인을 구분합니다.",
+            "학습 원인을 찾으려면 {LOCAL} 학생의 점수뿐 아니라 풀이 시작 과정과 숙제·질문·재도전 행동을 함께 기록해야 합니다.",
+            "{LOCAL} 상담에서 학생이 문제를 읽고 과제를 시작하며 질문과 오답을 처리하는 실제 순서를 물어보는 편이 좋습니다.",
+            "점수가 같아도 원인은 다를 수 있으므로 {LOCAL} 학생의 문제 접근, 과제 착수, 질문 방식과 복습 간격을 구체적으로 확인하세요.",
+        ],
+        "{TITLE} 상담에서 실제 주간 기록 양식을 요청하면 학습관리라는 표현이 구체적인 절차로 이어지는지 볼 수 있습니다.": [
+            "{TITLE} 상담에서는 실제 주간 계획표나 점검 기록을 확인해 학습관리라는 설명이 구체적인 절차인지 살펴보세요.",
+            "학습관리가 어떻게 작동하는지 알고 싶다면 {TITLE}에서 사용하는 주간 기록 예시와 수정 과정을 요청해 볼 수 있습니다.",
+            "{TITLE}의 관리 방식을 비교할 때는 말로 된 설명보다 실제 한 주 기록 양식과 피드백 항목을 확인하는 편이 좋습니다.",
+            "주간 계획과 점검표의 실제 예시를 보면 {TITLE}의 학습관리가 과제·오답·복습으로 어떻게 이어지는지 알 수 있습니다.",
+            "{TITLE} 상담에서 기록 양식을 살펴보면 계획을 누가 작성하고 언제 점검·수정하는지 구체적으로 확인할 수 있습니다.",
+            "학습관리라는 표현의 실체는 {TITLE}의 주간 기록에 과제 완료, 질문, 오답과 다음 계획이 남는지로 판단할 수 있습니다.",
+            "{TITLE}에서 한 주 계획표와 피드백 기록을 보여 달라고 요청하면 관리 절차가 실제로 운영되는지 비교하기 쉽습니다.",
+            "상담 설명만 듣기보다 {TITLE}의 주간 기록 예시를 확인해 진단 결과가 어떻게 계획과 점검으로 바뀌는지 살펴보세요.",
+        ],
+        "보호자와 학생이 상담 핵심을 별도로 기록한 뒤 대조하면 서로 다르게 받아들인 내용을 바로잡기 쉽습니다.": [
+            "상담이 끝난 뒤 학생과 보호자가 핵심을 따로 적어 비교하면 서로 다르게 이해한 조건을 확인하기 쉽습니다.",
+            "{LOCAL} 상담 내용을 학생과 보호자가 각자의 말로 요약한 뒤 대조하면 빠진 질문과 오해를 찾을 수 있습니다.",
+            "학생은 자신의 과제를, 보호자는 점검 기준을 따로 정리해 비교하면 상담 설명이 같은 방향으로 전달됐는지 알 수 있습니다.",
+            "들은 내용을 함께 기억하려 하기보다 학생과 보호자가 별도로 기록한 뒤 공통점과 차이를 확인하는 편이 좋습니다.",
+            "학생과 보호자가 상담 핵심을 각각 한 문장으로 정리하면 수업과 관리 조건을 다르게 받아들인 부분이 드러납니다.",
+            "{LOCAL} 상담 후 각자가 생각한 첫 목표와 점검 날짜를 적어 비교하면 계획의 이해도를 확인할 수 있습니다.",
+            "보호자와 학생이 수업 설명을 따로 요약하고 다시 맞춰 보면 놓친 조건을 등록 전에 보완할 수 있습니다.",
+            "상담 직후 학생이 이해한 학습 행동과 보호자가 확인한 관리 기준을 나란히 적어 보는 과정이 도움이 됩니다.",
+        ],
+    }
+)
+
+
 FAQ_QUESTION_BANKS: list[tuple[str, list[str]]] = [
     (
         "상담에서 가장 먼저 확인할 것은 무엇인가요?",
@@ -998,6 +1199,36 @@ SCHOOL_FAQ_ANSWER_BANK = [
     "{LOCAL} 내신 준비에서는 학교명 반복보다 최근 시험지를 분석해 다음 과제와 오답 일정으로 연결하는 과정이 중요합니다. 같은 교재라도 학생별 보완 범위는 달라질 수 있습니다.",
 ]
 
+KOREAN_ENGLISH_MATH_SCHOOL_QUESTION_BANK = [
+    "{TITLE}의 학교별 준비는 공통 개념과 개별 시험 자료를 어떻게 나누나요?",
+    "{LOCAL} 학생의 교과서와 학교 프린트는 수업 계획에 어떻게 반영하나요?",
+    "학교마다 다른 시험 주차와 범위는 상담에서 어떤 자료로 확인하나요?",
+    "{TITLE}에서 같은 학년 학생의 학교별 진도를 따로 조정할 수 있나요?",
+    "{LOCAL} 내신 준비에서 공통 교재 외에 학생이 가져갈 자료는 무엇인가요?",
+    "학교 자료가 다른 학생들의 과제와 복습 계획은 어떻게 구분하나요?",
+    "{TITLE} 상담 전에 최근 범위표와 시험지를 준비해야 하는 이유는 무엇인가요?",
+    "{LOCAL} 학교별 평가 자료를 세 과목 계획에 어떻게 연결하면 좋을까요?",
+    "같은 지역 학생이라도 학교별 수업 계획이 달라지는 기준은 무엇인가요?",
+    "{TITLE}의 공통 진도와 학교별 보완 과제는 어떤 방식으로 나뉘나요?",
+    "{LOCAL} 학생의 수행평가와 지필평가 일정은 언제 계획에 반영하나요?",
+    "학교명보다 최근 시험 자료를 먼저 확인해야 하는 이유는 무엇인가요?",
+]
+
+KOREAN_ENGLISH_MATH_SCHOOL_ANSWER_BANK = [
+    "{TITLE} 상담에서는 공통 개념 진도와 학생별 시험 자료를 구분합니다. 최근 범위표·교과서·프린트를 확인한 뒤 학교별 과제와 오답 일정을 따로 정하는지가 핵심입니다.",
+    "{LOCAL} 학생이 가져온 교과서와 범위표, 최근 평가지를 먼저 대조해야 합니다. 공통 교재는 개념에 사용하고 학교별 자료는 시험 주차와 서술형 대비에 반영하는 편이 좋습니다.",
+    "학교가 같아도 학년과 평가 일정은 다를 수 있습니다. {TITLE}에서는 최신 학교 자료를 기준으로 공통 학습과 개별 보완 과제를 나누는지 확인하세요.",
+    "{LOCAL} 내신 준비는 학교 이름보다 학생의 실제 범위와 프린트에서 시작합니다. 분석 결과가 다음 과제량과 오답 재풀이 날짜로 이어져야 구체적인 계획이 됩니다.",
+    "공통 개념은 함께 다룰 수 있지만 시험 범위와 수행평가는 학생별로 확인해야 합니다. {TITLE} 상담에서 자료 확인 시점과 계획 수정 방법을 물어보세요.",
+    "{TITLE}에서는 학교별 자료를 단순히 보유하는 것보다 최근 시험지에서 찾은 약점을 교재·과제·복습 순서에 반영하는지가 중요합니다.",
+    "{LOCAL} 학생의 학교 자료가 준비되지 않았다면 교과서, 최근 시험지와 범위표부터 확인하세요. 목록에 없는 학교는 학년과 교재를 전달해 수업 가능 여부를 별도로 확인해야 합니다.",
+    "학교별 대비는 같은 문제집을 반복하는 방식이 아닙니다. {TITLE} 상담에서 공통 개념과 학교 프린트, 서술형·수행평가 준비가 어떻게 분리되는지 확인하세요.",
+    "{LOCAL} 학생마다 시험 주차가 달라질 수 있으므로 범위표와 최근 평가 자료를 기준으로 진도와 복습량을 조정해야 합니다. 조정 결과는 주간 계획에 기록하는 편이 좋습니다.",
+    "{TITLE}의 내신 계획은 교과서·프린트·평가 일정을 확인한 뒤 공통 진도와 학생별 보완 단원을 나누어야 합니다. 학교명만으로 범위를 추정하지 않는 것이 중요합니다.",
+    "학교 자료는 계획을 정하는 근거입니다. {LOCAL} 학생의 실제 시험 결과를 분석해 다음 과제와 재풀이 문항이 달라지는지 상담에서 확인해 보세요.",
+    "{TITLE} 상담에서는 최근 범위와 시험지를 먼저 보고 학생별 부족 단원을 정합니다. 공통 수업 뒤 학교별 자료와 오답 과제가 이어지는 구조인지 살펴보는 편이 좋습니다.",
+]
+
 
 REVIEW_NOTE_BANK = [
     "아래 내용은 실제 이용 후기가 아니라, {LOCAL} 학부모가 상담에서 점검할 수 있는 상황을 설명한 예시입니다.",
@@ -1040,13 +1271,32 @@ def rewrite_repeated_sentences(
             output.append(part)
             continue
         normalized = part.replace(title, "{TITLE}").replace(local, "{LOCAL}")
-        options = REPEATED_SENTENCE_BANKS.get(normalized)
+        options = (
+            KOREAN_ENGLISH_MATH_SENTENCE_BANKS.get(normalized)
+            if CATEGORY == "국영수학원"
+            else None
+        )
+        if not options:
+            options = REPEATED_SENTENCE_BANKS.get(normalized)
         if options:
             part = stable_pick(
                 key,
                 f"sentence-{sentence_index}-{normalized}",
                 options,
             ).format(TITLE=title, LOCAL=local)
+            if CATEGORY == "국영수학원":
+                second_normalized = (
+                    part.replace(title, "{TITLE}").replace(local, "{LOCAL}")
+                )
+                second_options = KOREAN_ENGLISH_MATH_SENTENCE_BANKS.get(
+                    second_normalized
+                )
+                if second_options:
+                    part = stable_pick(
+                        key,
+                        f"sentence-second-{sentence_index}-{second_normalized}",
+                        second_options,
+                    ).format(TITLE=title, LOCAL=local)
         output.append(part)
         sentence_index += 1
     return "".join(output)
@@ -1166,6 +1416,11 @@ def rewrite_faq_entry(
     normalized_question = question.replace(title, "{TITLE}").replace(local, "{LOCAL}")
     for marker, options in FAQ_QUESTION_BANKS:
         if marker in normalized_question:
+            if (
+                CATEGORY == "국영수학원"
+                and marker == "제공 학교 목록은 같은 교재로 준비해도 되나요?"
+            ):
+                options = [*options, *KOREAN_ENGLISH_MATH_SCHOOL_QUESTION_BANK]
             question = stable_pick(
                 key,
                 f"faq-question-{index}-{marker}",
@@ -1178,10 +1433,16 @@ def rewrite_faq_entry(
         "학교명이 같아도 학년, 교과서, 프린트, 시험 주차가 다를 수 있다고 보고"
         in normalized_answer
     ):
+        answer_options = SCHOOL_FAQ_ANSWER_BANK
+        if CATEGORY == "국영수학원":
+            answer_options = [
+                *answer_options,
+                *KOREAN_ENGLISH_MATH_SCHOOL_ANSWER_BANK,
+            ]
         answer = stable_pick(
             key,
             f"faq-school-answer-{index}",
-            SCHOOL_FAQ_ANSWER_BANK,
+            answer_options,
         ).format(TITLE=title, LOCAL=local)
     else:
         answer = rewrite_repeated_sentences(
@@ -1241,9 +1502,14 @@ def prepare_detail_copy(
     )
     key = title
     prepared = dict(sections)
-    prepared["메타설명"] = polish_reader_terms(
+    source_meta = polish_reader_terms(
         re.sub(r"\s+", " ", sections["메타설명"]).strip(),
         key + "|meta",
+    )
+    prepared["메타설명"] = (
+        concise_korean_english_math_meta(source_meta, title, local)
+        if CATEGORY == "국영수학원"
+        else source_meta
     )
     prepared["JSON-LD 요약"] = polish_reader_terms(
         re.sub(r"\s+", " ", sections["JSON-LD 요약"]).strip(),
@@ -1263,6 +1529,7 @@ def prepare_detail_copy(
         title_percent=20,
         local_percent=22,
     )
+    intro = polish_source_copy(intro)
 
     rewritten_blocks: list[tuple[str, list[str]]] = []
     for block_index, (heading, paragraphs) in enumerate(blocks):
@@ -1290,7 +1557,7 @@ def prepare_detail_copy(
                 paragraph_key + "|entity",
                 place_phrase=place_phrase,
             )
-            rewritten_paragraphs.append(value)
+            rewritten_paragraphs.append(polish_source_copy(value))
         rewritten_blocks.append((rewritten_heading, rewritten_paragraphs))
 
     permutations = [
@@ -1321,6 +1588,10 @@ def prepare_detail_copy(
             index,
         )
         for index, (question, answer) in enumerate(source_faqs)
+    ]
+    faqs = [
+        (polish_source_copy(question), polish_source_copy(answer))
+        for question, answer in faqs
     ]
     faq_orders = (
         [
@@ -1365,7 +1636,7 @@ def prepare_detail_copy(
             title_percent=55,
             local_percent=48,
         )
-        rewritten_reviews.append(value)
+        rewritten_reviews.append(polish_source_copy(value))
 
     return (
         prepared,
@@ -1391,6 +1662,15 @@ def prepare_source_copy(
     """Preserve manuscripts that are already individualized for their category."""
     title = sections["페이지타이틀"].strip()
     local = locality_from_title(title)
+    place_phrase = " ".join(
+        value
+        for value in (
+            compact_text(row.get("지역")),
+            compact_text(row.get("시or구")),
+            local,
+        )
+        if value
+    )
     key = title
     prepared = dict(sections)
     prepared["메타설명"] = concise_source_meta(
@@ -1403,6 +1683,22 @@ def prepare_source_copy(
     intro = polish_source_copy(
         rewrite_repeated_sentences(intro, title, local, key + "|intro")
     )
+    if CATEGORY == "소수정예학원":
+        intro = diversify_small_class_sentence_leads(
+            intro,
+            title,
+            local,
+            place_phrase,
+            key + "|intro",
+        )
+        intro = thin_small_class_mentions(
+            intro,
+            title,
+            local,
+            key + "|intro",
+            replace_percent=35,
+            place_phrase=place_phrase,
+        )
     blocks = [
         (
             heading,
@@ -1421,6 +1717,32 @@ def prepare_source_copy(
         )
         for section_index, (heading, paragraphs) in enumerate(blocks)
     ]
+    if CATEGORY == "소수정예학원":
+        blocks = [
+            (
+                heading,
+                [
+                    thin_small_class_mentions(
+                        diversify_small_class_sentence_leads(
+                            paragraph,
+                            title,
+                            local,
+                            place_phrase,
+                            key
+                            + f"|section-{section_index}|paragraph-{paragraph_index}",
+                        ),
+                        title,
+                        local,
+                        key
+                        + f"|section-{section_index}|paragraph-{paragraph_index}",
+                        replace_percent=40,
+                        place_phrase=place_phrase,
+                    )
+                    for paragraph_index, paragraph in enumerate(paragraphs)
+                ],
+            )
+            for section_index, (heading, paragraphs) in enumerate(blocks)
+        ]
     block_orders = [
         (0, 1, 2, 3, 4, 5),
         (0, 2, 1, 3, 5, 4),
@@ -1456,6 +1778,38 @@ def prepare_source_copy(
             ),
         )
         for index, (question, answer) in enumerate(parse_faq(sections["FAQ"]))
+    ]
+    if CATEGORY == "소수정예학원":
+        diversified_faqs = []
+        for index, (question, answer) in enumerate(faqs):
+            question = thin_small_class_mentions(
+                question,
+                title,
+                local,
+                key + f"|faq-question-{index}",
+                replace_percent=0 if index < 2 else 55,
+                place_phrase=place_phrase,
+            )
+            answer = diversify_small_class_faq_answer(
+                answer,
+                title,
+                local,
+                place_phrase,
+                key + f"|faq-answer-{index}",
+            )
+            answer = thin_small_class_mentions(
+                answer,
+                title,
+                local,
+                key + f"|faq-answer-{index}",
+                replace_percent=50,
+                place_phrase=place_phrase,
+            )
+            diversified_faqs.append((question, answer))
+        faqs = diversified_faqs
+    faqs = [
+        (polish_source_copy(question), polish_source_copy(answer))
+        for question, answer in faqs
     ]
     if len(faqs) == 4:
         faq_orders = [
@@ -1510,14 +1864,22 @@ def prepare_source_copy(
             .replace("”", "")
             .strip('" ')
         )
-        reviews.append(
-            rewrite_repeated_sentences(
-                review,
+        rewritten_review = rewrite_repeated_sentences(
+            review,
+            title,
+            local,
+            key + f"|review-{index}",
+        )
+        if CATEGORY == "소수정예학원":
+            rewritten_review = thin_small_class_mentions(
+                rewritten_review,
                 title,
                 local,
                 key + f"|review-{index}",
+                replace_percent=50,
+                place_phrase=place_phrase,
             )
-        )
+        reviews.append(polish_source_copy(rewritten_review))
     if stable_percent(key, "source-review-order") >= 50:
         reviews.reverse()
     return (
@@ -1531,10 +1893,235 @@ def prepare_source_copy(
 
 
 def polish_source_copy(value: str) -> str:
-    return value.replace(
-        "학생에게 필요한 핵심 행동은",
-        "학생의 핵심 실천 항목은",
+    return (
+        value.replace(
+            "학생에게 필요한 핵심 행동은",
+            "학생의 핵심 실천 항목은",
+        )
+        .replace("관리을", "관리를")
     )
+
+
+SMALL_CLASS_COMMON_MARKERS = (
+    "지도상의 거리만 보지 말고 실제 하교 시각",
+    "학생이 이미 할 수 있는 것과 설명을 들은 뒤 가능한 것",
+    "모든 세부를 실시간으로 보내기보다 중요한 변화",
+    "학생이 혼자 맞힌 문제, 힌트 뒤 맞힌 문제",
+    "수준별 수업은 반을 나누는 데서 끝나지 않고",
+    "공통 교재 외 보완 자료의 선택 기준",
+    "주중에 꾸준히 다닐 수 있는지는 편도 이동 시간뿐 아니라",
+    "같은 설명을 여러 번 듣게 하는지가 아니라",
+    "한 번의 레벨테스트 점수보다 개념 이해",
+    "점수만이 아니라 과제 시작 지연",
+    "수업 태도에 대한 인상보다 어떤 문제에서 어떤 힌트",
+    "수업 구조를 볼 때 인원 수만 묻기보다",
+    "공통 개념, 개별 연습, 짧은 확인, 보완 과제의 비율",
+    "레벨테스트를 본다면 정답 개수와 함께 풀이 시간",
+    "질문과 교정이 실제로 일어나는지는",
+    "첫 2~4주의 목표를 점수 대신",
+    "보호자 안내에는 사실, 해석, 다음 행동",
+    "수업 후 복습할 시간을 확보하지 못하면",
+    "학교별 내신 준비를 묻는다면",
+    "학교별 학습 준비를 묻는다면",
+    "지나치게 긴 검사를 한 번 실시하기보다",
+    "수업 학교명이 기재되어 있지 않으므로",
+    "힌트를 받은 뒤 같은 유형을 혼자 다시 풀 수 있는지도 기록해야",
+    "이름 일치만으로 맞춤 대비를 판단해서는 안 됩니다",
+)
+
+
+def diversify_small_class_sentence_leads(
+    value: str,
+    title: str,
+    local: str,
+    place_phrase: str,
+    key: str,
+) -> str:
+    """Break recurring manuscript sentences without changing their facts."""
+    parts = re.split(r"(?<=[.!?])(\s+)", value)
+    output: list[str] = []
+    for index, part in enumerate(parts):
+        if not part or part.isspace():
+            output.append(part)
+            continue
+        normalized = part.replace(title, "{TITLE}").replace(local, "{LOCAL}")
+        if not any(marker in normalized for marker in SMALL_CLASS_COMMON_MARKERS):
+            output.append(part)
+            continue
+
+        context = stable_pick(
+            key,
+            f"small-class-context-{index}",
+            [
+                f"{place_phrase} 생활권의 소수정예 수업",
+                f"{place_phrase}에서 살펴볼 소수 인원 과정",
+                f"{place_phrase} 학생을 위한 개별 확인 수업",
+                f"{place_phrase} 학부모가 비교할 소수정예 과정",
+                f"{place_phrase} 통학권의 학생별 확인 수업",
+                f"{place_phrase}에서 검토할 소수 인원 학습관리",
+            ],
+        )
+        lead_rules = [
+            (f"{title} 상담에서는", f"{context} 상담에서는"),
+            (f"{title} 상담에서", f"{context} 상담에서는"),
+            (f"{title} 상담의", f"{context} 상담에서 확인할"),
+            (f"{title} 수업 시작 전에는", f"{context}을 시작하기 전에는"),
+            (f"{title}의 수준별 수업은", f"{context}의 수준 조정은"),
+            (f"{title}의 수업이", f"{context}이"),
+            (f"{title}의 학습 기록에서", f"{context}의 기록에서"),
+            (f"{title}의 수업 구조를", f"{context}의 운영 구조를"),
+            (f"{title}의 보호자 안내에는", f"{context}의 보호자 안내에는"),
+            (f"{title}에 제공된 자료에는", f"{context}에 제공된 자료에는"),
+            (f"{title}에서는", f"{context}에서는"),
+            (f"{title}에서", f"{context}에서"),
+            (f"{local} 가정의 보호자에게는", f"{context}을 알아보는 보호자에게는"),
+            (f"{local} 부모에게는", f"{context}을 알아보는 보호자에게는"),
+            (f"{local} 학생이", f"{context}을 고려하는 학생이"),
+            (f"{local} 진단에서는", f"{context} 진단에서는"),
+            (f"{local}에서 이동할 때는", f"{context}의 등원 동선은"),
+            (f"{local}에서", f"{context}을 비교할 때"),
+        ]
+        for needle, replacement in lead_rules:
+            if part.startswith(needle):
+                part = replacement + part[len(needle) :]
+                break
+        if "이름 일치만으로 맞춤 대비를 판단해서는 안 됩니다." in part:
+            part = part.replace(
+                "이름 일치만으로 맞춤 대비를 판단해서는 안 됩니다.",
+                stable_pick(
+                    key,
+                    f"small-class-school-match-{index}",
+                    [
+                        "학교 이름이 같다는 이유만으로 맞춤 대비라고 판단해서는 안 됩니다.",
+                        "명칭 일치만으로 개별 학교 대비가 가능하다고 볼 수는 없습니다.",
+                        "학교명만 맞는다고 학생별 시험 준비가 완성되는 것은 아닙니다.",
+                        "학교 목록의 일치 여부와 실제 내신 준비 범위는 구분해야 합니다.",
+                        "이름이 목록에 있어도 최신 자료를 확인하기 전에는 학교별 대비를 단정할 수 없습니다.",
+                        "학교명보다 학생의 실제 교재와 평가 범위를 기준으로 판단해야 합니다.",
+                    ],
+                ),
+                1,
+            )
+        output.append(part.replace("학습관리을", "학습관리를"))
+    return "".join(output)
+
+
+def thin_small_class_mentions(
+    value: str,
+    title: str,
+    local: str,
+    key: str,
+    *,
+    replace_percent: int,
+    place_phrase: str = "",
+) -> str:
+    """Keep search intent clear while avoiding mechanical exact-title repetition."""
+    scope = place_phrase or local
+    title_forms = [
+        (title + "에서는", [f"{scope} 소수정예 과정에서는", f"{scope} 학생별 확인 수업에서는", f"{scope} 소수 인원 수업에서는"]),
+        (title + "에서", [f"{scope} 소수정예 과정에서", f"{scope} 학생별 확인 수업에서", f"{scope} 소수 인원 수업에서"]),
+        (title + "의", [f"{scope} 소수정예 과정의", f"{scope} 학생별 확인 수업의", f"{scope} 소수 인원 수업의"]),
+        (title + "을", [f"{scope} 소수정예 과정을", f"{scope} 학생별 확인 수업을", f"{scope} 소수 인원 수업을"]),
+        (title + "를", [f"{scope} 소수정예 과정을", f"{scope} 학생별 확인 수업을", f"{scope} 소수 인원 수업을"]),
+        (title + "은", [f"{scope} 소수정예 과정은", f"{scope} 학생별 확인 수업은", f"{scope} 소수 인원 수업은"]),
+        (title + "는", [f"{scope} 소수정예 과정은", f"{scope} 학생별 확인 수업은", f"{scope} 소수 인원 수업은"]),
+        (title + "이", [f"{scope} 소수정예 과정이", f"{scope} 학생별 확인 수업이", f"{scope} 소수 인원 수업이"]),
+        (title + "가", [f"{scope} 소수정예 과정이", f"{scope} 학생별 확인 수업이", f"{scope} 소수 인원 수업이"]),
+    ]
+    result = value
+    for index, (needle, options) in enumerate(title_forms):
+        result = varied_replace(
+            result,
+            needle,
+            options,
+            key,
+            f"small-class-title-form-{index}",
+            replace_percent,
+        )
+    return varied_replace(
+        result,
+        title,
+        [f"{scope} 소수정예 과정", f"{scope} 소수 인원 수업", f"{scope} 학생별 확인 수업"],
+        key,
+        "small-class-title-plain",
+        replace_percent,
+    )
+
+
+def diversify_small_class_faq_answer(
+    answer: str,
+    title: str,
+    local: str,
+    place_phrase: str,
+    key: str,
+) -> str:
+    """Vary high-frequency FAQ leads while preserving the source answer."""
+    lead_banks = [
+        (
+            "학교명이 자료에 있다는 사실만으로 바로 학교별 대비를 단정할 수 없습니다.",
+            [
+                f"{place_phrase}의 학교명이 참고 자료에 있어도 실제 학교별 대비가 확정되는 것은 아닙니다.",
+                f"{place_phrase} 학교 목록은 상담의 출발점이며, 이름만으로 개별 시험 대비 가능 여부를 판단할 수 없습니다.",
+                f"{place_phrase} 학교 정보와 실제 학생별 내신 준비 범위는 구분해서 확인해야 합니다.",
+                f"제공된 {place_phrase} 학교명은 참고 범위를 뜻하며 학교별 수업을 곧바로 보장하지 않습니다.",
+                f"{place_phrase}에서 학교 대응을 확인할 때는 목록의 이름보다 학생이 가져온 최신 자료가 우선입니다.",
+                f"{place_phrase}의 학교 참고 정보만 보고 맞춤 내신 대비가 가능하다고 단정해서는 안 됩니다.",
+            ],
+        ),
+        (
+            "적정 정원에 보편적인 정답은 없습니다.",
+            [
+                f"{place_phrase} 소수정예 수업의 적정 인원은 학생의 질문과 풀이 확인 방식에 따라 달라집니다.",
+                f"{place_phrase}에서 소수 인원 수업을 고를 때 모두에게 맞는 하나의 정원 기준은 없습니다.",
+                f"반 인원 숫자만으로 {place_phrase} 학생에게 맞는 소수정예 수업인지 결정할 수는 없습니다.",
+                f"{place_phrase} 상담에서는 정원보다 학생 한 명을 확인하는 실제 시간을 먼저 보아야 합니다.",
+                f"{place_phrase} 소수정예 과정의 적합성은 인원수와 함께 교정·피드백 절차를 보아야 판단할 수 있습니다.",
+                f"소수정예라는 명칭보다 {place_phrase} 수업에서 학생별 확인이 가능한 운영 규모인지가 중요합니다.",
+            ],
+        ),
+        (
+            "진도가 빠르다고 해서 반드시 더 적합한 것은 아닙니다.",
+            [
+                f"{place_phrase} 학생에게 빠른 진도가 항상 알맞은 선택은 아닙니다.",
+                f"{place_phrase} 수업의 진도는 속도보다 현재 개념을 독립적으로 적용하는지를 기준으로 정해야 합니다.",
+                f"선행 속도만으로 {place_phrase} 소수정예 수업의 적합성을 판단하기는 어렵습니다.",
+                f"{place_phrase} 상담에서는 진도량보다 설명 뒤 혼자 풀 수 있는 범위를 먼저 확인하세요.",
+                f"{place_phrase} 학생의 수업 속도는 최근 오답과 재풀이 결과를 확인한 뒤 조정하는 편이 안전합니다.",
+                f"진도를 앞당기는 것보다 {place_phrase} 학생이 현재 내용을 스스로 설명하는지가 먼저입니다.",
+            ],
+        ),
+        (
+            "반 인원이 적다고 모두 개별 수업이라고 단정할 수 없습니다.",
+            [
+                f"{place_phrase}에서 반 인원이 적다는 사실만으로 일대일 방식의 수업이라고 볼 수는 없습니다.",
+                f"{place_phrase} 소수 인원 수업도 공통 설명과 개별 확인의 비율은 과정마다 다를 수 있습니다.",
+                f"정원이 작더라도 {place_phrase} 학생의 풀이를 실제로 확인하지 않으면 개별 관리라고 판단하기 어렵습니다.",
+                f"{place_phrase} 상담에서는 인원수와 개별 지도 시간을 따로 확인해야 합니다.",
+                f"소규모 반이라는 명칭만으로 {place_phrase} 학생에게 맞춘 수업이 자동으로 이루어지는 것은 아닙니다.",
+                f"{place_phrase} 수업은 적은 인원보다 학생별 설명·교정이 어떻게 배분되는지를 보아야 합니다.",
+            ],
+        ),
+    ]
+    result = answer
+    for index, (marker, options) in enumerate(lead_banks):
+        needle = title + "에서 " + marker
+        if needle not in result:
+            needle = title + "에서는 " + marker
+        if needle not in result:
+            needle = title + "의 " + marker
+        if needle not in result:
+            continue
+        result = result.replace(
+            needle,
+            stable_pick(key, f"small-class-faq-lead-{index}", options),
+            1,
+        )
+        break
+    result = result.replace(
+        f"{local}의 실제 학년과 과목을 밝히고",
+        f"{place_phrase} 학생의 실제 학년과 과목을 밝히고",
+    )
+    return result
 
 
 def vary_small_class_question(
@@ -1706,6 +2293,53 @@ def vary_source_question(
         )
         value = value.replace(needle, replacement, 1)
     return value
+
+
+def concise_korean_english_math_meta(
+    meta: str,
+    title: str,
+    local: str,
+) -> str:
+    """Keep the supplied audience while presenting one complete search summary."""
+    grade_match = re.search(
+        r"(?:초등학교|중학교|고등학교|초등|중등|고등)\s*\d+학년",
+        meta,
+    )
+    grade = grade_match.group(0) if grade_match else ""
+    audience = f"{grade} 학생" if grade else "학생"
+    patterns = [
+        (
+            "{TITLE} 선택 전 {AUDIENCE}의 국어·영어·수학 진단, 학교 시험·과제·"
+            "오답 관리, 수업 가능 학년과 실제 센터 상담 기준을 확인해 보세요."
+        ),
+        (
+            "{LOCAL}에서 {AUDIENCE} 국영수학원을 비교할 때 살펴볼 과목별 약점, "
+            "학교 자료, 복습·피드백과 실제 센터 정보를 정리했습니다."
+        ),
+        (
+            "{TITLE} 상담을 위해 {AUDIENCE}의 세 과목 우선순위, 학교 시험 대응, "
+            "과제·오답 관리와 수업 가능 학년·센터 위치를 안내합니다."
+        ),
+        (
+            "{LOCAL} {AUDIENCE}의 국어·영어·수학 진단, 내신 자료, 주간 과제·"
+            "복습 관리와 실제 센터 상담 기준을 한 페이지에 정리했습니다."
+        ),
+    ]
+    result = stable_pick(title, "korean-english-math-meta", patterns).format(
+        TITLE=title,
+        LOCAL=local,
+        AUDIENCE=audience,
+    )
+    if len(result) < 70:
+        result = result.rstrip(".") + ". 등원 전 확인할 위치 정보도 함께 안내합니다."
+    if len(result) > 100:
+        result = (
+            f"{title} 선택 전 {audience}의 세 과목 진단, 학교 시험·과제·오답 관리, "
+            "수업 가능 학년과 실제 센터 정보를 확인해 보세요."
+        )
+    if not 70 <= len(result) <= 100:
+        raise ValueError(f"{title}: concise meta length={len(result)}")
+    return result
 
 
 def concise_source_meta(meta: str, title: str, local: str) -> str:

@@ -6,6 +6,7 @@ import html
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 from urllib.parse import quote
 from zipfile import ZipFile
@@ -84,6 +85,11 @@ def asset_path(src: str, page: Path) -> Path:
     return (page.parent / clean).resolve()
 
 
+def normalized_copy(value: str, title: str, local: str) -> str:
+    value = value.replace(title, "{TITLE}").replace(local, "{LOCAL}")
+    return re.sub(r"\s+", " ", value).strip()
+
+
 def main() -> None:
     errors: list[str] = []
     with ZipFile(ZIP_PATH) as archive:
@@ -121,6 +127,17 @@ def main() -> None:
     representative_hashes: set[str] = set()
     organization_ids: set[str] = set()
     total_faq = 0
+    meta_lengths: list[int] = []
+    body_copies: list[str] = []
+    normalized_body_copies: list[str] = []
+    normalized_body_sentences: Counter[str] = Counter()
+    faq_questions: list[str] = []
+    faq_answers: list[str] = []
+    normalized_faq_questions: list[str] = []
+    normalized_faq_answers: list[str] = []
+    consultation_examples: list[str] = []
+    normalized_consultation_examples: list[str] = []
+    normalized_consultation_sentences: Counter[str] = Counter()
     for page in pages:
         slug = page.parent.name
         source = page.read_text(encoding="utf-8")
@@ -134,11 +151,11 @@ def main() -> None:
         title_values.add(title)
         (
             prepared_manuscript,
-            _,
+            prepared_intro,
             prepared_blocks,
-            _,
-            _,
-            _,
+            prepared_faqs,
+            _prepared_review_note,
+            prepared_reviews,
         ) = generator.prepare_detail_copy(manuscript, row)
 
         if len(re.findall(r"<h1\b", source, re.I)) != 1:
@@ -166,10 +183,56 @@ def main() -> None:
             errors.append(f"{slug}: meta mismatch")
         else:
             meta_values.add(expected_meta)
-            if CATEGORY in {"보습학원", "소수정예학원"} and not (
-                70 <= len(expected_meta) <= 100
-            ):
+            meta_lengths.append(len(expected_meta))
+            if not 70 <= len(expected_meta) <= 100:
                 errors.append(f"{slug}: meta length={len(expected_meta)}")
+
+        body_copy = "\n".join(
+            [
+                prepared_intro,
+                *[
+                    paragraph
+                    for _heading, paragraphs in prepared_blocks
+                    for paragraph in paragraphs
+                ],
+            ]
+        )
+        body_copies.append(body_copy)
+        normalized_body_copies.append(
+            normalized_copy(body_copy, title, generator.locality_from_title(title))
+        )
+        for sentence in re.split(r"(?<=[.!?])\s+", body_copy):
+            sentence = normalized_copy(
+                sentence, title, generator.locality_from_title(title)
+            )
+            if len(sentence) >= 20:
+                normalized_body_sentences[sentence] += 1
+        for question, answer in prepared_faqs:
+            faq_questions.append(question)
+            faq_answers.append(answer)
+            normalized_faq_questions.append(
+                normalized_copy(
+                    question, title, generator.locality_from_title(title)
+                )
+            )
+            normalized_faq_answers.append(
+                normalized_copy(
+                    answer, title, generator.locality_from_title(title)
+                )
+            )
+        consultation_copy = "\n".join(prepared_reviews)
+        consultation_examples.append(consultation_copy)
+        normalized_consultation_examples.append(
+            normalized_copy(
+                consultation_copy, title, generator.locality_from_title(title)
+            )
+        )
+        for sentence in re.split(r"(?<=[.!?])\s+", consultation_copy):
+            sentence = normalized_copy(
+                sentence, title, generator.locality_from_title(title)
+            )
+            if len(sentence) >= 20:
+                normalized_consultation_sentences[sentence] += 1
 
         json_matches = re.findall(
             r'<script type="application/ld\+json">(.*?)</script>',
@@ -421,7 +484,45 @@ def main() -> None:
         "all_index_pages": len(all_html),
         "unique_titles": len(title_values),
         "unique_meta_descriptions": len(meta_values),
+        "meta_length_min": min(meta_lengths, default=0),
+        "meta_length_max": max(meta_lengths, default=0),
+        "unique_body_copies": len(set(body_copies)),
+        "unique_normalized_body_copies": len(set(normalized_body_copies)),
+        "max_repeated_normalized_body_sentence": max(
+            normalized_body_sentences.values(), default=0
+        ),
+        "top_repeated_normalized_body_sentences": [
+            {"count": count, "text": value}
+            for value, count in normalized_body_sentences.most_common(8)
+        ],
         "screen_faq_entries": total_faq,
+        "unique_faq_questions": len(set(faq_questions)),
+        "unique_faq_answers": len(set(faq_answers)),
+        "unique_normalized_faq_questions": len(
+            set(normalized_faq_questions)
+        ),
+        "unique_normalized_faq_answers": len(set(normalized_faq_answers)),
+        "max_repeated_normalized_faq_question": max(
+            Counter(normalized_faq_questions).values(), default=0
+        ),
+        "max_repeated_normalized_faq_answer": max(
+            Counter(normalized_faq_answers).values(), default=0
+        ),
+        "top_repeated_normalized_faq_questions": [
+            {"count": count, "text": value}
+            for value, count in Counter(normalized_faq_questions).most_common(5)
+        ],
+        "top_repeated_normalized_faq_answers": [
+            {"count": count, "text": value}
+            for value, count in Counter(normalized_faq_answers).most_common(5)
+        ],
+        "unique_consultation_examples": len(set(consultation_examples)),
+        "unique_normalized_consultation_examples": len(
+            set(normalized_consultation_examples)
+        ),
+        "max_repeated_normalized_consultation_sentence": max(
+            normalized_consultation_sentences.values(), default=0
+        ),
         "representative_paths": len(representative_sources),
         "representative_content_hashes": len(representative_hashes),
         "sitemap_urls": len(sitemap_urls),
