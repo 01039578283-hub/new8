@@ -353,7 +353,8 @@ def main() -> None:
         errors.append("category local link count")
     sitemap = (SITE / "sitemap.xml").read_text(encoding="utf-8")
     sitemap_urls = re.findall(r"<loc>(.*?)</loc>", sitemap)
-    if len(sitemap_urls) != 1493 or len(set(sitemap_urls)) != 1493:
+    expected_total = len(all_html)
+    if len(sitemap_urls) != expected_total or len(set(sitemap_urls)) != expected_total:
         errors.append(
             f"sitemap count={len(sitemap_urls)} unique={len(set(sitemap_urls))}"
         )
