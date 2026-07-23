@@ -830,6 +830,245 @@ h1 {
   gap: 14px;
 }
 
+.directory-page .academy-directory {
+  padding: clamp(22px, 4vw, 38px);
+}
+
+.directory-toolbar {
+  display: grid;
+  grid-template-columns: minmax(240px, 1fr) auto auto;
+  gap: 12px;
+  align-items: end;
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 22px;
+  background: #f8fafc;
+}
+
+.directory-search {
+  display: grid;
+  gap: 8px;
+}
+
+.directory-search span {
+  color: #0f172a;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.directory-search input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 16px;
+  border: 1px solid rgba(15, 23, 42, 0.14);
+  border-radius: 15px;
+  outline: none;
+  color: #0f172a;
+  background: #ffffff;
+  font: inherit;
+  font-weight: 750;
+}
+
+.directory-search input:focus {
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.12);
+}
+
+.directory-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.directory-controls button,
+.province-nav button {
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid rgba(15, 23, 42, 0.11);
+  border-radius: 14px;
+  color: #172033;
+  background: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.directory-controls button:hover,
+.province-nav button:hover {
+  border-color: rgba(20, 184, 166, 0.4);
+  color: #0f766e;
+}
+
+.directory-result {
+  min-width: 112px;
+  margin: 0 2px 13px 0;
+  color: #0f766e;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.province-nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin: 0 0 16px;
+  padding: 2px 2px 8px;
+  scrollbar-width: thin;
+}
+
+.province-nav button {
+  flex: 0 0 auto;
+  min-width: 68px;
+}
+
+.province-directory {
+  display: grid;
+  gap: 12px;
+}
+
+.province-group {
+  overflow: hidden;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.055);
+}
+
+.province-group > summary {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px 18px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.province-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.province-group > summary::after {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  color: #0f766e;
+  background: #e7faf5;
+  content: "+";
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.province-group[open] > summary::after {
+  content: "−";
+}
+
+.province-group > summary > span {
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.province-group > summary strong {
+  color: #0f172a;
+  font-size: 22px;
+  letter-spacing: -0.045em;
+}
+
+.province-group > summary small {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.province-group > summary em {
+  margin-left: auto;
+  color: #0f766e;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 950;
+}
+
+.district-stack {
+  display: grid;
+  gap: 12px;
+  padding: 0 14px 14px;
+}
+
+.district-group {
+  padding: 14px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  background: linear-gradient(180deg, #f8fafc, #f4f7fb);
+}
+
+.district-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.district-head h3 {
+  margin: 0;
+  color: #172033;
+  font-size: 17px;
+  letter-spacing: -0.035em;
+}
+
+.district-head span {
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.directory-page .local-button-grid {
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 8px;
+}
+
+.directory-page .local-button-grid a {
+  position: relative;
+  min-height: 62px;
+  align-content: center;
+  padding: 11px 38px 11px 13px;
+  border-radius: 14px;
+  box-shadow: none;
+}
+
+.directory-page .local-button-grid a::after {
+  position: absolute;
+  top: 50%;
+  right: 13px;
+  color: #14b8a6;
+  content: "→";
+  transform: translateY(-50%);
+  font-size: 17px;
+}
+
+.directory-page .local-button-grid a strong {
+  font-size: 15px;
+  letter-spacing: -0.025em;
+}
+
+.directory-page .local-button-grid a small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.directory-page [hidden] {
+  display: none !important;
+}
+
 .local-media-section {
   width: min(var(--max), calc(100% - 32px));
   margin: 28px auto 0;
@@ -1181,6 +1420,49 @@ h1 {
   .local-media-card img,
   .local-map-card img {
     min-height: 260px;
+  }
+
+  .directory-toolbar {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .directory-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .directory-result {
+    margin: 0;
+    text-align: left;
+  }
+
+  .province-group > summary {
+    min-height: 66px;
+    padding: 12px 14px;
+  }
+
+  .province-group > summary > span {
+    display: grid;
+    gap: 2px;
+  }
+
+  .province-group > summary strong {
+    font-size: 19px;
+  }
+
+  .district-stack {
+    padding: 0 10px 10px;
+  }
+
+  .district-group {
+    padding: 12px;
+  }
+
+  .directory-page .local-button-grid,
+  .directory-page .related-grid {
+    grid-template-columns: 1fr;
   }
 }
 
