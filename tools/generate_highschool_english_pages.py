@@ -274,6 +274,10 @@ def category_hub(rows: list[dict[str, str]]) -> None:
         "/assets/generated/coaching-center-hero-v2.webp",
         ld,
     )
+    head = head.replace(
+        "</head>",
+        '  <script defer src="../../assets/directory.js?v=20260724-4"></script>\n</head>',
+    )
     body = f"""{nav_html(2)}
   <main>
     <section class="academy-hero">

@@ -840,10 +840,12 @@ h1 {
   gap: 12px;
   align-items: end;
   margin-bottom: 16px;
-  padding: 16px;
-  border: 1px solid rgba(15, 23, 42, 0.1);
+  padding: 18px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
   border-radius: 22px;
-  background: #f8fafc;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(125, 243, 207, 0.15), transparent 36%),
+    linear-gradient(145deg, #f8fbff, #f1f6fb);
 }
 
 .directory-search {
@@ -861,13 +863,14 @@ h1 {
   width: 100%;
   min-height: 48px;
   padding: 0 16px;
-  border: 1px solid rgba(15, 23, 42, 0.14);
+  border: 1px solid rgba(15, 23, 42, 0.12);
   border-radius: 15px;
   outline: none;
   color: #0f172a;
   background: #ffffff;
   font: inherit;
   font-weight: 750;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.045);
 }
 
 .directory-search input:focus {
@@ -884,7 +887,7 @@ h1 {
 .province-nav button {
   min-height: 44px;
   padding: 0 14px;
-  border: 1px solid rgba(15, 23, 42, 0.11);
+  border: 1px solid rgba(15, 23, 42, 0.09);
   border-radius: 14px;
   color: #172033;
   background: #ffffff;
@@ -892,6 +895,7 @@ h1 {
   font: inherit;
   font-size: 13px;
   font-weight: 900;
+  box-shadow: 0 7px 18px rgba(15, 23, 42, 0.045);
 }
 
 .directory-controls button:hover,
@@ -910,17 +914,27 @@ h1 {
 }
 
 .province-nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
   gap: 8px;
-  overflow-x: auto;
   margin: 0 0 16px;
-  padding: 2px 2px 8px;
-  scrollbar-width: thin;
+  padding: 10px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  background: #f1f5f9;
 }
 
 .province-nav button {
-  flex: 0 0 auto;
-  min-width: 68px;
+  min-width: 0;
+  min-height: 42px;
+  padding: 0 10px;
+  border-radius: 12px;
+}
+
+.province-nav button:focus-visible,
+.directory-controls button:focus-visible {
+  outline: 3px solid rgba(20, 184, 166, 0.22);
+  outline-offset: 2px;
 }
 
 .province-directory {
@@ -930,7 +944,7 @@ h1 {
 
 .province-group {
   overflow: hidden;
-  border: 1px solid rgba(15, 23, 42, 0.1);
+  border: 1px solid rgba(15, 23, 42, 0.09);
   border-radius: 22px;
   background: #ffffff;
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.055);
@@ -969,6 +983,11 @@ h1 {
   content: "−";
 }
 
+.province-group[open] > summary {
+  border-bottom: 1px solid rgba(15, 23, 42, 0.07);
+  background: linear-gradient(135deg, #f6fff9, #f7faff);
+}
+
 .province-group > summary > span {
   min-width: 0;
   display: flex;
@@ -1004,9 +1023,9 @@ h1 {
 
 .district-group {
   padding: 14px;
-  border: 1px solid rgba(15, 23, 42, 0.08);
+  border: 1px solid rgba(15, 23, 42, 0.07);
   border-radius: 18px;
-  background: linear-gradient(180deg, #f8fafc, #f4f7fb);
+  background: linear-gradient(180deg, #f8fafc, #f3f7fb);
 }
 
 .district-head {
@@ -1040,8 +1059,10 @@ h1 {
   min-height: 62px;
   align-content: center;
   padding: 11px 38px 11px 13px;
-  border-radius: 14px;
-  box-shadow: none;
+  border-color: rgba(15, 23, 42, 0.075);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 7px 17px rgba(15, 23, 42, 0.045);
 }
 
 .directory-page .local-button-grid a::after {
@@ -1057,6 +1078,12 @@ h1 {
 .directory-page .local-button-grid a strong {
   font-size: 15px;
   letter-spacing: -0.025em;
+}
+
+.directory-page .local-button-grid a:hover {
+  border-color: rgba(20, 184, 166, 0.34);
+  background: #f6fffb;
+  transform: translateY(-1px);
 }
 
 .directory-page .local-button-grid a small {
@@ -1438,6 +1465,19 @@ h1 {
     text-align: left;
   }
 
+  .province-nav {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+    padding: 8px;
+    border-radius: 16px;
+  }
+
+  .province-nav button {
+    min-height: 40px;
+    padding: 0 5px;
+    font-size: 12px;
+  }
+
   .province-group > summary {
     min-height: 66px;
     padding: 12px 14px;
@@ -1463,6 +1503,11 @@ h1 {
   .directory-page .local-button-grid,
   .directory-page .related-grid {
     grid-template-columns: 1fr;
+  }
+
+  .directory-page .local-button-grid a {
+    min-height: 58px;
+    padding: 10px 40px 10px 14px;
   }
 }
 
@@ -1770,7 +1815,7 @@ h1 {
   background:
     radial-gradient(circle at 7% 3%, rgba(216, 255, 104, 0.2), transparent 24%),
     radial-gradient(circle at 94% 13%, rgba(125, 243, 207, 0.14), transparent 26%),
-    linear-gradient(180deg, #08111f 0%, #0d1728 35%, #f5f7fb 35%, #f5f7fb 100%);
+    linear-gradient(180deg, #08111f 0%, #0d1728 100%);
 }
 
 .nationwide-page .nav {
@@ -2005,7 +2050,7 @@ h1 {
     background:
       radial-gradient(circle at 8% 2%, rgba(216, 255, 104, 0.18), transparent 24%),
       radial-gradient(circle at 96% 12%, rgba(125, 243, 207, 0.12), transparent 25%),
-      linear-gradient(180deg, #08111f 0%, #0d1728 28%, #f5f7fb 28%, #f5f7fb 100%);
+      linear-gradient(180deg, #08111f 0%, #0d1728 100%);
   }
 
   .nationwide-page .academy-hero {

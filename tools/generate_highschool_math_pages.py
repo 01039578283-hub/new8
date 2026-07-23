@@ -114,7 +114,7 @@ def head_html(title: str, description: str, depth: int, canonical: str, og_type:
   <meta property="og:image" content="{esc(image)}">
   <link rel="icon" type="image/png" href="{p}assets/favicon.png">
   <link rel="apple-touch-icon" href="{p}assets/favicon.png">
-  <link rel="stylesheet" href="{p}assets/site.css">
+  <link rel="stylesheet" href="{p}assets/site.css?v=20260724-4">
   <script type="application/ld+json">{json_script(ld)}</script>
 </head>"""
 
@@ -658,6 +658,10 @@ def hub_pages(rows: list[dict[str, str]]) -> None:
         ],
     }
     head = head_html(f"{CATEGORY} | {SITE_NAME}", "전국 371개 지역의 고등수학학원 학습관리 페이지를 지역별로 정리한 허브입니다.", 2, f"/전국학원/{CATEGORY}/", "website", rep, ld_cat)
+    head = head.replace(
+        "</head>",
+        '  <script defer src="../../assets/directory.js?v=20260724-4"></script>\n</head>',
+    )
     body = f"""{nav_html(2)}
   <main>
     <section class="academy-hero">

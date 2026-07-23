@@ -131,7 +131,7 @@ def head_html(title: str, description: str, depth: int, canonical: str, og_type:
   <meta property="og:image" content="{esc(image)}">
   <link rel="icon" type="image/png" href="{p}assets/favicon.png">
   <link rel="apple-touch-icon" href="{p}assets/favicon.png">
-  <link rel="stylesheet" href="{p}assets/site.css">
+  <link rel="stylesheet" href="{p}assets/site.css?v=20260724-4">
   <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script>
 </head>"""
 
@@ -881,6 +881,10 @@ def category_hub(rows: list[dict[str, str]]) -> None:
         ],
     }
     head = head_html(title, description, 2, canonical, "website", asset_url("assets/generated/coaching-center-hero-v2.webp"), ld)
+    head = head.replace(
+        "</head>",
+        '  <script defer src="../../assets/directory.js?v=20260724-4"></script>\n</head>',
+    )
     body = f"""{nav_html(2)}
   <main>
     <section class="academy-hero">
