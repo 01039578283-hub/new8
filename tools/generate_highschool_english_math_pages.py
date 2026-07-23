@@ -136,9 +136,13 @@ def head_html(title: str, description: str, depth: int, canonical: str, og_type:
 </head>"""
 
 
-def page_shell(head: str, body: str) -> str:
+def page_shell(
+    head: str,
+    body: str,
+    body_class: str = "core-page academy-page nationwide-page nationwide-detail-page",
+) -> str:
     return f"""{head}
-<body>
+<body class="{body_class}">
 <div class="site-shell">
 {body}
 </div>
@@ -911,7 +915,15 @@ def category_hub(rows: list[dict[str, str]]) -> None:
   </main>
 {footer_html(2)}
 """
-    (path / "index.html").write_text(page_shell(head, body), encoding="utf-8", newline="\n")
+    (path / "index.html").write_text(
+        page_shell(
+            head,
+            body,
+            "core-page academy-page directory-page nationwide-page nationwide-category-page",
+        ),
+        encoding="utf-8",
+        newline="\n",
+    )
 
 
 def update_main_hub() -> None:

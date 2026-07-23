@@ -119,9 +119,13 @@ def head_html(title: str, description: str, depth: int, canonical: str, og_type:
 </head>"""
 
 
-def page_shell(head: str, body: str) -> str:
+def page_shell(
+    head: str,
+    body: str,
+    body_class: str = "core-page academy-page nationwide-page nationwide-detail-page",
+) -> str:
     return f"""{head}
-<body>
+<body class="{body_class}">
 <div class="site-shell">
 {body}
 </div>
@@ -630,7 +634,10 @@ def hub_pages(rows: list[dict[str, str]]) -> None:
 {footer_html(1)}"""
     out = SITE / "전국학원" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(page_shell(head, body), encoding="utf-8")
+    out.write_text(
+        page_shell(head, body, "core-page academy-page nationwide-page nationwide-root-page"),
+        encoding="utf-8",
+    )
 
     groups: dict[str, list[dict[str, str]]] = {}
     for row in rows:
@@ -670,7 +677,14 @@ def hub_pages(rows: list[dict[str, str]]) -> None:
 {footer_html(2)}"""
     out = SITE / "전국학원" / CATEGORY / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(page_shell(head, body), encoding="utf-8")
+    out.write_text(
+        page_shell(
+            head,
+            body,
+            "core-page academy-page directory-page nationwide-page nationwide-category-page",
+        ),
+        encoding="utf-8",
+    )
 
 
 def main() -> None:

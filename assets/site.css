@@ -1765,6 +1765,121 @@ h1 {
   line-height: 1.7;
 }
 
+/* Nationwide pages share the same visual system as the main homepage. */
+.nationwide-page {
+  background:
+    radial-gradient(circle at 7% 3%, rgba(216, 255, 104, 0.2), transparent 24%),
+    radial-gradient(circle at 94% 13%, rgba(125, 243, 207, 0.14), transparent 26%),
+    linear-gradient(180deg, #08111f 0%, #0d1728 35%, #f5f7fb 35%, #f5f7fb 100%);
+}
+
+.nationwide-page .nav {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.nationwide-page .academy-hero {
+  align-items: stretch;
+}
+
+.nationwide-page .academy-hero-main,
+.nationwide-page .academy-side-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.2);
+}
+
+.nationwide-page .academy-hero-main {
+  background:
+    radial-gradient(circle at 0% 0%, rgba(216, 255, 104, 0.2), transparent 32%),
+    linear-gradient(145deg, #223148 0%, #111d30 74%);
+}
+
+.nationwide-page .academy-hero-main::after {
+  position: absolute;
+  z-index: -1;
+  right: -54px;
+  bottom: -70px;
+  width: 190px;
+  height: 190px;
+  border: 1px solid rgba(125, 243, 207, 0.22);
+  border-radius: 50%;
+  background: rgba(125, 243, 207, 0.035);
+  content: "";
+}
+
+.nationwide-page .academy-side-card {
+  background:
+    radial-gradient(circle at 100% 0%, rgba(125, 243, 207, 0.2), transparent 38%),
+    linear-gradient(145deg, #17283c 0%, #0c1829 100%);
+}
+
+.nationwide-page .academy-directory,
+.nationwide-page .section-panel {
+  border-color: rgba(15, 23, 42, 0.09);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(247, 250, 255, 0.96));
+  box-shadow: 0 20px 54px rgba(15, 23, 42, 0.09);
+}
+
+.nationwide-root-page .category-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.nationwide-root-page .category-card {
+  position: relative;
+  min-height: 150px;
+  align-content: end;
+  padding: 24px 54px 24px 24px;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(125, 243, 207, 0.16), transparent 42%),
+    linear-gradient(145deg, #ffffff, #f4f8ff);
+}
+
+.nationwide-root-page .category-card::after {
+  position: absolute;
+  right: 20px;
+  bottom: 22px;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  color: #0b6b58;
+  background: #e5fff7;
+  content: "→";
+  font-size: 17px;
+}
+
+.nationwide-root-page .category-card strong {
+  font-size: 21px;
+  letter-spacing: -0.045em;
+}
+
+.nationwide-category-page .academy-directory {
+  overflow: hidden;
+}
+
+.nationwide-detail-page .local-media-card,
+.nationwide-detail-page .local-map-card {
+  border-color: rgba(15, 23, 42, 0.09);
+  background: #ffffff;
+  box-shadow: 0 20px 54px rgba(15, 23, 42, 0.09);
+}
+
+.nationwide-detail-page .summary-card,
+.nationwide-detail-page .school-card,
+.nationwide-detail-page .review-card,
+.nationwide-detail-page .checklist-card {
+  background: linear-gradient(145deg, #ffffff, #f7faff);
+}
+
+.nationwide-detail-page .answer-box {
+  border-left-color: #14b8a6;
+  background: linear-gradient(135deg, rgba(125, 243, 207, 0.18), rgba(216, 255, 104, 0.1));
+}
+
 .footer-meta {
   display: flex;
   flex-wrap: wrap;
@@ -1884,6 +1999,54 @@ h1 {
     border-radius: 14px;
     font-size: 11px;
     box-shadow: none;
+  }
+
+  .nationwide-page {
+    background:
+      radial-gradient(circle at 8% 2%, rgba(216, 255, 104, 0.18), transparent 24%),
+      radial-gradient(circle at 96% 12%, rgba(125, 243, 207, 0.12), transparent 25%),
+      linear-gradient(180deg, #08111f 0%, #0d1728 28%, #f5f7fb 28%, #f5f7fb 100%);
+  }
+
+  .nationwide-page .academy-hero {
+    margin-top: 20px;
+  }
+
+  .nationwide-page .academy-hero-main,
+  .nationwide-page .academy-side-card,
+  .nationwide-page .academy-directory,
+  .nationwide-page .section-panel,
+  .nationwide-page .local-media-card,
+  .nationwide-page .local-map-card {
+    border-radius: 24px;
+  }
+
+  .nationwide-page .academy-hero-main h1 {
+    font-size: clamp(32px, 10.5vw, 44px);
+    line-height: 1.07;
+    letter-spacing: -0.055em;
+  }
+
+  .nationwide-page .academy-directory .directory-head h2 {
+    font-size: clamp(25px, 8vw, 34px);
+    line-height: 1.15;
+  }
+
+  .nationwide-root-page .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nationwide-root-page .category-card {
+    min-height: 116px;
+    padding: 20px 52px 20px 18px;
+    border-radius: 20px;
+  }
+
+  .nationwide-detail-page .summary-card,
+  .nationwide-detail-page .school-card,
+  .nationwide-detail-page .review-card,
+  .nationwide-detail-page .checklist-card {
+    border-radius: 20px;
   }
 }
 

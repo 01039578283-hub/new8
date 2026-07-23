@@ -207,7 +207,14 @@ def root_hub(rows: list[dict[str, str]]) -> None:
 {footer_html(1)}"""
     out = SITE / "전국학원" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(shared.page_shell(head, body), encoding="utf-8")
+    out.write_text(
+        shared.page_shell(
+            head,
+            body,
+            "core-page academy-page nationwide-page nationwide-root-page",
+        ),
+        encoding="utf-8",
+    )
 
 
 def category_hub(rows: list[dict[str, str]]) -> None:
@@ -286,7 +293,14 @@ def category_hub(rows: list[dict[str, str]]) -> None:
 {footer_html(2)}"""
     out = SITE / "전국학원" / CATEGORY / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(shared.page_shell(head, body), encoding="utf-8")
+    out.write_text(
+        shared.page_shell(
+            head,
+            body,
+            "core-page academy-page directory-page nationwide-page nationwide-category-page",
+        ),
+        encoding="utf-8",
+    )
 
 
 def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dict[str, str]], faq_base, review_lines) -> str:
