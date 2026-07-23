@@ -28,6 +28,7 @@ REQUIRED_TYPES = {
     "BreadcrumbList",
     "Article",
     "Service",
+    "OfferCatalog",
     "FAQPage",
     "ItemList",
 }
@@ -165,6 +166,10 @@ def main() -> None:
             errors.append(f"{slug}: meta mismatch")
         else:
             meta_values.add(expected_meta)
+            if CATEGORY in {"보습학원", "소수정예학원"} and not (
+                70 <= len(expected_meta) <= 100
+            ):
+                errors.append(f"{slug}: meta length={len(expected_meta)}")
 
         json_matches = re.findall(
             r'<script type="application/ld\+json">(.*?)</script>',
@@ -188,6 +193,7 @@ def main() -> None:
         webpage = graph_node(graph, "WebPage")
         article = graph_node(graph, "Article")
         service = graph_node(graph, "Service")
+        offer_catalog = graph_node(graph, "OfferCatalog")
         organization = graph_node(graph, "EducationalOrganization")
         local_business = graph_node(graph, "LocalBusiness")
         faq_page = graph_node(graph, "FAQPage")
@@ -202,6 +208,15 @@ def main() -> None:
         if organization.get("@id") != expected_org_id:
             errors.append(f"{slug}: unstable organization id")
         organization_ids.add(organization.get("@id", ""))
+        if organization.get("telephone"):
+            errors.append(f"{slug}: site phone assigned to local center")
+        address_schema = organization.get("address", {})
+        if address_schema.get("streetAddress") != generator.compact_text(
+            row.get("센터 주소", "")
+        ):
+            errors.append(f"{slug}: organization street address")
+        if "addressRegion" in address_schema or "addressLocality" in address_schema:
+            errors.append(f"{slug}: inferred postal region/locality")
         if any(
             key in organization
             for key in ("alternateName", "parentOrganization", "teaches", "educationalLevel")
@@ -234,6 +249,24 @@ def main() -> None:
             errors.append(f"{slug}: offers/makesOffer")
         if not service.get("hasOfferCatalog") or not organization.get("hasOfferCatalog"):
             errors.append(f"{slug}: offer catalog links")
+        grade_map = generator.grades_for(row)
+        expected_offer_count = max(
+            1,
+            sum(1 for levels in grade_map.values() if levels),
+        )
+        if (
+            len(offer_catalog.get("itemListElement", [])) != expected_offer_count
+            or len(organization.get("makesOffer", [])) != expected_offer_count
+        ):
+            errors.append(f"{slug}: documented offer count")
+        expected_topics = {
+            str(value)
+            for value in generator.category_profile().get("topic_names", ())
+        }
+        if not expected_topics.issubset(set(organization.get("knowsAbout", []))):
+            errors.append(f"{slug}: category knowsAbout")
+        if CATEGORY not in service.get("audience", {}).get("audienceType", ""):
+            errors.append(f"{slug}: category audience")
         if article.get("datePublished") != generator.PUBLISHED_DATE:
             errors.append(f"{slug}: published date")
         if article.get("dateModified") != generator.UPDATED_AT:
@@ -273,7 +306,13 @@ def main() -> None:
         schema_questions = [
             item.get("name", "") for item in faq_page.get("mainEntity", [])
         ]
-        if screen_questions != schema_questions or len(screen_questions) != 5:
+        expected_faq_count = int(
+            generator.category_profile().get("faq_count", 5)
+        )
+        if (
+            screen_questions != schema_questions
+            or len(screen_questions) != expected_faq_count
+        ):
             errors.append(f"{slug}: FAQ screen/schema mismatch")
         total_faq += len(screen_questions)
 
@@ -319,6 +358,21 @@ def main() -> None:
         for src in re.findall(r'<img[^>]+src="([^"]+)"', source):
             if not asset_path(src, page).exists():
                 errors.append(f"{slug}: missing image {src}")
+
+        for target_name, _, _ in generator.related_for(row, rows):
+            target_local = target_name[: -len(f" {CATEGORY}")].strip()
+            target_row = row_by_slug.get(generator.slug_ko(target_local))
+            if (
+                not target_row
+                or target_row.get("지역", "").strip()
+                != row.get("지역", "").strip()
+            ):
+                errors.append(f"{slug}: cross-region nearby link {target_local}")
+        for sibling_name, sibling_url, _ in generator.sibling_category_links(
+            row["근처 수업가능 동네"].strip()
+        ):
+            if sibling_name == CATEGORY or html.escape(sibling_url, quote=True) not in source:
+                errors.append(f"{slug}: sibling category link {sibling_name}")
 
     all_html = [
         path

@@ -82,6 +82,7 @@ CATEGORY_CATALOG = {
             "371개 동네별 제공 원고, 센터 주소, 가능 학년, 학교 참고, 교습비와 "
             "지도 정보를 포함합니다."
         ),
+        "faq_count": 5,
     },
     "보습학원": {
         "card_label": "학교 진도 · 복습 · 과제",
@@ -126,6 +127,53 @@ CATEGORY_CATALOG = {
             "371개 동네별 제공 원고, 실제 센터 정보, 가능 학년, 학교 참고, "
             "교습비와 지도 정보를 포함합니다."
         ),
+        "faq_count": 5,
+    },
+    "소수정예학원": {
+        "card_label": "학생별 확인 · 질문 · 피드백",
+        "card_description": "전국 371개 지역별 소수정예학원 수업 안내",
+        "detail_eyebrow": "SMALL CLASS LOCAL GUIDE",
+        "category_eyebrow": "SMALL CLASS ACADEMY DIRECTORY",
+        "category_description": (
+            "전국 371개 동네별 소수정예학원 상담 기준을 정리했습니다. "
+            "지역·시군구·동네 검색을 통해 학생별 이해 확인, 질문 시간, "
+            "수준별 과제와 오답 피드백 기준을 확인할 수 있습니다."
+        ),
+        "category_short": "개별 확인 · 피드백",
+        "badges": ("학생별 이해 확인", "질문·교정", "과제·오답 피드백"),
+        "aside_title": (
+            "반 인원 자체보다 학생별 확인 시간과 기록이 다음 계획으로 "
+            "이어지는지 살펴봅니다."
+        ),
+        "aside_copy": (
+            "{local} 학생의 최근 학습 자료와 질문 방식, 독립 풀이·과제·오답 "
+            "기록을 확인해 수업 적합성을 판단할 기준을 정리합니다."
+        ),
+        "map_caption": (
+            "{region} {district} {local}에서 소수정예학원 상담을 준비할 때 "
+            "실제 센터 위치와 평일 등원 동선을 함께 확인해 주세요."
+        ),
+        "related_description": (
+            "과목별 허브와 같은 동네의 다른 학습 페이지, 같은 시군구와 광역권의 "
+            "소수정예학원 안내를 함께 정리했습니다."
+        ),
+        "topic_names": (
+            "소수정예 수업 구조",
+            "학생별 이해 확인",
+            "질문과 풀이 교정",
+            "수준별 과제 조정",
+            "오답 피드백",
+        ),
+        "parent_aside_title": "학생별 풀이와 질문을 확인하는 소수정예 수업",
+        "parent_aside_copy": (
+            "인원수 자체보다 학생의 이해 상태를 확인하고 과제·오답 계획을 "
+            "개별적으로 조정하는 기준을 정리했습니다."
+        ),
+        "llms_description": (
+            "371개 동네별 제공 원고, 실제 센터 정보, 학생별 가능 학년과 과목, "
+            "학교 참고, 교습비와 지도 정보를 포함합니다."
+        ),
+        "faq_count": 4,
     },
 }
 
@@ -1274,14 +1322,25 @@ def prepare_detail_copy(
         )
         for index, (question, answer) in enumerate(source_faqs)
     ]
-    faq_orders = [
-        (0, 1, 2, 3, 4),
-        (0, 2, 4, 1, 3),
-        (1, 3, 0, 4, 2),
-        (2, 0, 3, 1, 4),
-        (3, 1, 4, 0, 2),
-        (4, 2, 0, 3, 1),
-    ]
+    faq_orders = (
+        [
+            (0, 1, 2, 3, 4),
+            (0, 2, 4, 1, 3),
+            (1, 3, 0, 4, 2),
+            (2, 0, 3, 1, 4),
+            (3, 1, 4, 0, 2),
+            (4, 2, 0, 3, 1),
+        ]
+        if len(faqs) == 5
+        else [
+            (0, 1, 2, 3),
+            (0, 2, 1, 3),
+            (1, 3, 0, 2),
+            (2, 0, 3, 1),
+            (3, 1, 2, 0),
+            (1, 0, 3, 2),
+        ]
+    )
     faq_order = stable_pick(
         key,
         "faq-order",
@@ -1398,14 +1457,26 @@ def prepare_source_copy(
         )
         for index, (question, answer) in enumerate(parse_faq(sections["FAQ"]))
     ]
-    faq_orders = [
-        (0, 1, 2, 3, 4),
-        (0, 2, 4, 1, 3),
-        (1, 3, 0, 4, 2),
-        (2, 0, 3, 1, 4),
-        (3, 1, 4, 0, 2),
-        (4, 2, 0, 3, 1),
-    ]
+    if len(faqs) == 4:
+        faq_orders = [
+            (0, 1, 2, 3),
+            (0, 2, 3, 1),
+            (1, 3, 0, 2),
+            (2, 0, 3, 1),
+            (3, 1, 2, 0),
+            (2, 3, 1, 0),
+        ]
+    elif len(faqs) == 5:
+        faq_orders = [
+            (0, 1, 2, 3, 4),
+            (0, 2, 4, 1, 3),
+            (1, 3, 0, 4, 2),
+            (2, 0, 3, 1, 4),
+            (3, 1, 4, 0, 2),
+            (4, 2, 0, 3, 1),
+        ]
+    else:
+        raise ValueError(f"{title}: unsupported FAQ count={len(faqs)}")
     faq_order = stable_pick(
         key,
         "source-faq-order",
@@ -1466,12 +1537,126 @@ def polish_source_copy(value: str) -> str:
     )
 
 
+def vary_small_class_question(
+    question: str,
+    title: str,
+    local: str,
+    key: str,
+) -> str:
+    patterns: list[tuple[tuple[str, ...], list[str]]] = [
+        (
+            ("제공된 학교 목록", "바로 학교별 대비"),
+            [
+                "{TITLE}의 제공 학교 정보는 실제 학교별 학습 계획과 어떻게 연결되나요?",
+                "제공 학교에 이름이 있으면 {TITLE}에서 곧바로 학교별 대비가 가능한가요?",
+                "{LOCAL} 제공 학교 목록은 상담에서 어떤 자료와 함께 확인해야 하나요?",
+                "{TITLE}의 학교 정보만 보고 학교별 대비 가능 여부를 판단해도 되나요?",
+                "재학 학교가 제공 목록에 있다면 {TITLE} 상담에서 무엇을 더 확인해야 하나요?",
+                "{TITLE}의 제공 학교 범위와 실제 학교별 수업 준비는 어떻게 다른가요?",
+                "{LOCAL} 학교 참고 정보는 학생의 최근 범위표와 어떻게 함께 살펴보나요?",
+                "{TITLE}에서 학교별 대비를 확인할 때 학교명 외에 필요한 자료는 무엇인가요?",
+            ],
+        ),
+        (
+            ("상담 전에 어떤 자료를 준비",),
+            [
+                "{TITLE} 첫 상담에는 어떤 학습 자료를 가져가면 좋을까요?",
+                "{LOCAL} 소수정예 상담 전에 준비할 기록과 교재는 무엇인가요?",
+                "{TITLE} 상담에서 현재 상태를 정확히 보려면 무엇을 준비해야 하나요?",
+                "{TITLE} 방문 전 시험지·교재·오답 기록을 어떻게 챙기면 좋을까요?",
+            ],
+        ),
+        (
+            ("적정 반 인원은 몇 명",),
+            [
+                "{TITLE}의 적정 반 인원은 어떤 기준으로 판단하나요?",
+                "{LOCAL} 소수정예 수업은 몇 명일 때 학생에게 맞는지 어떻게 확인하나요?",
+                "{TITLE} 상담에서 정원보다 먼저 살펴볼 수업 운영 기준은 무엇인가요?",
+                "{TITLE}의 반 인원과 학생별 확인 시간은 어떻게 비교해야 하나요?",
+            ],
+        ),
+        (
+            ("방문하기 전 아이와 무엇을 이야기",),
+            [
+                "{TITLE} 방문 전에 학생과 어떤 어려움을 정리하면 좋을까요?",
+                "{LOCAL} 상담 전 아이와 최근 공부 상황을 어떻게 이야기해 보면 좋을까요?",
+                "{TITLE} 상담 전에 학생이 직접 정리해 볼 질문은 무엇인가요?",
+                "{TITLE} 방문 전 학생의 막힌 지점과 원하는 도움을 어떻게 정리하나요?",
+            ],
+        ),
+        (
+            ("진도가 빠른 반", "더 좋은가요"),
+            [
+                "{TITLE}에서는 진도가 빠른 반이 학생에게 항상 더 적합한가요?",
+                "{LOCAL} 소수정예 수업의 진도 속도는 어떤 기준으로 선택해야 하나요?",
+                "{TITLE}에서 선행 속도보다 먼저 확인할 학습 조건은 무엇인가요?",
+                "{TITLE}의 반 진도가 현재 학생 수준에 맞는지 어떻게 판단하나요?",
+            ],
+        ),
+        (
+            ("첫 상담에서 가장 먼저 물을 질문",),
+            [
+                "{TITLE} 첫 상담에서 우선 확인할 질문은 무엇인가요?",
+                "{LOCAL} 소수정예 상담은 어떤 학습 목표부터 물어보면 좋을까요?",
+                "{TITLE} 상담에서 첫 2~4주 계획을 어떻게 질문해야 하나요?",
+                "{TITLE}의 진단과 수업 계획을 확인할 첫 질문은 무엇인가요?",
+            ],
+        ),
+        (
+            ("반 인원이 적으면 모두 개별 수업",),
+            [
+                "{TITLE}은 반 인원이 적으면 모두 개인별 수업으로 진행되나요?",
+                "{LOCAL} 소수정예 수업과 일대일 수업은 어떤 점이 다른가요?",
+                "{TITLE}의 소수 인원 수업에서 개별 확인은 어떻게 이루어지나요?",
+                "{TITLE} 상담 시 인원수와 개별 지도 방식을 어떻게 구분해 확인하나요?",
+            ],
+        ),
+        (
+            ("상담에 성적표만 가져가도 충분",),
+            [
+                "{TITLE} 상담에는 성적표만 준비해도 현재 학습 상태를 알 수 있나요?",
+                "{LOCAL} 상담에서 성적표와 함께 살펴볼 학습 기록은 무엇인가요?",
+                "{TITLE} 진단을 위해 성적표 외에 필요한 자료는 무엇인가요?",
+                "{TITLE} 상담에서 결과 점수와 풀이 과정을 어떻게 함께 확인하나요?",
+            ],
+        ),
+        (
+            ("소수정예 수업의 효과는 어떻게 확인",),
+            [
+                "{TITLE}의 소수정예 수업이 학생에게 맞는지는 어떻게 확인하나요?",
+                "{LOCAL} 소수정예 수업의 변화를 어떤 학습 기록으로 살펴보나요?",
+                "{TITLE}에서 설명·독립 풀이·재풀이가 이어지는지 어떻게 확인하나요?",
+                "{TITLE} 수업의 개별 피드백이 다음 학습에 반영되는지 어떻게 보나요?",
+            ],
+        ),
+        (
+            ("진단 결과에서 무엇을 확인",),
+            [
+                "{TITLE}의 진단 결과에서는 어떤 항목을 우선 확인해야 하나요?",
+                "{LOCAL} 소수정예 상담의 진단표는 어떻게 읽으면 좋을까요?",
+                "{TITLE} 진단에서 개념·적용·시간·설명 가능 여부를 어떻게 보나요?",
+                "{TITLE}의 진단 결과가 수업 계획으로 어떻게 이어지는지 확인할 수 있나요?",
+            ],
+        ),
+    ]
+    for index, (needles, options) in enumerate(patterns):
+        if all(needle in question for needle in needles):
+            return stable_pick(
+                key,
+                f"small-class-question-{index}",
+                options,
+            ).format(TITLE=title, LOCAL=local)
+    return question
+
+
 def vary_source_question(
     question: str,
     title: str,
     local: str,
     key: str,
 ) -> str:
+    if CATEGORY == "소수정예학원":
+        return vary_small_class_question(question, title, local, key)
     patterns = [
         (
             "에서 제공 주소로 등원 가능한지는 어떻게 판단하나요?",
@@ -1525,6 +1710,8 @@ def vary_source_question(
 
 def concise_source_meta(meta: str, title: str, local: str) -> str:
     """Create a complete, reader-facing 70–100 character summary."""
+    if CATEGORY == "소수정예학원":
+        return concise_small_class_meta(meta, title, local)
     if 70 <= len(meta) <= 100:
         return meta
     if len(meta) < 70:
@@ -1587,6 +1774,57 @@ def concise_source_meta(meta: str, title: str, local: str) -> str:
         ).format(TITLE=title, LOCAL=local)
     if len(result) < 70:
         result = result.rstrip(".") + ". 상담 전 확인 기준도 함께 안내합니다."
+    if not 70 <= len(result) <= 100:
+        raise ValueError(f"{title}: concise meta length={len(result)}")
+    return result
+
+
+def concise_small_class_meta(meta: str, title: str, local: str) -> str:
+    if 70 <= len(meta) <= 100:
+        return meta
+
+    audience_match = re.search(
+        r"(?P<audience>(?:초등학교|중학교|고등학교)\s*\d+학년\s+"
+        r"(?:국어|영어|수학|과학|사회)"
+        r"(?:·(?:국어|영어|수학|과학|사회))*)",
+        meta,
+    )
+    audience = (
+        compact_text(audience_match.group("audience"))
+        if audience_match
+        else ""
+    )
+
+    if audience:
+        patterns = [
+            "{TITLE} 선택 전 {AUDIENCE} 학생의 현재 수준, 개별 풀이 확인, 질문·과제·오답 피드백과 센터 위치를 확인해 보세요.",
+            "{TITLE}에서는 {AUDIENCE} 학생의 이해 상태와 개별 풀이, 질문·과제·오답 관리, 실제 센터 위치를 안내합니다.",
+            "{TITLE} 상담을 준비할 때 {AUDIENCE} 학생의 현재 수준, 수업 중 확인 방식, 수준별 과제와 오답 피드백을 살펴보세요.",
+            "{LOCAL} 소수정예학원을 비교한다면 {AUDIENCE} 학생의 진단, 개별 질문, 과제·오답 관리와 센터 위치를 먼저 확인해 보세요.",
+        ]
+        result = stable_pick(
+            title,
+            "small-class-meta",
+            patterns,
+        ).format(TITLE=title, LOCAL=local, AUDIENCE=audience)
+    else:
+        result = (
+            f"{title} 선택 전 학생별 이해 확인, 질문 시간, 수준별 과제와 "
+            "오답 피드백, 실제 센터 위치를 확인해 보세요."
+        )
+
+    if len(result) > 100:
+        result = (
+            f"{title}은 {audience} 학생의 현재 수준 진단과 "
+            "개별 풀이·과제·오답 피드백 기준을 안내합니다."
+        )
+    if len(result) > 100 or not audience:
+        result = (
+            f"{title} 선택 전 학생별 이해 확인, 질문 시간, 수준별 과제와 "
+            "오답 피드백, 센터 위치를 안내합니다."
+        )
+    if len(result) < 70:
+        result = result.rstrip(".") + ". 수업 가능 학년도 함께 확인할 수 있습니다."
     if not 70 <= len(result) <= 100:
         raise ValueError(f"{title}: concise meta length={len(result)}")
     return result
@@ -1916,11 +2154,9 @@ def offers_for(
     offers: list[dict] = []
     for subject in ("국어", "영어", "수학"):
         subject_grades = grade_map.get(subject, [])
-        audience_type = (
-            " · ".join(subject_grades) + f" {subject} 학습 대상"
-            if subject_grades
-            else f"{subject} 수업 가능 학년 상담 확인"
-        )
+        if not subject_grades:
+            continue
+        audience_type = " · ".join(subject_grades) + f" {subject} 학습 대상"
         offer = {
             "@type": "Offer",
             "@id": canonical + f"#offer-{quote(subject)}",
@@ -1937,6 +2173,33 @@ def offers_for(
                     "@type": "EducationalAudience",
                     "educationalRole": "student",
                     "audienceType": audience_type,
+                },
+            },
+        }
+        if fee_url:
+            offer["subjectOf"] = {
+                "@type": "DigitalDocument",
+                "name": "센터 교습비 안내",
+                "url": fee_url,
+            }
+        offers.append(offer)
+    if not offers:
+        offer = {
+            "@type": "Offer",
+            "@id": canonical + "#offer-consultation",
+            "name": f"{local} {CATEGORY} 상담",
+            "url": canonical,
+            "itemOffered": {
+                "@type": "Service",
+                "@id": canonical + "#service-consultation",
+                "name": f"{local} {CATEGORY} 학습 상담",
+                "serviceType": "EducationalConsultation",
+                "provider": {"@id": org_id},
+                "areaServed": {"@id": place_id},
+                "audience": {
+                    "@type": "EducationalAudience",
+                    "educationalRole": "student",
+                    "audienceType": "수업 가능 과목과 학년 상담 확인",
                 },
             },
         }
@@ -1991,6 +2254,9 @@ def build_graph(
     schools = schools_for(row)
     school_names = unique([school for items in schools.values() for school in items])
     grades = grades_for(row)
+    available_subjects = [
+        subject for subject, levels in grades.items() if levels
+    ]
     educational_levels = unique(
         [grade for items in grades.values() for grade in items]
     )
@@ -2019,8 +2285,6 @@ def build_graph(
     address_data = {
         "@type": "PostalAddress",
         "streetAddress": address,
-        "addressRegion": region,
-        "addressLocality": district,
         "addressCountry": "KR",
     }
     service_areas = row.get("_서비스 지역") or [
@@ -2040,8 +2304,9 @@ def build_graph(
         "@type": ["EducationalOrganization", "LocalBusiness"],
         "@id": org_id,
         "name": center,
-        "telephone": PHONE_DISPLAY,
-        "description": json_summary,
+        "description": (
+            f"{center}의 수업 가능 과목·학년, 운영 시간과 위치 정보를 안내합니다."
+        ),
         "address": address_data,
         "areaServed": area_refs,
         "openingHours": "Mo-Sa 12:00-23:59",
@@ -2062,13 +2327,10 @@ def build_graph(
         ],
         "image": [center_image_url, map_image_url],
         "hasMap": map_image_url,
-        "knowsAbout": [
-            "국어 교과서·문법·독서 학습",
-            "영어 어휘·문법·독해 학습",
-            "수학 개념·유형·서술형 학습",
-            "학습 플래너",
-            "오답 재학습",
-        ],
+        "knowsAbout": unique(
+            [f"{subject} 학습" for subject in available_subjects]
+            + [str(topic) for topic in profile["topic_names"]]
+        ),
         "makesOffer": offer_refs,
         "hasOfferCatalog": {"@id": catalog_id},
         "mainEntityOfPage": {"@id": webpage_id},
@@ -2185,9 +2447,9 @@ def build_graph(
             "@type": "EducationalAudience",
             "educationalRole": "student",
             "audienceType": (
-                " · ".join(educational_levels) + " 국어·영어·수학 학습 대상"
+                " · ".join(educational_levels) + f" {CATEGORY} 학습 대상"
                 if educational_levels
-                else "초등·중등·고등 국어·영어·수학 학습 대상"
+                else f"{CATEGORY} 수업 가능 학년 상담 대상"
             ),
         },
         "about": topic_about,
@@ -2305,7 +2567,7 @@ def build_graph(
     offer_catalog = {
         "@type": "OfferCatalog",
         "@id": catalog_id,
-        "name": f"{local} 국어·영어·수학 학습관리",
+        "name": f"{local} {CATEGORY} 수업 안내",
         "itemListElement": offers,
     }
     publisher = {
@@ -2394,7 +2656,8 @@ def related_for(
     source = [
         item
         for item in rows
-        if item.get("시or구", "").strip() == district
+        if item.get("지역", "").strip() == region
+        and item.get("시or구", "").strip() == district
         and item["근처 수업가능 동네"].strip() != local
     ]
     if len(source) < 6:
@@ -2473,8 +2736,11 @@ def render_detail(
     meta = prepared_sections["메타설명"]
     if len(manuscript_sections) != 6:
         raise ValueError(f"{title}: expected 6 H2 sections")
-    if len(faqs) != 5:
-        raise ValueError(f"{title}: expected 5 FAQ entries")
+    expected_faq_count = int(profile.get("faq_count", 5))
+    if len(faqs) != expected_faq_count:
+        raise ValueError(
+            f"{title}: expected {expected_faq_count} FAQ entries"
+        )
     if not review_items:
         raise ValueError(f"{title}: consultation example missing")
 
@@ -2795,7 +3061,7 @@ def render_parent_hub() -> str:
     canonical = absolute_url(PARENT)
     categories = available_categories()
     description = (
-        "과목 구성과 학습 목적에 맞는 전국 지역 학원 안내를 찾는 허브입니다. "
+        "학원 유형과 학습 목적에 맞는 전국 지역 학원 안내를 찾는 허브입니다. "
         "카테고리를 선택한 뒤 371개 지역별 센터 정보와 학습관리 기준을 확인할 수 있습니다."
     )
     graph = collection_graph(
@@ -2823,18 +3089,18 @@ def render_parent_hub() -> str:
         <h1>{PARENT}</h1>
         <p>{esc(description)}</p>
         <ul class="academy-route">
-          <li><span>1</span>과목 구성을 선택합니다.</li>
+          <li><span>1</span>학원 유형과 학습관리 방식을 선택합니다.</li>
           <li><span>2</span>지역 검색 또는 광역·시군구 목록으로 동네를 찾습니다.</li>
           <li><span>3</span>센터 정보와 원고를 읽고 상담 기준을 확인합니다.</li>
         </ul>
       </div>
       <aside class="academy-side-card">
-        <div><p class="eyebrow">학습 유형 선택</p><strong>학생에게 필요한 학습관리 방식부터 확인하세요.</strong><p>과목 구성, 학교 진도, 복습과 과제 관리 목적에 따라 지역별 안내를 비교할 수 있습니다.</p></div>
+        <div><p class="eyebrow">학습 유형 선택</p><strong>학생에게 필요한 학습관리 방식부터 확인하세요.</strong><p>과목 구성과 수업 형태, 학교 진도, 복습과 과제 관리 목적에 따라 지역별 안내를 비교할 수 있습니다.</p></div>
       </aside>
     </section>
     <section class="academy-directory subject-parent-directory">
       <div class="directory-head">
-        <h2>과목 구성 선택</h2>
+        <h2>학원 유형·학습관리 방식 선택</h2>
         <p>현재 생성된 카테고리만 표시합니다. 각 카드를 누르면 371개 지역 안내와 동네 검색 기능을 이용할 수 있습니다.</p>
       </div>
       <div class="category-grid">
