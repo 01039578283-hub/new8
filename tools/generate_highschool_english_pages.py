@@ -384,7 +384,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
                     {"@type": "ListItem", "position": 1, "name": "홈", "item": "/"},
                     {"@type": "ListItem", "position": 2, "name": "전국학원", "item": "/전국학원/"},
                     {"@type": "ListItem", "position": 3, "name": CATEGORY, "item": f"/전국학원/{CATEGORY}/"},
-                    {"@type": "ListItem", "position": 4, "name": local, "item": canonical},
+                    {"@type": "ListItem", "position": 4, "name": title, "item": canonical},
                 ],
             },
             {
@@ -466,7 +466,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
     <section class="academy-hero">
       <div class="academy-hero-main">
         <nav class="breadcrumb" aria-label="breadcrumb">
-          <a href="../../../index.html">홈</a><span>›</span><a href="../../index.html">전국학원</a><span>›</span><a href="../index.html">고등영어학원</a><span>›</span><span>{esc(local)}</span>
+          <a href="../../../index.html">홈</a><span>›</span><a href="../../index.html">전국학원</a><span>›</span><a href="../index.html">고등영어학원</a><span>›</span><span>{esc(title)}</span>
         </nav>
         <p class="eyebrow">HIGH SCHOOL ENGLISH COACHING</p>
         <h1>{esc(title)}</h1>

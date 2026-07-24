@@ -3040,7 +3040,7 @@ def build_graph(
             {
                 "@type": "ListItem",
                 "position": 4,
-                "name": local,
+                "name": title,
                 "item": canonical,
             },
         ],
@@ -3476,7 +3476,7 @@ def render_detail(
         <nav class="breadcrumb" aria-label="breadcrumb">
           <a href="../../../index.html">홈</a><span>›</span>
           <a href="../../index.html">{PARENT}</a><span>›</span>
-          <a href="../index.html">{CATEGORY}</a><span>›</span><span>{esc(local)}</span>
+          <a href="../index.html">{CATEGORY}</a><span>›</span><span>{esc(title)}</span>
         </nav>
         <p class="eyebrow">{esc(profile["detail_eyebrow"])}</p>
         <h1>{esc(title)}</h1>

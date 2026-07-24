@@ -376,7 +376,7 @@ def make_ld(
                     {"@type": "ListItem", "position": 1, "name": "홈", "item": DOMAIN + "/"},
                     {"@type": "ListItem", "position": 2, "name": "전국학원", "item": canonical_for("전국학원")},
                     {"@type": "ListItem", "position": 3, "name": CATEGORY, "item": canonical_for("전국학원", CATEGORY)},
-                    {"@type": "ListItem", "position": 4, "name": local, "item": canonical},
+                    {"@type": "ListItem", "position": 4, "name": title, "item": canonical},
                 ],
             },
             {
@@ -578,7 +578,7 @@ def page_html(row: dict[str, str], school_row: dict[str, str], rows: list[dict[s
     <section class="academy-hero">
       <div class="academy-hero-main">
         <nav class="breadcrumb" aria-label="breadcrumb">
-          <a href="../../../index.html">홈</a><span>›</span><a href="../../index.html">전국학원</a><span>›</span><a href="../index.html">{CATEGORY}</a><span>›</span><span>{esc(local)}</span>
+          <a href="../../../index.html">홈</a><span>›</span><a href="../../index.html">전국학원</a><span>›</span><a href="../index.html">{CATEGORY}</a><span>›</span><span>{esc(title)}</span>
         </nav>
         <p class="eyebrow">HIGH SCHOOL ENGLISH & MATH COACHING</p>
         <h1>{esc(title)}</h1>
