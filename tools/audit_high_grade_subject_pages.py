@@ -132,7 +132,7 @@ def jaccard(left: set[str], right: set[str]) -> float:
 def wrong_particle_phrases(config) -> set[str]:
     phrases: set[str] = set()
     values = {config.subject}
-    for signal in build.SIGNALS[config.subject]:
+    for signal in build.signals_for(config):
         values.update(
             (signal["label"], signal["evidence"], signal["action"])
         )
