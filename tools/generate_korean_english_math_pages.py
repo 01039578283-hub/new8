@@ -2675,10 +2675,18 @@ def representative_paths(count: int) -> list[str]:
 
 
 def schools_for(row: dict[str, str]) -> dict[str, list[str]]:
+    def public_names(value: str) -> list[str]:
+        return [
+            "해당 지역 고등학교"
+            if item == "지역내 모든 고등학교 가능"
+            else item
+            for item in split_items(value)
+        ]
+
     return {
-        "초등": split_items(row.get("타깃학교\n(초)", "")),
-        "중등": split_items(row.get("타깃학교\n(중)", "")),
-        "고등": split_items(row.get("타깃학교\n(고)", "")),
+        "초등": public_names(row.get("타깃학교\n(초)", "")),
+        "중등": public_names(row.get("타깃학교\n(중)", "")),
+        "고등": public_names(row.get("타깃학교\n(고)", "")),
     }
 
 
@@ -2737,6 +2745,7 @@ def head_html(
     *,
     og_type: str = "article",
     directory: bool = False,
+    indexable: bool = True,
 ) -> str:
     prefix = rel_prefix(depth)
     directory_script = (
@@ -2751,7 +2760,7 @@ def head_html(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}">
-  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="robots" content="{'index,follow' if indexable else 'noindex,follow'},max-image-preview:large">
   <link rel="canonical" href="{esc(canonical)}">
   <meta property="og:type" content="{esc(og_type)}">
   <meta property="og:title" content="{esc(title)}">
@@ -2785,9 +2794,22 @@ def offers_for(
 ) -> list[dict]:
     fee_url = row.get("센터 교습비", "").strip()
     grade_map = grades_for(row)
+    profile = category_profile()
+    fixed_subject = compact_text(profile.get("fixed_subject"))
+    fixed_grade = compact_text(profile.get("fixed_grade"))
     offers: list[dict] = []
-    for subject in ("국어", "영어", "수학"):
-        subject_grades = grade_map.get(subject, [])
+    subjects = (
+        (fixed_subject,)
+        if fixed_subject and fixed_grade
+        else ("국어", "영어", "수학")
+    )
+    for subject in subjects:
+        source_grades = grade_map.get(subject, [])
+        subject_grades = (
+            [fixed_grade]
+            if fixed_grade and fixed_grade in source_grades
+            else ([] if fixed_grade else source_grades)
+        )
         if not subject_grades:
             continue
         audience_type = " · ".join(subject_grades) + f" {subject} 학습 대상"
@@ -2898,10 +2920,19 @@ def build_graph(
     description = re.sub(r"\s+", " ", sections["메타설명"]).strip()
     center_image_url = asset_absolute(center_image)
     map_image_url = asset_absolute(map_image)
+    representative_url = asset_absolute(representative)
     offers = offers_for(row, local, canonical, org_id, place_id)
     offer_refs = [{"@id": offer["@id"]} for offer in offers]
 
     profile = category_profile()
+    fixed_subject = compact_text(profile.get("fixed_subject"))
+    fixed_grade = compact_text(profile.get("fixed_grade"))
+    fixed_grade_supported = bool(
+        fixed_subject
+        and fixed_grade
+        and fixed_grade in grades.get(fixed_subject, [])
+    )
+    content_levels = [fixed_grade] if fixed_grade else educational_levels
     topic_about = [
         {"@type": "Thing", "name": title},
         {"@type": "Thing", "name": CATEGORY},
@@ -2959,7 +2990,7 @@ def build_graph(
                 "closes": "23:59",
             }
         ],
-        "image": [center_image_url, map_image_url],
+        "image": [representative_url, center_image_url, map_image_url],
         "hasMap": map_image_url,
         "knowsAbout": unique(
             [f"{subject} 학습" for subject in available_subjects]
@@ -3065,8 +3096,8 @@ def build_graph(
         "author": {"@id": publisher_id},
         "datePublished": PUBLISHED_DATE,
         "dateModified": UPDATED_AT,
-        "image": [center_image_url, map_image_url],
-        "educationalLevel": educational_levels,
+        "image": [representative_url, center_image_url, map_image_url],
+        "educationalLevel": content_levels,
     }
 
     service = {
@@ -3081,7 +3112,11 @@ def build_graph(
             "@type": "EducationalAudience",
             "educationalRole": "student",
             "audienceType": (
-                " · ".join(educational_levels) + f" {CATEGORY} 학습 대상"
+                f"{fixed_grade} {fixed_subject} 학습 대상"
+                if fixed_grade_supported
+                else f"{fixed_grade} {fixed_subject} 수업 가능 여부 상담 확인"
+                if fixed_subject and fixed_grade
+                else " · ".join(educational_levels) + f" {CATEGORY} 학습 대상"
                 if educational_levels
                 else f"{CATEGORY} 수업 가능 학년 상담 대상"
             ),
@@ -3230,9 +3265,9 @@ def build_graph(
             {
                 "@type": "ImageObject",
                 "@id": image_id,
-                "url": center_image_url,
-                "contentUrl": center_image_url,
-                "caption": f"{title} {SITE_NAME} 본문 학습 안내",
+                "url": representative_url,
+                "contentUrl": representative_url,
+                "caption": f"{title} {SITE_NAME} 대표 이미지",
             },
             breadcrumb,
             article,
@@ -3251,6 +3286,23 @@ def paragraph_html(value: str) -> str:
 
 
 def grade_cards(row: dict[str, str]) -> str:
+    profile = category_profile()
+    fixed_subject = compact_text(profile.get("fixed_subject"))
+    fixed_grade = compact_text(profile.get("fixed_grade"))
+    if fixed_subject and fixed_grade:
+        source_grades = grades_for(row).get(fixed_subject, [])
+        supported = fixed_grade in source_grades
+        value = (
+            f"확인된 센터 정보상 {fixed_grade} 수업 가능 학년에 포함됩니다."
+            if supported
+            else f"확인된 센터 정보만으로는 {fixed_grade} 가능 여부가 확인되지 않아 상담이 필요합니다."
+        )
+        return (
+            '<article class="subject-info-card">'
+            f"<span>{esc(fixed_subject)}</span>"
+            f"<h3>{esc(fixed_grade + ' ' + fixed_subject)} 수업 가능 여부</h3>"
+            f"<p>{esc(value)}</p></article>"
+        )
     cards = []
     for subject, grades in grades_for(row).items():
         value = " · ".join(grades) if grades else "상담 시 가능 학년 확인"
@@ -3359,6 +3411,18 @@ def render_detail(
     opening_hours = compact_text(row.get("_운영 시간")) or "12시-24시"
     location_guide = compact_text(row.get("위치안내"))
     profile = category_profile()
+    fixed_subject = compact_text(profile.get("fixed_subject"))
+    fixed_grade = compact_text(profile.get("fixed_grade"))
+    indexable = not (
+        fixed_subject
+        and fixed_grade
+        and fixed_grade not in grades_for(row).get(fixed_subject, [])
+    )
+    prepare_copy = (
+        prepare_source_copy
+        if profile.get("preserve_source_copy")
+        else prepare_detail_copy
+    )
     (
         prepared_sections,
         intro,
@@ -3366,7 +3430,7 @@ def render_detail(
         faqs,
         review_note,
         review_items,
-    ) = prepare_detail_copy(sections, row)
+    ) = prepare_copy(sections, row)
     meta = prepared_sections["메타설명"]
     if len(manuscript_sections) != 6:
         raise ValueError(f"{title}: expected 6 H2 sections")
@@ -3422,6 +3486,7 @@ def render_detail(
         canonical,
         asset_absolute(representative),
         graph,
+        indexable=indexable,
     )
     representative_rel = "../../../" + representative
     center_rel = "../../../" + center_image
@@ -3511,18 +3576,6 @@ def render_detail(
       </div>
     </section>
 
-    <section class="local-media-section subject-media-section">
-      <img src="{esc(representative_rel)}" alt="{esc(title + ' ' + SITE_NAME + ' 대표')}" style="display:none;">
-      <figure class="local-media-card">
-        <img src="{esc(center_rel)}" width="918" height="16116" decoding="async" alt="{esc(title + ' 본문 ' + SITE_NAME)}">
-      </figure>
-      <figure class="local-map-card">
-        <img src="{esc(map_rel)}" loading="lazy" decoding="async" alt="{esc(title + ' 지도 ' + SITE_NAME)}">
-        <figcaption>{esc(str(profile["map_caption"]).format(region=region, district=district, local=local))}</figcaption>
-        {route_html}
-      </figure>
-    </section>
-
     <section class="section" id="center-information">
       <div class="section-panel center-facts-panel">
         <div class="section-title">
@@ -3559,6 +3612,18 @@ def render_detail(
           {prose}
         </article>
       </div>
+    </section>
+
+    <section class="local-media-section subject-media-section">
+      <img src="{esc(representative_rel)}" alt="{esc(title + ' ' + SITE_NAME + ' 대표')}" style="display:none;">
+      <figure class="local-media-card">
+        <img src="{esc(center_rel)}" width="918" height="16116" loading="lazy" fetchpriority="low" decoding="async" alt="{esc(title + ' 본문 ' + SITE_NAME)}">
+      </figure>
+      <figure class="local-map-card">
+        <img src="{esc(map_rel)}" loading="lazy" decoding="async" alt="{esc(title + ' 지도 ' + SITE_NAME)}">
+        <figcaption>{esc(str(profile["map_caption"]).format(region=region, district=district, local=local))}</figcaption>
+        {route_html}
+      </figure>
     </section>
 
     <section class="section" id="faq">

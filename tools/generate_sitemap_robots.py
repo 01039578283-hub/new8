@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from datetime import date
 from pathlib import Path
+import re
 from urllib.parse import quote
 from xml.sax.saxutils import escape
 
@@ -55,6 +56,12 @@ def main() -> None:
     urls: list[tuple[str, str]] = []
     for f in index_files:
         if ".git" in f.parts or ".vercel" in f.parts or "node_modules" in f.parts:
+            continue
+        source = f.read_text(encoding="utf-8")
+        robots_match = re.search(
+            r'<meta\s+name="robots"\s+content="([^"]+)"', source, re.I
+        )
+        if robots_match and "noindex" in robots_match.group(1).lower():
             continue
         rel_dir = f.parent.relative_to(SITE).as_posix()
         raw_path = "/" if rel_dir == "." else f"/{rel_dir}/"
