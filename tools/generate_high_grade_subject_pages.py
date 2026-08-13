@@ -31,6 +31,7 @@ class CategoryConfig:
     transition: str
     parent_title: str
     parent_copy: str
+    school_level: str
 
 
 CONFIGS = (
@@ -52,6 +53,7 @@ CONFIGS = (
         transition="중학교식 풀이에서 고교 내신형 설명으로 넘어가는 시기",
         parent_title="고1 수학의 개념 연결과 내신 준비",
         parent_copy="최근 시험지와 풀이 설명을 바탕으로 개념·조건 해석·오답 재풀이 순서를 정리했습니다.",
+        school_level="고등",
     ),
     CategoryConfig(
         category="고1영어학원",
@@ -71,6 +73,7 @@ CONFIGS = (
         transition="중학교 영어에서 고교 내신형 독해와 서술형으로 넘어가는 시기",
         parent_title="고1 영어의 문장 구조와 내신 준비",
         parent_copy="어휘·문법·독해를 따로 진단하고 학교 본문과 서술형 준비 순서로 연결했습니다.",
+        school_level="고등",
     ),
     CategoryConfig(
         category="고2수학학원",
@@ -90,6 +93,7 @@ CONFIGS = (
         transition="학교별 진도가 빨라지고 이전 단원의 빈틈이 함께 드러나는 시기",
         parent_title="고2 수학의 누적 개념과 시험 준비",
         parent_copy="현재 단원과 이전 단원의 빈틈을 나누고 풀이 기록을 다음 시험 계획으로 연결했습니다.",
+        school_level="고등",
     ),
     CategoryConfig(
         category="고2영어학원",
@@ -109,6 +113,127 @@ CONFIGS = (
         transition="내신 지문과 독해 난도가 높아지고 누적 어휘의 차이가 커지는 시기",
         parent_title="고2 영어의 독해 근거와 내신 준비",
         parent_copy="학교 본문·어휘·문장 구조·서술형 기록을 나누어 다음 시험의 보완 순서를 정리했습니다.",
+        school_level="고등",
+    ),
+    CategoryConfig(
+        category="중1수학학원",
+        grade="중1",
+        subject="수학",
+        source_name="중1 수학학원 원고.xlsx",
+        card_label="중1 · 수학 내신 · 중등 전환",
+        card_description="전국 371개 지역별 중1 수학 진단·내신 학습 안내",
+        detail_eyebrow="GRADE 7 MATH LOCAL GUIDE",
+        category_eyebrow="GRADE 7 MATH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 중1수학학원 선택 기준을 정리했습니다. "
+            "초등 수학에서 중등 수학으로 넘어갈 때 필요한 개념어, 문자와 식, "
+            "학교 시험과 오답 재학습 기준을 지역별로 확인할 수 있습니다."
+        ),
+        aside_title="문제 수보다 초등 과정의 빈틈과 중1 개념어를 연결하는 힘을 먼저 봅니다.",
+        transition="초등식 계산에서 중학교 개념과 풀이 설명으로 넘어가는 시기",
+        parent_title="중1 수학의 개념 전환과 첫 내신 준비",
+        parent_copy="초등 과정의 빈틈과 중1 개념어·문자식·풀이 기록을 연결해 첫 시험 준비 순서를 정리했습니다.",
+        school_level="중등",
+    ),
+    CategoryConfig(
+        category="중1영어학원",
+        grade="중1",
+        subject="영어",
+        source_name="중1 영어학원 원고.xlsx",
+        card_label="중1 · 영어 내신 · 문장 전환",
+        card_description="전국 371개 지역별 중1 영어 진단·내신 학습 안내",
+        detail_eyebrow="GRADE 7 ENGLISH LOCAL GUIDE",
+        category_eyebrow="GRADE 7 ENGLISH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 중1영어학원 선택 기준을 정리했습니다. "
+            "초등 영어에서 중학교 어휘·문법·본문 학습으로 넘어갈 때 필요한 진단과 "
+            "학교 내신·서술형 준비 기준을 확인할 수 있습니다."
+        ),
+        aside_title="단어 암기량보다 중학교 문장의 구조와 답의 근거를 설명하는지 먼저 봅니다.",
+        transition="초등 영어에서 중학교 어휘·문법·본문 평가로 넘어가는 시기",
+        parent_title="중1 영어의 문장 구조와 첫 내신 준비",
+        parent_copy="어휘·문법·교과서 본문을 따로 진단하고 중학교 첫 시험과 서술형 준비로 연결했습니다.",
+        school_level="중등",
+    ),
+    CategoryConfig(
+        category="중2수학학원",
+        grade="중2",
+        subject="수학",
+        source_name="중2 수학학원 원고.xlsx",
+        card_label="중2 · 수학 내신 · 누적 개념",
+        card_description="전국 371개 지역별 중2 수학 진단·내신 학습 안내",
+        detail_eyebrow="GRADE 8 MATH LOCAL GUIDE",
+        category_eyebrow="GRADE 8 MATH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 중2수학학원 선택 기준을 정리했습니다. "
+            "중1 과정의 누적 빈틈과 중2 개념, 조건 해석, 풀이 과정, 시험 뒤 "
+            "오답 재확인 기준을 최근 자료에 맞춰 살펴볼 수 있습니다."
+        ),
+        aside_title="현재 단원과 중1 과정에서 남은 빈틈을 구분해 중2 수학의 우선순위를 정합니다.",
+        transition="문자식·함수·도형의 연결이 늘고 누적 개념의 차이가 드러나는 시기",
+        parent_title="중2 수학의 누적 개념과 내신 준비",
+        parent_copy="현재 단원과 이전 과정의 빈틈을 나누고 풀이 기록을 다음 시험 계획으로 연결했습니다.",
+        school_level="중등",
+    ),
+    CategoryConfig(
+        category="중2영어학원",
+        grade="중2",
+        subject="영어",
+        source_name="중2 영어학원 원고.xlsx",
+        card_label="중2 · 영어 내신 · 독해 근거",
+        card_description="전국 371개 지역별 중2 영어 진단·내신 학습 안내",
+        detail_eyebrow="GRADE 8 ENGLISH LOCAL GUIDE",
+        category_eyebrow="GRADE 8 ENGLISH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 중2영어학원 선택 기준을 정리했습니다. "
+            "누적 어휘와 문장 구조, 교과서 본문, 독해 근거와 서술형 교정을 "
+            "학교 시험 자료와 연결해 확인할 수 있습니다."
+        ),
+        aside_title="점수보다 어휘·문장 구조·본문 근거 중 어디에서 막혔는지 먼저 나눕니다.",
+        transition="본문과 문법의 난도가 높아지고 서술형 설명의 차이가 커지는 시기",
+        parent_title="중2 영어의 독해 근거와 내신 준비",
+        parent_copy="어휘·문장 구조·학교 본문·서술형 기록을 나누어 다음 시험의 보완 순서를 정리했습니다.",
+        school_level="중등",
+    ),
+    CategoryConfig(
+        category="중3수학학원",
+        grade="중3",
+        subject="수학",
+        source_name="중3 수학학원 원고.xlsx",
+        card_label="중3 · 수학 내신 · 고교 준비",
+        card_description="전국 371개 지역별 중3 수학 진단·내신 학습 안내",
+        detail_eyebrow="GRADE 9 MATH LOCAL GUIDE",
+        category_eyebrow="GRADE 9 MATH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 중3수학학원 선택 기준을 정리했습니다. "
+            "중학교 마지막 내신과 누적 개념, 고교 수학 전환에 필요한 조건 해석, "
+            "풀이 설명과 오답 재학습 기준을 확인할 수 있습니다."
+        ),
+        aside_title="중3 현재 단원과 고교 수학으로 이어질 누적 개념을 구분해 우선순위를 정합니다.",
+        transition="중학교 내신을 마무리하며 고교 수학의 개념 언어를 준비하는 시기",
+        parent_title="중3 수학의 내신 마무리와 고교 준비",
+        parent_copy="중학교 누적 빈틈과 현재 단원을 나누고 풀이 설명을 고교 전환 준비로 연결했습니다.",
+        school_level="중등",
+    ),
+    CategoryConfig(
+        category="중3영어학원",
+        grade="중3",
+        subject="영어",
+        source_name="중3 영어학원 원고.xlsx",
+        card_label="중3 · 영어 내신 · 고교 전환",
+        card_description="전국 371개 지역별 중3 영어 진단·내신 학습 안내",
+        detail_eyebrow="GRADE 9 ENGLISH LOCAL GUIDE",
+        category_eyebrow="GRADE 9 ENGLISH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 중3영어학원 선택 기준을 정리했습니다. "
+            "중학교 내신을 마무리하면서 누적 어휘, 문장 구조, 독해 근거, 서술형 "
+            "기록을 고교 영어 준비와 연결해 확인할 수 있습니다."
+        ),
+        aside_title="중학교 점수보다 고교 지문으로 이어질 어휘·구조·근거의 빈틈을 먼저 봅니다.",
+        transition="중학교 내신을 마무리하며 고교 독해와 서술형을 준비하는 시기",
+        parent_title="중3 영어의 내신 마무리와 고교 전환",
+        parent_copy="어휘·문장 구조·독해 근거·서술형 기록을 나누어 고교 영어의 시작 순서를 정리했습니다.",
+        school_level="중등",
     ),
 )
 
@@ -252,6 +377,54 @@ STAGE_NOTES = {
         "서술형과 변형 문장은 외운 문구만으로 대응하기 어려워 문장 구조를 바꾸어 쓰는 연습이 필요합니다.",
         "다음 시험 계획에는 새 지문 학습과 이전 오답 재확인의 시간을 각각 배치해야 합니다.",
     ),
+    "중1수학학원": (
+        "중1 수학에서는 계산 결과뿐 아니라 문자와 식이 뜻하는 관계를 설명하는 습관이 중요합니다.",
+        "초등 과정의 계산이 익숙해도 중학교 개념어와 기호를 정확히 읽는 단계부터 확인해야 합니다.",
+        "첫 중학교 시험은 단원별 대표 문항을 스스로 설명하고 제한 시간 안에 다시 푸는지 살펴보는 기준이 됩니다.",
+        "학교 수업과 수행평가의 요구가 다를 수 있어 실제 교과서와 범위표를 본 뒤 연습 순서를 정해야 합니다.",
+        "문제 수를 늘리기보다 개념 설명, 식 세우기, 계산 검토의 순서를 일정하게 만드는 편이 안전합니다.",
+        "중1 과정은 다음 학년의 문자식·함수·도형 학습으로 이어지므로 오답의 원인과 재풀이 날짜를 남겨야 합니다.",
+    ),
+    "중1영어학원": (
+        "중1 영어에서는 단어 뜻 암기와 문장 안에서 역할을 찾는 능력을 따로 확인해야 합니다.",
+        "초등 영어의 짧은 표현에 익숙했다면 주어·동사와 수식 관계를 표시하는 연습이 필요합니다.",
+        "중학교 첫 본문 평가는 암기한 문장을 바꾸어 물을 수 있어 구조와 어휘의 쓰임까지 설명해야 합니다.",
+        "교과서·학교 프린트·수행평가의 비중을 확인한 뒤 자료별 복습 주기를 나누어야 합니다.",
+        "서술형 준비에서는 외운 표현보다 질문에 맞는 단어와 문장 구조를 고르는 과정이 중요합니다.",
+        "중1 어휘는 단어 시험에서 끝내지 않고 본문에서 다시 만난 날짜와 문맥을 함께 누적해야 합니다.",
+    ),
+    "중2수학학원": (
+        "중2 수학에서는 현재 단원의 어려움과 중1 과정에서 남은 빈틈을 구분해야 계획이 흔들리지 않습니다.",
+        "학교별 단원 순서가 다를 수 있으므로 학년명보다 실제 교재 목차와 최근 진도를 먼저 확인해야 합니다.",
+        "문자식·함수·도형이 연결되는 문항은 공식을 더 외우기보다 어느 조건에서 쓰는지 설명해야 합니다.",
+        "중2 내신은 풀이 단계가 길어지므로 풀지 못한 문제와 계산 때문에 틀린 문제를 따로 기록해야 합니다.",
+        "다음 시험까지 남은 기간에는 현재 단원 복습과 누적 빈틈 보완의 비율을 주마다 조정해야 합니다.",
+        "진도를 따라가는 것과 혼자 다시 푸는 것은 다르므로 재풀이 결과를 다음 학습량의 기준으로 삼아야 합니다.",
+    ),
+    "중2영어학원": (
+        "중2 영어에서는 문장이 길어져 어휘·구조·본문 근거 중 막힌 단계를 분리해야 합니다.",
+        "학교별 본문과 프린트가 다를 수 있으므로 학년명보다 실제 범위표와 최근 시험지를 먼저 확인해야 합니다.",
+        "누적 어휘는 뜻을 아는 수준과 문맥에서 정확한 의미를 고르는 수준을 나누어 기록해야 합니다.",
+        "중2 내신 독해는 정답 선택보다 근거 문장을 찾아 오답 선택지와 비교하는 과정이 중요합니다.",
+        "서술형과 변형 문장은 외운 문구만으로 대응하기 어려워 문장 구조를 바꾸어 쓰는 연습이 필요합니다.",
+        "다음 시험 계획에는 새 본문 학습과 이전 오답 재확인의 시간을 각각 배치해야 합니다.",
+    ),
+    "중3수학학원": (
+        "중3 수학에서는 현재 내신 단원과 고교 과정으로 이어질 누적 개념을 함께 확인해야 합니다.",
+        "학교 시험을 마무리하는 일정과 고교 수학을 준비하는 일정을 분리해 과도한 선행을 피해야 합니다.",
+        "복합 문항은 공식을 외우는 데서 멈추지 않고 조건을 식과 도형으로 바꾸는 이유를 설명해야 합니다.",
+        "중3 내신은 시간 배분과 서술형 풀이를 함께 요구하므로 건너뛴 문제와 설명이 끊긴 단계를 기록해야 합니다.",
+        "고교 전환 전에는 새 단원을 많이 보는 것보다 중학교 핵심 개념을 혼자 다시 설명하는 범위를 넓혀야 합니다.",
+        "시험 뒤 오답은 중학교 내신 보완과 고교 준비 항목으로 나누어 다음 학습 계획에 반영해야 합니다.",
+    ),
+    "중3영어학원": (
+        "중3 영어에서는 중학교 본문 학습과 고교 지문을 읽을 기초 어휘·구조를 함께 확인해야 합니다.",
+        "학교 시험 일정과 고교 영어 준비를 분리해 현재 내신 자료의 복습을 놓치지 않아야 합니다.",
+        "누적 어휘는 뜻을 외운 개수보다 긴 문장 안에서 알맞은 의미를 고르는지를 기준으로 확인해야 합니다.",
+        "중3 내신 독해는 근거 문장을 찾고 오답 선택지의 차이를 설명하는 과정까지 남겨야 합니다.",
+        "고교 전환 전에는 문장 뼈대와 수식 관계를 표시하고 서술형 문장을 직접 고치는 연습이 필요합니다.",
+        "다음 계획에는 중학교 오답 재확인과 고교 독해 준비 시간을 각각 배치해 우선순위를 분명히 해야 합니다.",
+    ),
 }
 
 
@@ -365,6 +538,16 @@ def with_direction(value: str) -> str:
 def category_profiles() -> dict[str, dict[str, object]]:
     profiles: dict[str, dict[str, object]] = {}
     for config in CONFIGS:
+        school_name = "중학교" if config.school_level == "중등" else "고등학교"
+        nationwide_links = (
+            (
+                ("고등수학학원", "수학 학습관리"),
+                ("고등영어학원", "영어 학습관리"),
+                ("고등영수학원", "영어·수학 학습관리"),
+            )
+            if config.school_level == "고등"
+            else ()
+        )
         profiles[config.category] = {
             "card_label": config.card_label,
             "card_description": config.card_description,
@@ -384,7 +567,7 @@ def category_profiles() -> dict[str, dict[str, object]]:
                 "위치와 평일 등원 동선을 함께 확인해 주세요."
             ),
             "related_description": (
-                "같은 동네의 학원 유형과 고등 과목 안내, 같은 시군구와 광역권의 "
+                f"같은 동네의 학원 유형과 {school_name} 과목 안내, 같은 시군구와 광역권의 "
                 f"{config.category} 페이지를 함께 정리했습니다."
             ),
             "topic_names": (
@@ -398,12 +581,13 @@ def category_profiles() -> dict[str, dict[str, object]]:
             "parent_aside_copy": config.parent_copy,
             "llms_description": (
                 "371개 동네별 원고 신호, 센터 주소, 해당 과목 가능 학년, "
-                "고등학교 참고, 교습비와 지도 정보를 포함합니다."
+                f"{school_name} 참고, 교습비와 지도 정보를 포함합니다."
             ),
             "faq_count": 5,
             "fixed_subject": config.subject,
             "fixed_grade": config.grade,
             "preserve_source_copy": True,
+            "nationwide_links": nationwide_links,
         }
     return profiles
 
@@ -417,6 +601,7 @@ def load_sources(config: CategoryConfig) -> list[str]:
     values = [
         str(row[0].value or "").strip()
         for row in worksheet.iter_rows(min_col=1, max_col=1)
+        if str(row[0].value or "").strip()
     ]
     if len(values) != 371:
         raise ValueError(f"{path.name}: expected 371 rows, found {len(values)}")
@@ -472,13 +657,14 @@ def make_sections(
     primary, secondary, tertiary = ranked_signals(raw, config, key)[:3]
     grade_map = shared.grades_for(row)
     supported = config.grade in grade_map.get(config.subject, [])
-    high_schools = shared.schools_for(row).get("고등", [])
-    school_text = "·".join(high_schools[:3])
+    school_name = "중학교" if config.school_level == "중등" else "고등학교"
+    target_schools = shared.schools_for(row).get(config.school_level, [])
+    school_text = "·".join(target_schools[:3])
     school_basis = (
-        f"확인된 고등학교 참고 범위는 {school_text}입니다. 학교명만으로 범위를 "
+        f"확인된 {school_name} 참고 범위는 {school_text}입니다. 학교명만으로 범위를 "
         "단정하지 말고 실제 교과서·프린트·시험 범위표를 상담에서 다시 대조해야 합니다."
         if school_text
-        else "확인된 고등학교 정보가 비어 있으므로 학교명을 추정하지 않습니다. "
+        else f"확인된 {school_name} 정보가 비어 있으므로 학교명을 추정하지 않습니다. "
         "자녀 학교의 최근 교과서·프린트·시험 범위표를 준비해 상담 범위를 확인해야 합니다."
     )
     availability = (
@@ -681,10 +867,11 @@ def make_sections(
 def update_llms(config: CategoryConfig) -> None:
     path = shared.SITE / "llms.txt"
     source = path.read_text(encoding="utf-8")
+    school_name = "중학교" if config.school_level == "중등" else "고등학교"
     lines = (
         f"- {config.category} 지역 목록: {shared.absolute_url(shared.PARENT, config.category)}",
         f"- {config.category} 지역 페이지는 371개 동네별 원고 신호, 센터 주소, "
-        f"{config.grade} {config.subject} 가능 여부, 고등학교 참고, 교습비와 지도 정보를 포함합니다.",
+        f"{config.grade} {config.subject} 가능 여부, {school_name} 참고, 교습비와 지도 정보를 포함합니다.",
     )
     additions = [line for line in lines if line not in source]
     if additions:

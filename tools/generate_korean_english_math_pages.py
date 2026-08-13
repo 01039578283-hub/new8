@@ -3451,22 +3451,27 @@ def render_detail(
     canonical = absolute_url(PARENT, CATEGORY, slug)
     related_local = related_for(row, rows)
     sibling_links = sibling_category_links(local)
+    default_nationwide_links = (
+        ("고등수학학원", "수학 학습관리"),
+        ("고등영어학원", "영어 학습관리"),
+        ("고등영수학원", "영어·수학 학습관리"),
+    )
+    nationwide_links = [
+        (
+            f"{local} {name}",
+            absolute_url("전국학원", name, slug),
+            label,
+        )
+        for name, label in profile.get(
+            "nationwide_links", default_nationwide_links
+        )
+        if (SITE / "전국학원" / name / slug / "index.html").exists()
+    ]
     related = [
         (f"{CATEGORY} 전체 지역", absolute_url(PARENT, CATEGORY)),
         (PARENT, absolute_url(PARENT)),
         *[(name, url) for name, url, _ in sibling_links],
-        (
-            f"{local} 고등수학학원",
-            absolute_url("전국학원", "고등수학학원", slug),
-        ),
-        (
-            f"{local} 고등영어학원",
-            absolute_url("전국학원", "고등영어학원", slug),
-        ),
-        (
-            f"{local} 고등영수학원",
-            absolute_url("전국학원", "고등영수학원", slug),
-        ),
+        *[(name, url) for name, url, _ in nationwide_links],
         *[(name, url) for name, url, _ in related_local],
     ]
     graph = build_graph(
@@ -3517,6 +3522,11 @@ def render_detail(
         f'<a href="{esc(url)}"><strong>{esc(name)}</strong>'
         f"<small>{esc(label)}</small></a>"
         for name, url, label in sibling_links
+    )
+    nationwide_html = "".join(
+        f'<a href="{esc(url)}"><strong>{esc(name)}</strong>'
+        f"<small>{esc(label)}</small></a>"
+        for name, url, label in nationwide_links
     )
     grade_html = grade_cards(row)
     school_html = school_cards(row)
@@ -3658,9 +3668,7 @@ def render_detail(
             <a href="../index.html"><strong>{CATEGORY} 전체</strong><small>371개 지역 허브</small></a>
             <a href="../../index.html"><strong>{PARENT}</strong><small>과목별 전체 허브</small></a>
             {sibling_html}
-            <a href="/전국학원/고등수학학원/{esc(slug)}/"><strong>{esc(local)} 고등수학학원</strong><small>수학 학습관리</small></a>
-            <a href="/전국학원/고등영어학원/{esc(slug)}/"><strong>{esc(local)} 고등영어학원</strong><small>영어 학습관리</small></a>
-            <a href="/전국학원/고등영수학원/{esc(slug)}/"><strong>{esc(local)} 고등영수학원</strong><small>영어·수학 학습관리</small></a>
+            {nationwide_html}
           </div>
           <div class="related-grid subject-nearby-grid">{nearby_links}</div>
         </div>

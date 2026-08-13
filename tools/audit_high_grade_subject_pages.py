@@ -40,12 +40,15 @@ FORBIDDEN_PUBLIC_COPY = (
     "공통 센터 자료",
     "고1은",
     "고2은",
+    "중1은",
+    "중2은",
+    "중3은",
     "지역내 모든 고등학교 가능",
     "지역내 모든 고등학교 가능 등이 있습니다",
 )
 MALFORMED_PUBLIC_PATTERNS = (
     re.compile(r"확인하고[^.!?]{0,40}확인하고"),
-    re.compile(r"확인된 고등학교 (?:정보|참고 범위)[^.!?]* 등이 있습니다"),
+    re.compile(r"확인된 (?:중학교|고등학교) (?:정보|참고 범위)[^.!?]* 등이 있습니다"),
 )
 
 
@@ -330,7 +333,9 @@ def main() -> None:
             ):
                 if fact and fact not in public:
                     errors.append(f"{config.category}/{slug}: missing fact {fact}")
-            for school in build.shared.schools_for(row).get("고등", []):
+            for school in build.shared.schools_for(row).get(
+                config.school_level, []
+            ):
                 if school not in public:
                     errors.append(f"{config.category}/{slug}: school {school}")
 
@@ -539,14 +544,15 @@ def main() -> None:
                 errors.append(f"cross similarity {label}={maximum:.4f}")
 
     parent_source = (SITE / PARENT / "index.html").read_text(encoding="utf-8")
+    expected_parent_items = len(build.shared.available_categories())
     try:
         parent_graph = graph_from(parent_source)
         parent_list = graph_node(parent_graph, "ItemList")
-        if parent_list.get("numberOfItems") != 7:
+        if parent_list.get("numberOfItems") != expected_parent_items:
             errors.append("parent ItemList count")
     except (ValueError, json.JSONDecodeError, KeyError) as exc:
         errors.append(f"parent schema {exc}")
-    if len(re.findall(r'class="category-card subject-category-card"', parent_source)) != 7:
+    if len(re.findall(r'class="category-card subject-category-card"', parent_source)) != expected_parent_items:
         errors.append("parent card count")
 
     all_pages = sorted(
@@ -596,7 +602,7 @@ def main() -> None:
         unquote(value) for value in re.findall(r"<loc>(.*?)</loc>", sitemap_source)
     ]
     if (
-        len(all_pages) != 3725
+        len(all_pages) != 2237 + len(build.CONFIGS) * 372
         or len(sitemap_urls) != len(indexable_canonicals)
         or len(set(sitemap_urls)) != len(indexable_canonicals)
         or set(sitemap_urls) != set(indexable_canonicals)
