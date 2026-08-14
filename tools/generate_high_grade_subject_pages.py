@@ -36,6 +36,7 @@ class CategoryConfig:
     parent_title: str
     parent_copy: str
     school_level: str
+    all_locations_supported: bool = False
 
 
 CONFIGS = (
@@ -338,6 +339,7 @@ CONFIGS = (
         parent_title="초5 수학의 개념 연결과 여러 단계 풀이",
         parent_copy="분수·소수·도형과 문장제 기록을 나누어 개념 적용과 재풀이 순서를 정리했습니다.",
         school_level="초등",
+        all_locations_supported=True,
     ),
     CategoryConfig(
         category="초5영어학원",
@@ -358,6 +360,7 @@ CONFIGS = (
         parent_title="초5 영어의 읽기 이해와 문장 확장",
         parent_copy="어휘·문장 구조·읽기 근거와 쓰기 기록을 나누어 다음 복습 순서를 정리했습니다.",
         school_level="초등",
+        all_locations_supported=True,
     ),
     CategoryConfig(
         category="초6수학학원",
@@ -378,6 +381,7 @@ CONFIGS = (
         parent_title="초6 수학의 누적 개념과 중등 전환",
         parent_copy="계산·비율·도형·문장제의 빈틈을 나누어 초등 마무리와 중등 준비 순서를 정리했습니다.",
         school_level="초등",
+        all_locations_supported=True,
     ),
     CategoryConfig(
         category="초6영어학원",
@@ -398,6 +402,7 @@ CONFIGS = (
         parent_title="초6 영어의 누적 복습과 중등 전환",
         parent_copy="어휘·문장 구조·독해 근거·쓰기 기록을 나누어 초등 마무리와 중등 준비 순서를 정리했습니다.",
         school_level="초등",
+        all_locations_supported=True,
     ),
 )
 
@@ -941,6 +946,13 @@ def with_direction(value: str) -> str:
     return value + ("로" if jongseong in {0, 8} else "으로")
 
 
+def is_supported(config: CategoryConfig, row: dict[str, str]) -> bool:
+    """Return the confirmed service status for a grade/subject directory."""
+    return config.all_locations_supported or config.grade in shared.grades_for(
+        row
+    ).get(config.subject, [])
+
+
 def category_profiles() -> dict[str, dict[str, object]]:
     profiles: dict[str, dict[str, object]] = {}
     for config in CONFIGS:
@@ -1009,6 +1021,7 @@ def category_profiles() -> dict[str, dict[str, object]]:
             "faq_count": 5,
             "fixed_subject": config.subject,
             "fixed_grade": config.grade,
+            "all_locations_supported": config.all_locations_supported,
             "preserve_source_copy": True,
             "nationwide_links": nationwide_links,
         }
@@ -1093,8 +1106,7 @@ def make_sections(
         local=local,
         category=config.category,
     )
-    grade_map = shared.grades_for(row)
-    supported = config.grade in grade_map.get(config.subject, [])
+    supported = is_supported(config, row)
     school_name = {
         "초등": "초등학교",
         "중등": "중학교",

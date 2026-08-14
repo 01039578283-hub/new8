@@ -2698,6 +2698,24 @@ def grades_for(row: dict[str, str]) -> dict[str, list[str]]:
     }
 
 
+def fixed_grade_is_supported(
+    row: dict[str, str],
+    profile: dict[str, object] | None = None,
+) -> bool:
+    """Resolve fixed-category support, including explicit site-owner confirmation."""
+    active_profile = category_profile() if profile is None else profile
+    fixed_subject = compact_text(active_profile.get("fixed_subject"))
+    fixed_grade = compact_text(active_profile.get("fixed_grade"))
+    return bool(
+        fixed_subject
+        and fixed_grade
+        and (
+            active_profile.get("all_locations_supported")
+            or fixed_grade in grades_for(row).get(fixed_subject, [])
+        )
+    )
+
+
 def nav_html(depth: int, active: str) -> str:
     prefix = rel_prefix(depth)
     links = [
@@ -2797,6 +2815,7 @@ def offers_for(
     profile = category_profile()
     fixed_subject = compact_text(profile.get("fixed_subject"))
     fixed_grade = compact_text(profile.get("fixed_grade"))
+    confirmed_fixed_grade = fixed_grade_is_supported(row, profile)
     offers: list[dict] = []
     subjects = (
         (fixed_subject,)
@@ -2807,7 +2826,7 @@ def offers_for(
         source_grades = grade_map.get(subject, [])
         subject_grades = (
             [fixed_grade]
-            if fixed_grade and fixed_grade in source_grades
+            if fixed_grade and confirmed_fixed_grade
             else ([] if fixed_grade else source_grades)
         )
         if not subject_grades:
@@ -2910,11 +2929,17 @@ def build_graph(
     schools = schools_for(row)
     school_names = unique([school for items in schools.values() for school in items])
     grades = grades_for(row)
-    available_subjects = [
-        subject for subject, levels in grades.items() if levels
-    ]
+    profile = category_profile()
+    fixed_subject = compact_text(profile.get("fixed_subject"))
+    fixed_grade = compact_text(profile.get("fixed_grade"))
+    confirmed_fixed_grade = fixed_grade_is_supported(row, profile)
+    available_subjects = unique(
+        [subject for subject, levels in grades.items() if levels]
+        + ([fixed_subject] if confirmed_fixed_grade else [])
+    )
     educational_levels = unique(
         [grade for items in grades.values() for grade in items]
+        + ([fixed_grade] if confirmed_fixed_grade else [])
     )
     json_summary = re.sub(r"\s+", " ", sections["JSON-LD 요약"]).strip()
     description = re.sub(r"\s+", " ", sections["메타설명"]).strip()
@@ -2924,14 +2949,6 @@ def build_graph(
     offers = offers_for(row, local, canonical, org_id, place_id)
     offer_refs = [{"@id": offer["@id"]} for offer in offers]
 
-    profile = category_profile()
-    fixed_subject = compact_text(profile.get("fixed_subject"))
-    fixed_grade = compact_text(profile.get("fixed_grade"))
-    fixed_grade_supported = bool(
-        fixed_subject
-        and fixed_grade
-        and fixed_grade in grades.get(fixed_subject, [])
-    )
     content_levels = [fixed_grade] if fixed_grade else educational_levels
     topic_about = [
         {"@type": "Thing", "name": title},
@@ -3113,7 +3130,7 @@ def build_graph(
             "educationalRole": "student",
             "audienceType": (
                 f"{fixed_grade} {fixed_subject} 학습 대상"
-                if fixed_grade_supported
+                if confirmed_fixed_grade
                 else f"{fixed_grade} {fixed_subject} 수업 가능 여부 상담 확인"
                 if fixed_subject and fixed_grade
                 else " · ".join(educational_levels) + f" {CATEGORY} 학습 대상"
@@ -3290,8 +3307,7 @@ def grade_cards(row: dict[str, str]) -> str:
     fixed_subject = compact_text(profile.get("fixed_subject"))
     fixed_grade = compact_text(profile.get("fixed_grade"))
     if fixed_subject and fixed_grade:
-        source_grades = grades_for(row).get(fixed_subject, [])
-        supported = fixed_grade in source_grades
+        supported = fixed_grade_is_supported(row, profile)
         value = (
             f"확인된 센터 정보상 {fixed_grade} 수업 가능 학년에 포함됩니다."
             if supported
@@ -3413,10 +3429,8 @@ def render_detail(
     profile = category_profile()
     fixed_subject = compact_text(profile.get("fixed_subject"))
     fixed_grade = compact_text(profile.get("fixed_grade"))
-    indexable = not (
-        fixed_subject
-        and fixed_grade
-        and fixed_grade not in grades_for(row).get(fixed_subject, [])
+    indexable = not (fixed_subject and fixed_grade) or fixed_grade_is_supported(
+        row, profile
     )
     prepare_copy = (
         prepare_source_copy

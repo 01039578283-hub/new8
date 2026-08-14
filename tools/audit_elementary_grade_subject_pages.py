@@ -392,6 +392,9 @@ def relation_id(value: object) -> str:
 def main() -> None:
     rows = build.shared.read_csv(build.shared.COMMON / "센터정보 정리.csv")
     build.shared.enrich_center_rows(rows)
+    config_by_category = {
+        config.category: config for config in build.CONFIGS
+    }
     row_by_slug = {
         build.shared.slug_ko(row["근처 수업가능 동네"]): row for row in rows
     }
@@ -546,7 +549,9 @@ def main() -> None:
             if relation_id(service.get("provider")) != organization.get("@id"):
                 errors.append(f"{page_label}: Service.provider")
 
-            supported = spec.grade in build.shared.grades_for(row).get(spec.subject, [])
+            supported = build.is_supported(
+                config_by_category[spec.category], row
+            )
             robots = extract(r'<meta name="robots" content="([^"]+)"', source).lower()
             audience = service.get("audience", {}).get("audienceType", "")
             offers = offer_catalog.get("itemListElement", [])

@@ -292,9 +292,7 @@ def main() -> None:
             if not organization.get("makesOffer"):
                 errors.append(f"{config.category}/{slug}: organization.makesOffer")
 
-            supported = config.grade in build.shared.grades_for(row).get(
-                config.subject, []
-            )
+            supported = build.is_supported(config, row)
             robots = extract(r'<meta name="robots" content="([^"]+)"', source)
             audience = service.get("audience", {}).get("audienceType", "")
             offers = offer_catalog.get("itemListElement", [])
