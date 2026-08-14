@@ -12,6 +12,7 @@
 - 고등수학학원 지역 목록: https://xn--zj4b74v1taq8c.com/전국학원/고등수학학원/
 - 고등영어학원 지역 목록: https://xn--zj4b74v1taq8c.com/전국학원/고등영어학원/
 - 사이트맵: https://xn--zj4b74v1taq8c.com/sitemap.xml
+- RSS: https://xn--zj4b74v1taq8c.com/rss.xml
 
 ## 학습가이드에서 다루는 내용
 
