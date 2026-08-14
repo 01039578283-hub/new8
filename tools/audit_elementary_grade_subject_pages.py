@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-"""Strict audit for the four elementary grade/subject directories.
+"""Strict audit for the eight elementary grade/subject directories.
 
 This audit is intentionally independent from the generator's active category
-selection.  It can therefore report missing elementary output before the four
+selection.  It can therefore report missing elementary output before all eight
 categories are added to ``generate_high_grade_subject_pages.py``.  Search-volume
 and competition data are external inputs; the keyword checks below validate
 only the three-tier on-page structure.
@@ -47,6 +47,10 @@ SPECS = (
     ElementarySpec("초3영어학원", "초3", "영어"),
     ElementarySpec("초4수학학원", "초4", "수학"),
     ElementarySpec("초4영어학원", "초4", "영어"),
+    ElementarySpec("초5수학학원", "초5", "수학"),
+    ElementarySpec("초5영어학원", "초5", "영어"),
+    ElementarySpec("초6수학학원", "초6", "수학"),
+    ElementarySpec("초6영어학원", "초6", "영어"),
 )
 
 REQUIRED_TYPES = {
@@ -80,12 +84,14 @@ FORBIDDEN_AUTHORING_COPY = (
     "AI가 작성",
     "초3은",
     "초4은",
+    "초5은",
+    "초6은",
 )
 MALFORMED_PUBLIC_PATTERNS = (
     re.compile(r"\ufffd"),
     re.compile(r"확인하고[^.!?]{0,40}확인하고"),
     re.compile(r"확인된 (?:초등학교|중학교|고등학교) (?:정보|참고 범위)[^.!?]* 등이 있습니다"),
-    re.compile(r"(?:초3|초4) (?:수학|영어)[은는]은"),
+    re.compile(r"(?:초3|초4|초5|초6) (?:수학|영어)[은는]은"),
 )
 LONG_TAIL_INTENTS = (
     "상담",
@@ -245,11 +251,28 @@ def target_for_href(page: Path, href: str) -> Path | None:
     return candidate.resolve()
 
 
+def signals_for_spec(spec: ElementarySpec) -> tuple[dict, ...]:
+    """Return the elementary signal bank used to author this category.
+
+    Specs are independent from ``build.CONFIGS`` so the audit can report a
+    missing category before its generator config is registered.  Prefer the
+    generator's selector when the config exists and otherwise use the same
+    elementary subject bank directly.
+    """
+
+    config = next(
+        (item for item in build.CONFIGS if item.category == spec.category),
+        None,
+    )
+    if config is not None:
+        return tuple(build.signals_for(config))
+    return tuple(build.ELEMENTARY_SIGNALS[spec.subject])
+
+
 def wrong_particle_phrases(spec: ElementarySpec) -> set[str]:
     phrases: set[str] = set()
     values = {spec.subject}
-    config = next(item for item in build.CONFIGS if item.category == spec.category)
-    for signal in build.signals_for(config):
+    for signal in signals_for_spec(spec):
         values.update((signal["label"], signal["evidence"], signal["action"]))
     for value in values:
         has_batchim = bool(build.final_jongseong(value))
@@ -326,8 +349,7 @@ def keyword_tiers(
         )
     )
 
-    config = next(item for item in build.CONFIGS if item.category == spec.category)
-    signal_labels = [item["label"] for item in build.signals_for(config)]
+    signal_labels = [item["label"] for item in signals_for_spec(spec)]
     secondary_zones = {
         "meta": meta,
         "quick": visible_text(str(zones["quick"])),
@@ -374,6 +396,12 @@ def main() -> None:
         build.shared.slug_ko(row["근처 수업가능 동네"]): row for row in rows
     }
     expected_slugs = set(row_by_slug)
+    generated_categories = {
+        spec.category
+        for spec in SPECS
+        if len(list((SITE / PARENT / spec.category).glob("*/index.html")))
+        == EXPECTED_DETAILS
+    }
     errors: list[str] = []
     reports: list[dict[str, object]] = []
     category_shingles: dict[str, dict[str, set[str]]] = {}
@@ -682,7 +710,10 @@ def main() -> None:
                     errors.append(f"{page_label}: image target missing={image_src}")
 
             for sibling in SPECS:
-                if sibling.category == spec.category:
+                if (
+                    sibling.category == spec.category
+                    or sibling.category not in generated_categories
+                ):
                     continue
                 sibling_url = build.shared.absolute_url(PARENT, sibling.category, slug)
                 if sibling_url not in source:
@@ -832,7 +863,7 @@ def main() -> None:
                 errors.append(f"cross similarity {label}={maximum:.4f} slug={maximum_slug}")
 
     report = {
-        "scope": "four elementary grade/subject categories",
+        "scope": "eight elementary grade/subject categories (grades 3-6)",
         "expected_details_per_category": EXPECTED_DETAILS,
         "categories": reports,
         "cross_category_same_local_similarity": cross_similarity,

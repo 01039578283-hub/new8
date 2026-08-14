@@ -319,6 +319,86 @@ CONFIGS = (
         parent_copy="어휘·문장 구조·읽기와 쓰기 기록을 나누어 다음 복습 순서를 정리했습니다.",
         school_level="초등",
     ),
+    CategoryConfig(
+        category="초5수학학원",
+        grade="초5",
+        subject="수학",
+        source_name="초5 수학학원 원고.xlsx",
+        card_label="초5 · 분수·소수 · 개념 적용",
+        card_description="전국 371개 지역별 초5 수학 진단·복습 안내",
+        detail_eyebrow="GRADE 5 MATH LOCAL GUIDE",
+        category_eyebrow="GRADE 5 MATH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 초5수학학원 선택 기준을 정리했습니다. "
+            "분수·소수 계산과 도형·측정, 여러 조건이 이어지는 문장제에서 학생이 "
+            "개념과 풀이 이유를 설명하고 다시 적용하는지 확인할 수 있습니다."
+        ),
+        aside_title="문제 수보다 분수·소수의 뜻과 여러 단계의 풀이 이유를 설명하는지 먼저 봅니다.",
+        transition="분수·소수와 도형 개념을 연결해 여러 단계의 문제에 적용하는 힘을 넓히는 시기",
+        parent_title="초5 수학의 개념 연결과 여러 단계 풀이",
+        parent_copy="분수·소수·도형과 문장제 기록을 나누어 개념 적용과 재풀이 순서를 정리했습니다.",
+        school_level="초등",
+    ),
+    CategoryConfig(
+        category="초5영어학원",
+        grade="초5",
+        subject="영어",
+        source_name="초5 영어학원 원고.xlsx",
+        card_label="초5 · 영어 독해 · 문장 확장",
+        card_description="전국 371개 지역별 초5 영어 진단·복습 안내",
+        detail_eyebrow="GRADE 5 ENGLISH LOCAL GUIDE",
+        category_eyebrow="GRADE 5 ENGLISH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 초5영어학원 선택 기준을 정리했습니다. "
+            "누적 어휘와 기본 문장 구조를 바탕으로 조금 더 긴 글을 읽고, 핵심 내용을 "
+            "말과 글로 다시 표현하는 과정을 학교 자료와 함께 살펴볼 수 있습니다."
+        ),
+        aside_title="외운 단어 수보다 문장 속 뜻과 글의 핵심을 찾아 자신의 말로 설명하는지 먼저 봅니다.",
+        transition="기본 문장을 바탕으로 읽기 이해와 짧은 말하기·쓰기를 함께 확장하는 시기",
+        parent_title="초5 영어의 읽기 이해와 문장 확장",
+        parent_copy="어휘·문장 구조·읽기 근거와 쓰기 기록을 나누어 다음 복습 순서를 정리했습니다.",
+        school_level="초등",
+    ),
+    CategoryConfig(
+        category="초6수학학원",
+        grade="초6",
+        subject="수학",
+        source_name="초6 수학학원 원고.xlsx",
+        card_label="초6 · 수학 응용 · 중등 연결",
+        card_description="전국 371개 지역별 초6 수학 진단·복습 안내",
+        detail_eyebrow="GRADE 6 MATH LOCAL GUIDE",
+        category_eyebrow="GRADE 6 MATH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 초6수학학원 선택 기준을 정리했습니다. "
+            "분수·소수의 누적 계산과 비·비율, 도형·자료 문제에서 막힌 단계를 나누고 "
+            "중학교 수학으로 이어질 설명과 검산 습관을 확인할 수 있습니다."
+        ),
+        aside_title="빠른 선행보다 누적 계산과 비율·도형의 원리를 혼자 설명하고 검산하는지 먼저 봅니다.",
+        transition="초등 수학의 누적 개념을 정리하고 중학교 수학의 기호와 설명 방식으로 연결하는 시기",
+        parent_title="초6 수학의 누적 개념과 중등 전환",
+        parent_copy="계산·비율·도형·문장제의 빈틈을 나누어 초등 마무리와 중등 준비 순서를 정리했습니다.",
+        school_level="초등",
+    ),
+    CategoryConfig(
+        category="초6영어학원",
+        grade="초6",
+        subject="영어",
+        source_name="초6 영어학원 원고.xlsx",
+        card_label="초6 · 영어 독해 · 중등 연결",
+        card_description="전국 371개 지역별 초6 영어 진단·복습 안내",
+        detail_eyebrow="GRADE 6 ENGLISH LOCAL GUIDE",
+        category_eyebrow="GRADE 6 ENGLISH DIRECTORY",
+        category_description=(
+            "전국 371개 동네별 초6영어학원 선택 기준을 정리했습니다. "
+            "누적 어휘와 문장 구조, 읽기 근거와 짧은 쓰기 기록을 나누어 살피고 "
+            "중학교 영어 학습으로 이어질 복습 습관을 확인할 수 있습니다."
+        ),
+        aside_title="진도보다 어휘·문장 구조·읽기 근거를 연결해 혼자 설명하고 쓰는지 먼저 봅니다.",
+        transition="초등 영어의 듣기·말하기·읽기·쓰기를 정리하고 중학교 문장 학습으로 연결하는 시기",
+        parent_title="초6 영어의 누적 복습과 중등 전환",
+        parent_copy="어휘·문장 구조·독해 근거·쓰기 기록을 나누어 초등 마무리와 중등 준비 순서를 정리했습니다.",
+        school_level="초등",
+    ),
 )
 
 
@@ -655,6 +735,38 @@ STAGE_NOTES = {
         "학교 자료와 가정 복습의 표현이 다르면 공통 낱말과 문장 틀을 먼저 확인해 부담을 조절해야 합니다.",
         "한 번 외운 단어도 여러 문장에서 뜻을 고르고 철자를 다시 쓰는 날짜를 나누어 기록해야 합니다.",
     ),
+    "초5수학학원": (
+        "초5 수학은 분수와 소수의 계산 절차뿐 아니라 수의 크기와 연산 원리를 설명하는 과정이 중요합니다.",
+        "여러 단계의 문장제는 한 번에 계산하지 말고 중간에 구할 값과 마지막 질문을 나누어 표시해야 합니다.",
+        "도형과 측정 단원에서는 공식 암기보다 어떤 길이와 넓이를 구하는지 그림에 직접 표시해 봅니다.",
+        "계산 실수가 반복되면 답만 고치지 말고 자릿값·약분·단위 중 어느 단계에서 어긋났는지 기록합니다.",
+        "학교 단원평가 준비는 새 문제 수보다 대표 문항을 설명하고 조건이 달라져도 적용하는지를 기준으로 삼습니다.",
+        "가정 복습에서는 현재 단원과 이전 분수·소수 개념의 빈틈을 구분해 짧은 재풀이 날짜를 정합니다.",
+    ),
+    "초5영어학원": (
+        "초5 영어는 단어 뜻을 외우는 데서 멈추지 않고 문장 안에서 알맞은 의미를 고르는지 확인해야 합니다.",
+        "조금 더 긴 글을 읽을 때는 모든 문장을 번역하기보다 인물·장소·행동과 핵심 문장을 먼저 찾습니다.",
+        "기본 문장 구조는 낱말을 바꾸어 말하고 쓰면서 어순과 의미가 함께 유지되는지를 살펴봅니다.",
+        "듣기와 말하기에서는 질문의 핵심 표현을 듣고 외운 답이 아닌 자신의 내용으로 응답하는 연습이 필요합니다.",
+        "학교 자료와 가정 교재의 표현이 다를 때는 공통 어휘와 문장 틀을 찾아 복습 부담을 조절합니다.",
+        "쓰기 기록은 완성 문장만 보지 말고 초안과 교정 뒤 문장을 나란히 남겨 반복되는 오류를 확인합니다.",
+    ),
+    "초6수학학원": (
+        "초6 수학은 분수·소수의 누적 계산과 비·비율 개념을 서로 연결해 설명하는 과정이 중요합니다.",
+        "복합 문장제에서는 주어진 양과 비교할 양, 구하려는 값을 나누어 표시한 뒤 식의 이유를 말해 봅니다.",
+        "도형 문제는 공식을 바로 쓰기보다 필요한 길이와 단위, 나누어 볼 도형을 그림에 표시해야 합니다.",
+        "초등 과정을 마무리할 때는 정답률보다 자주 멈추는 계산과 개념을 단원별로 다시 분류해야 합니다.",
+        "중학교 수학 준비는 빠른 선행보다 풀이 과정과 검산 이유를 문장으로 남기는 습관에서 시작합니다.",
+        "학교 단원평가와 누적 복습 일정을 나누어 현재 학습과 이전 빈틈이 서로 밀리지 않게 조정합니다.",
+    ),
+    "초6영어학원": (
+        "초6 영어는 누적 어휘와 문장 구조를 함께 확인해 긴 문장에서 뜻이 끊기는 지점을 찾아야 합니다.",
+        "읽기에서는 정답만 고르기보다 핵심 문장과 답의 근거가 되는 표현을 직접 표시하는 습관이 중요합니다.",
+        "초등 영어를 마무리할 때는 듣기·말하기·읽기·쓰기 중 혼자 수행하기 어려운 단계를 구분해야 합니다.",
+        "문장 쓰기는 외운 표현을 그대로 옮기기보다 주어와 동사를 바꾸어도 어순이 유지되는지 확인합니다.",
+        "중학교 영어 준비는 어려운 문법 용어를 앞서 외우기보다 문장의 뼈대와 수식 관계를 읽는 데서 시작합니다.",
+        "학교 자료와 가정 복습 기록을 함께 보며 새 단원 학습과 누적 어휘 재확인의 시간을 따로 배치합니다.",
+    ),
 }
 
 
@@ -861,8 +973,12 @@ def category_profiles() -> dict[str, dict[str, object]]:
             ),
             "aside_title": config.aside_title,
             "aside_copy": (
-                "{local} 학생의 최근 시험지·교재·학교 일정과 설명 기록을 확인해 "
-                "진단 뒤 바로 실행할 학습 순서를 정리합니다."
+                (
+                    "{local} 학생의 최근 단원평가·학습지·교재와 설명 기록을 확인해 "
+                    if config.school_level == "초등"
+                    else "{local} 학생의 최근 시험지·교재·학교 일정과 설명 기록을 확인해 "
+                )
+                + "진단 뒤 바로 실행할 학습 순서를 정리합니다."
             ),
             "map_caption": (
                 "{region} {district} {local}에서 "
@@ -875,7 +991,11 @@ def category_profiles() -> dict[str, dict[str, object]]:
             ),
             "topic_names": (
                 f"{config.grade} {config.subject} 학습",
-                f"{config.subject} 학교 내신",
+                (
+                    f"{config.subject} 학교 단원 학습"
+                    if config.school_level == "초등"
+                    else f"{config.subject} 학교 내신"
+                ),
                 "현재 수준 진단",
                 "오답 재학습",
                 "상담 체크리스트",
@@ -1402,7 +1522,7 @@ def parse_args() -> argparse.Namespace:
     scope.add_argument(
         "--elementary-only",
         action="store_true",
-        help="Generate only the four elementary-school subject categories.",
+        help="Generate only the eight elementary-school subject categories.",
     )
     return parser.parse_args()
 
