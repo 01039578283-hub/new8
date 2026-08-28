@@ -1493,7 +1493,7 @@ def configure_shared(config: CategoryConfig) -> None:
         else EXISTING_PUBLISHED_AT
     )
     shared.UPDATED_AT = UPDATED_AT
-    shared.ASSET_VERSION = "20260814-1"
+    shared.ASSET_VERSION = "20260829-1"
 
 
 def select_configs(

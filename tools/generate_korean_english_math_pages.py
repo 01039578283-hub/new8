@@ -12,6 +12,8 @@ from pathlib import Path
 from urllib.parse import quote
 from zipfile import ZipFile
 
+from add_subject_anchor_tocs import enhance_detail_html
+
 
 SITE = Path(__file__).resolve().parents[1]
 COMMON = SITE.parent / "참고자료" / "공통자료"
@@ -26,7 +28,7 @@ PHONE_LINK = "01068398283"
 TODAY = date.today().isoformat()
 PUBLISHED_DATE = "2026-07-24T00:00:00+09:00"
 UPDATED_AT = f"{TODAY}T00:00:00+09:00"
-ASSET_VERSION = "20260724-6"
+ASSET_VERSION = "20260829-1"
 
 REQUIRED_SECTIONS = {
     "페이지타이틀",
@@ -3690,10 +3692,12 @@ def render_detail(
     </section>
   </main>
 {footer_html(3)}"""
-    return page_shell(
-        head,
-        body,
-        "core-page academy-page nationwide-page nationwide-detail-page subject-detail-page",
+    return enhance_detail_html(
+        page_shell(
+            head,
+            body,
+            "core-page academy-page nationwide-page nationwide-detail-page subject-detail-page",
+        )
     )
 
 
