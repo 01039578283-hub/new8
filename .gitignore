@@ -6,5 +6,10 @@ Thumbs.db
 __pycache__/
 *.pyc
 
+# Keep the title audit/local proof; exclude temporary plans and deployment receipts.
+tools/reports/*
+!tools/reports/title-suffix-audit.json
+!tools/reports/title-suffix-local-verification.json
+
 .vercel
 .env*
