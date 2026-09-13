@@ -1,0 +1,124 @@
+/* Scoped to the 2026-09-14 learning upgrade; local manuscripts retain their CSS. */
+.learning-upgraded { --lu-ink:#152b2a; --lu-muted:#4b6262; --lu-green:#135d50; --lu-border:#d9e4df; --lu-paper:#f5f8f4; }
+.learning-upgraded .nav-links { flex-wrap:wrap; }
+.learning-upgraded .nav-links a { min-height:44px; display:flex; align-items:center; }
+.learning-upgraded :is(a,button,summary,input,select,textarea):focus-visible { outline:3px solid #18877c; outline-offset:4px; }
+.learning-upgraded .lu-section, .learning-upgraded .lu-hero, .learning-upgraded .lu-quick { width:min(1120px,calc(100% - 40px)); margin:0 auto; }
+.learning-upgraded .lu-section { padding:52px 0; color:var(--lu-ink); }
+.learning-upgraded .lu-hero { display:grid; grid-template-columns:1.1fr 1fr; gap:44px; padding:68px 0 58px; color:white; align-items:center; }
+.learning-upgraded.core-home,.learning-upgraded.core-coaching { background:#f5f8f4; }
+.learning-upgraded:is(.core-home,.core-coaching) .nav-wrap { background:#081724; }
+.learning-upgraded.core-home .lu-hero { width:100%; padding:68px max(20px,calc((100% - 1120px)/2)) 58px; background:#081724; }
+.learning-upgraded.core-coaching .lu-page-hero { background:#081724; width:100%; padding:54px max(20px,calc((100% - 1120px)/2)) 44px; }
+.learning-upgraded .lu-hero h1 { font-size:clamp(34px,4.5vw,56px); line-height:1.25; letter-spacing:-.05em; margin:16px 0 22px; }
+.learning-upgraded .lu-hero h1 em { font-style:normal; color:#d8ff68; }
+.learning-upgraded .lu-kicker { color:var(--lu-green); font-size:13px; font-weight:800; line-height:1.6; margin:0 0 12px; letter-spacing:.04em; }
+.learning-upgraded .lu-hero .lu-kicker,.learning-upgraded .lu-page-hero .lu-kicker { color:#a8efca; }
+.learning-upgraded .lu-hero .lu-lead { color:#e1ecec; }
+.learning-upgraded .lu-lead { font-size:19px; line-height:1.8; max-width:760px; }
+.learning-upgraded .lu-hero-figure { margin:0; background:#fff; padding:28px; border-radius:28px; color:var(--lu-ink); }
+.learning-upgraded .lu-image-note { padding-top:18px; border-top:1px solid var(--lu-border); margin-top:18px; display:grid; gap:8px; font-size:15px; }
+.learning-upgraded .lu-image-note strong { font-size:20px; }
+.learning-upgraded .lu-section h2 { font-size:clamp(25px,3.2vw,38px); letter-spacing:-.04em; line-height:1.4; margin:0 0 20px; color:var(--lu-ink); }
+.learning-upgraded .lu-section h3 { font-size:21px; line-height:1.5; margin:8px 0 12px; color:var(--lu-ink); }
+.learning-upgraded .lu-section p, .learning-upgraded .lu-section li { font-size:17px; line-height:1.85; color:var(--lu-muted); }
+.learning-upgraded .lu-section p { margin:0 0 16px; }
+.learning-upgraded .lu-heading { max-width:760px; margin-bottom:28px; }
+.learning-upgraded .lu-section .lu-kicker { font-size:13px; color:var(--lu-green); margin-bottom:12px; }
+.learning-upgraded .lu-grid { display:grid; gap:20px; }
+.learning-upgraded .lu-four { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.learning-upgraded .lu-three { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.learning-upgraded .lu-two,.learning-upgraded .lu-split { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.learning-upgraded .lu-split { display:grid; align-items:center; gap:44px; }
+.learning-upgraded .lu-card,.learning-upgraded .lu-callout { border:1px solid var(--lu-border); border-radius:22px; padding:28px; background:white; min-width:0; }
+.learning-upgraded .lu-callout { background:#eaf2eb; }
+.learning-upgraded .lu-step { display:block; font-size:13px; font-weight:800; color:var(--lu-green); margin-bottom:14px; }
+.learning-upgraded .lu-actions { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:24px; }
+.learning-upgraded .lu-button { display:inline-flex; justify-content:center; align-items:center; gap:18px; min-height:50px; padding:13px 20px; border-radius:12px; border:1px solid #b7c9bd; background:#fff; color:var(--lu-ink); font-size:16px; line-height:1.5; font-weight:800; text-align:center; text-decoration:none; }
+.learning-upgraded .lu-button.lu-primary { background:#d8ff68; border-color:#d8ff68; color:#132c25; }
+.learning-upgraded .lu-text-link,.learning-upgraded .lu-link-list a,.learning-upgraded .lu-card>a { color:#135d50; font-size:16px; font-weight:750; line-height:1.7; text-decoration:underline; text-underline-offset:4px; display:inline-block; padding:10px 0; }
+.learning-upgraded .lu-link-list { display:grid; gap:4px; }
+.learning-upgraded .lu-quick { display:flex; flex-wrap:wrap; gap:8px; padding:20px 0; background:var(--lu-paper); border-bottom:1px solid var(--lu-border); }
+.learning-upgraded .lu-quick a { background:#fff; color:var(--lu-ink); padding:12px 16px; border-radius:12px; border:1px solid var(--lu-border); line-height:1.4; font-size:15px; font-weight:750; text-decoration:none; min-height:44px; }
+.learning-upgraded .lu-note,.learning-upgraded .lu-section .lu-note { font-size:14px; line-height:1.8; color:#536b65; margin-top:16px; }
+.learning-upgraded .lu-hero .lu-note { color:#c5dbd7; }
+.learning-upgraded .lu-tint { background:#e9f1e9; padding:36px; border-radius:28px; }
+.learning-upgraded .lu-section figure { margin:0; }
+.learning-upgraded .lu-section img,.learning-upgraded .lu-hero img { display:block; width:100%; height:auto; object-fit:contain; border-radius:14px; }
+.learning-upgraded .lu-section figcaption,.learning-upgraded .lu-hero figcaption { font-size:13px; line-height:1.7; margin-top:12px; color:#576966; }
+.learning-upgraded .lu-contained { max-width:620px; margin:28px auto 0 !important; }
+.learning-upgraded .lu-video { display:block; background:white; border:1px solid var(--lu-border); border-radius:20px; overflow:hidden; color:var(--lu-ink); text-decoration:none; max-width:620px; }
+.learning-upgraded .lu-video img { border-radius:0; aspect-ratio:16/9; object-fit:cover; }
+.learning-upgraded .lu-video span { display:block; padding:18px 20px; font-size:18px; font-weight:800; line-height:1.5; }
+.learning-upgraded .lu-video small { display:block; color:var(--lu-muted); font-size:13px; font-weight:500; padding-top:6px; }
+.learning-upgraded .lu-faq { display:grid; gap:12px; }
+.learning-upgraded .lu-faq details { padding:0 22px; border:1px solid var(--lu-border); border-radius:16px; background:#fff; }
+.learning-upgraded .lu-faq summary { cursor:pointer; padding:20px 0; color:var(--lu-ink); font-size:18px; font-weight:800; line-height:1.6; }
+.learning-upgraded .lu-faq details[open] summary { padding-bottom:12px; }
+.learning-upgraded .lu-faq details p { padding:0 0 10px; }
+.learning-upgraded .lu-cta { display:flex; justify-content:space-between; gap:24px; align-items:center; border-top:1px solid var(--lu-border); }
+.learning-upgraded .lu-page-hero { color:white; padding:54px 0 44px; }
+.learning-upgraded .lu-page-hero h1 { font-size:clamp(32px,4.4vw,50px); line-height:1.35; letter-spacing:-.04em; margin:10px 0 22px; }
+.learning-upgraded .lu-page-hero :is(p,.lu-note) { color:#d7e8e5; }
+.learning-upgraded .lu-steps { padding-left:24px; margin:0; display:grid; gap:16px; }
+.learning-upgraded .lu-steps li { padding-left:6px; }
+.learning-upgraded .lu-program-index { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+.learning-upgraded .lu-program-index a { display:grid; gap:8px; padding:22px; border:1px solid var(--lu-border); border-radius:16px; background:white; color:var(--lu-ink); text-decoration:none; }
+.learning-upgraded .lu-program-index span { font-size:15px; color:var(--lu-green); }
+.learning-upgraded .lu-source { border-top:1px solid var(--lu-border); }
+.learning-upgraded .lu-source h2 { font-size:21px; }
+.learning-upgraded .lu-source p { font-size:14px; }
+.learning-upgraded .lu-hub-brief { margin:24px auto; padding:32px; border:1px solid var(--lu-border); border-radius:22px; background:#edf5ee; }
+.learning-upgraded .lu-hub-brief h2 { font-size:27px; }
+.learning-upgraded .lu-hub-brief .lu-actions { margin-top:16px; }
+.learning-upgraded .lu-hub-brief p { font-size:16px; }
+.learning-upgraded .lu-hub-group { margin:24px 0; }
+.learning-upgraded .lu-hub-group>h3 { font-size:23px; color:#152b2a; margin:0 0 16px; }
+.learning-upgraded [id] { scroll-margin-top:140px; }
+.learning-upgraded .directory-controls button { min-height:44px; }
+.learning-upgraded :is(.page-hero h1,.local-hero h1,.academy-hero h1) { text-wrap:pretty; }
+.learning-upgraded .footer { margin-top:40px; }
+@media(min-width:761px) { .learning-upgraded.core-home .lu-hero { min-height:615px; } }
+@media(max-width:1000px) { .learning-upgraded .lu-four { grid-template-columns:repeat(2,minmax(0,1fr)); } .learning-upgraded .lu-hero { gap:24px; } }
+@media(max-width:760px) {
+ .learning-upgraded.core-home,.learning-upgraded.core-coaching { background:#f5f8f4; }
+ .learning-upgraded .nav-wrap { background:#081724; padding:10px 10px 0; position:relative; }
+ .learning-upgraded .nav { padding:14px; }
+ .learning-upgraded .nav-links { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)) !important; width:100%; gap:4px; justify-content:stretch; }
+ .learning-upgraded .nav-links a { font-size:14px; padding:6px 2px; justify-content:center; grid-column:auto !important; }
+ .learning-upgraded [id] { scroll-margin-top:20px; }
+ .learning-upgraded .lu-section,.learning-upgraded .lu-hero,.learning-upgraded .lu-quick { width:calc(100% - 32px); }
+ .learning-upgraded .lu-section { padding:34px 0; }
+ .learning-upgraded.core-home .lu-hero { grid-template-columns:1fr; width:100%; padding:34px 16px; gap:28px; background:#081724; }
+ .learning-upgraded .lu-hero h1 { font-size:36px; margin:12px 0 20px; }
+ .learning-upgraded .lu-lead { font-size:17px; line-height:1.8; }
+ .learning-upgraded .lu-hero-figure { padding:20px; border-radius:22px; max-width:460px; width:100%; margin:auto; }
+ .learning-upgraded .lu-split,.learning-upgraded .lu-three,.learning-upgraded .lu-two { grid-template-columns:1fr; gap:22px; }
+ .learning-upgraded .lu-four { grid-template-columns:1fr; }
+ .learning-upgraded .lu-card,.learning-upgraded .lu-callout { padding:22px; border-radius:18px; }
+ .learning-upgraded .lu-section h2 { font-size:27px; line-height:1.45; margin-bottom:16px; }
+ .learning-upgraded .lu-section h3 { font-size:20px; }
+ .learning-upgraded .lu-section p,.learning-upgraded .lu-section li { font-size:16px; line-height:1.85; }
+ .learning-upgraded .lu-heading { margin-bottom:22px; }
+ .learning-upgraded .lu-tint { padding:26px 20px; border-radius:22px; }
+ .learning-upgraded .lu-actions { gap:10px; }
+ .learning-upgraded .lu-actions .lu-button { flex:1 1 190px; }
+ .learning-upgraded .lu-quick { gap:8px; padding:16px 0; }
+ .learning-upgraded .lu-quick a { font-size:14px; padding:11px 12px; }
+ .learning-upgraded.core-coaching .lu-page-hero { background:#081724; width:100%; padding:34px 16px; }
+ .learning-upgraded .lu-page-hero h1 { font-size:32px; }
+ .learning-upgraded .lu-program-index { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .learning-upgraded .lu-program-index a { padding:18px; }
+ .learning-upgraded .lu-cta { display:block; }
+ .learning-upgraded .lu-cta>.lu-button { width:100%; }
+ .learning-upgraded .lu-faq details { padding:0 18px; }
+ .learning-upgraded .lu-faq summary { font-size:17px; padding:18px 0; }
+ .learning-upgraded .lu-hub-brief { padding:24px 20px; }
+ .learning-upgraded .lu-hub-brief h2 { font-size:24px; }
+ .learning-upgraded.core-page :is(.section-title h2,.page-hero h1) { font-size:28px; line-height:1.5; }
+ .learning-upgraded.core-page :is(.section-title p,.check-card p,.process-card p,.feature-card p,.contact-card p,.feedback-card p) { font-size:16px; line-height:1.85; }
+ .learning-upgraded :is(.hero-actions,.consult-method) { flex-wrap:wrap; }
+}
+@media(max-width:560px) { .learning-upgraded .directory-controls [data-directory-reset] { grid-column:1/-1; } }
+@media(max-width:360px) { .learning-upgraded .lu-hero h1 { font-size:32px; } .learning-upgraded .lu-page-hero h1 { font-size:29px; } .learning-upgraded .lu-section h2 { font-size:25px; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto !important; } }

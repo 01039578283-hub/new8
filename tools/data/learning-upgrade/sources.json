@@ -1,0 +1,232 @@
+{
+  "verified_on": "2026-09-14",
+  "cache_directory": "C:/Users/1992k/Desktop/CodexData/tmp/coaching8-official-20260914",
+  "purpose": "Official-source research and bounded original-asset cache for coaching-center website work; no website edits or deployment performed.",
+  "sources": [
+    {"id": "brand", "url": "https://www.wawacenter.com/brand/wawacenter", "snapshot": "brand.html"},
+    {"id": "coaching", "url": "https://www.wawacenter.com/intro/coachingSystem", "snapshot": "coaching.html"},
+    {"id": "ai", "url": "https://www.wawacenter.com/intro/AISystem", "snapshot": "ai.html"}
+  ],
+  "editorial_guardrails": [
+    "Describe these as official brand/program information, not as verified availability at every individual branch.",
+    "The official brand page explicitly says centers differ. Actual subjects, grades, AI-program availability and schedules require confirmation with the chosen branch.",
+    "Official classroom and coaching photographs are illustrative brand assets. Do not present them as photographs of a named branch without separate evidence.",
+    "Do not transfer headquarters telephone numbers, hours, example branch tuition, teacher qualifications or student outcomes into individual branch facts.",
+    "Avoid guaranteed improvement, rankings, numeric outcome claims, and unverified tuition or facilities claims.",
+    "Official LIVE card captions mismatch the linked videos. Use the verified video IDs and oEmbed metadata below, with the suggested neutral labels.",
+    "Cached assets are unmodified original downloads. User authorized reuse of official materials for this task."
+  ],
+  "facts": {
+    "brand": {
+      "source_id": "brand",
+      "type": "센터방문학습",
+      "grade_scope": "초등부터 중고등까지",
+      "subject_scope": "국어·영어·수학·사회·과학 및 기타 과목",
+      "scope_caveat": "센터별 운영 내용이 다르므로 선택 지점에 확인 필요",
+      "safe_summary": "개별 진단, 맞춤 교재와 학습 코칭, 플래너 관리 및 질문과 피드백을 통한 학습 습관 형성을 소개한다."
+    },
+    "coaching": {
+      "source_id": "coaching",
+      "four_c": [
+        {"english": "Check", "korean": "맞춤 진단"},
+        {"english": "Curriculum", "korean": "맞춤 처방"},
+        {"english": "Coaching", "korean": "맞춤 지도"},
+        {"english": "Consulting", "korean": "맞춤 상담"}
+      ],
+      "four_c_evidence": "Visually verified on original system_05.png (four-c.png). These are four definitions, not a separately verified mandatory temporal sequence.",
+      "management": [
+        {"name": "플랜관리", "summary": "학생과 목표·우선순위를 정하고 학습 시간과 분량을 관리한다."},
+        {"name": "학습관리", "summary": "이해 수준에 맞는 교재와 공부법을 선택하고 오답노트·백지노트·마인드맵 등을 활용한다."},
+        {"name": "생활관리", "summary": "학생·학부모와 소통하며 학습 습관과 생활 리듬 등을 살핀다."}
+      ],
+      "nest_learning": "선생님을 중심으로 학생들이 둘러앉아 질문과 피드백을 나누는 학습 구조를 소개한다."
+    },
+    "ai": {
+      "source_id": "ai",
+      "scope_caveat": "아래는 공식 AI 프로그램의 대상 범위이며 개별 지점에서의 개설·이용 가능 여부가 아니다.",
+      "subjects": [
+        {"subject": "AI영어", "grades": "초1~고3", "summary": "레벨 진단과 취약점 분석 후 맞춤 학습. 초등 파닉스·AI 말하기, 중고등 독해·구문·듣기·교과서 연계 학습을 소개한다."},
+        {"subject": "AI수학", "grades": "초1~고3", "summary": "성취도에 맞춘 문제지, 오답 분석과 유사·변형·심화 문제 훈련, 스마트북·앱 연계를 소개한다."},
+        {"subject": "AI국어", "grades": "중1~고3", "summary": "내신·수능, 어휘·어법, 성취도 분석과 취약 유형별 맞춤 문제 및 해설 학습을 소개한다."},
+        {"subject": "AI독서", "grades": "초1~중2", "summary": "독서·진로 관련 진단을 바탕으로 도서를 추천하고 독서 활동 기록과 포트폴리오 관리를 소개한다."}
+      ]
+    }
+  },
+  "images": [
+    {
+      "file": "brand-learning.png",
+      "url": "https://www.wawacenter.com/assets/img/w1.png",
+      "source_id": "brand",
+      "width": 874,
+      "height": 592,
+      "sha256": "6A010A2D5637868C44E2C7B5FDF3BF75B9E3865A280B523C7357F274E3847BEC",
+      "purpose": "공식 브랜드 소개의 영어 Daily Checkup 학습 장면",
+      "suggested_alt": "와와학습코칭센터 공식 자료의 영어 학습 점검 예시",
+      "visual_verified": true
+    },
+    {
+      "file": "learning-space.png",
+      "url": "https://www.wawacenter.com/assets/img/system_03.png",
+      "source_id": "coaching",
+      "width": 620,
+      "height": 420,
+      "sha256": "1A1A07040F2DD073F1E4BBF1CE4686809B822A3B586D814EBE6B0515220DC348",
+      "purpose": "둥지형 학습 공간을 설명하는 공식 교실 사진; 특정 지점 사진으로 표시하지 않음",
+      "suggested_alt": "와와학습코칭센터 공식 자료의 둥지형 학습 공간 예시",
+      "visual_verified": true
+    },
+    {
+      "file": "teacher-coaching.png",
+      "url": "https://www.wawacenter.com/assets/img/system_04.png",
+      "source_id": "coaching",
+      "width": 620,
+      "height": 420,
+      "sha256": "6C3E9F344F641DF301AFC7758EF22D26A01B8577173B7B563CD8B29AF1F0B24C",
+      "purpose": "학생과 선생님의 학습 코칭 장면; 특정 지점 교사 신원·자격의 증거가 아님",
+      "suggested_alt": "와와학습코칭센터 공식 자료의 개별 학습 코칭 장면",
+      "visual_verified": true
+    },
+    {
+      "file": "four-c.png",
+      "url": "https://www.wawacenter.com/assets/img/system_05.png",
+      "source_id": "coaching",
+      "width": 620,
+      "height": 423,
+      "sha256": "2FC46D9C9AB87684D6671F0622885628A0801F981DA89AEDBDF1663F06324897",
+      "purpose": "4C 정의를 담은 공식 다이어그램; 글자가 잘리지 않도록 contain 사용 권장",
+      "suggested_alt": "4C 프로세스: Check 맞춤 진단, Curriculum 맞춤 처방, Coaching 맞춤 지도, Consulting 맞춤 상담",
+      "visual_verified": true
+    },
+    {
+      "file": "learning-planner.png",
+      "url": "https://www.wawacenter.com/assets/img/system_06_01.png",
+      "source_id": "coaching",
+      "width": 620,
+      "height": 420,
+      "sha256": "6F34FD1F4ACBD98215B2AF5B967D2D0033A5DCAF9FA52BA90C2E4C474D39275F",
+      "purpose": "시간·학습내용·실행 체크를 담은 공식 플래너 예시",
+      "suggested_alt": "학습 시간과 분량을 기록하는 공식 학습 플래너 예시",
+      "visual_verified": true
+    },
+    {
+      "file": "ai-english.png",
+      "url": "https://www.wawacenter.com/assets/img/ais_step02.png",
+      "source_id": "ai",
+      "width": 375,
+      "height": 228,
+      "sha256": "9B42C432E8582EBBF3FBA7384163D3190D32CCCBE04C08BB4625BE75F500E6AB",
+      "purpose": "초등영어 Sneakers의 AI Talking Tutor 학습 화면; AI영어 전체 학년 공통 화면으로 단정하지 않음",
+      "suggested_alt": "공식 AI영어 자료의 초등 AI 말하기 학습 화면 예시",
+      "visual_verified": true
+    },
+    {
+      "file": "ai-math.png",
+      "url": "https://www.wawacenter.com/assets/img/ais_math_content02.png",
+      "source_id": "ai",
+      "width": 589,
+      "height": 418,
+      "sha256": "7CDE3B0A9C26C977A03C158733C3B5C3EC8CDA67C58820A653FD459BC8D0E743",
+      "purpose": "AI수학 성취도 분석·오답 클리닉 화면 예시; 화면 속 점수는 개별 사례 UI로 결과 보장에 사용하지 않음",
+      "suggested_alt": "공식 AI수학 자료의 성취도 분석과 오답 클리닉 화면 예시",
+      "visual_verified": true
+    },
+    {
+      "file": "ai-korean.png",
+      "url": "https://www.wawacenter.com/assets/img/ais_kor_content01.png",
+      "source_id": "ai",
+      "width": 499,
+      "height": 325,
+      "sha256": "9F20B1D641FA887737E628512FAFAC0736746E673A7180874CDA751AA65BA336",
+      "purpose": "AI국어 내신·수능 맞춤 대비 섹션의 교재 이미지",
+      "suggested_alt": "공식 AI국어 자료의 내신과 수능 학습 콘텐츠 예시",
+      "visual_verified": true
+    },
+    {
+      "file": "ai-reading.png",
+      "url": "https://www.wawacenter.com/assets/img/ais_read_portfolio.png",
+      "source_id": "ai",
+      "width": 600,
+      "height": 421,
+      "sha256": "EE4A77BEF0D90B630992F61896F698D0F4775BAB2FEB804E761630415912D915",
+      "purpose": "AI독서 진로 연계 도서 추천·포트폴리오 화면 예시",
+      "suggested_alt": "공식 AI독서 자료의 진로 연계 도서 추천 화면 예시",
+      "visual_verified": true
+    },
+    {
+      "file": "ai-reading-flow.png",
+      "url": "https://www.wawacenter.com/assets/img/ais_read_flow.png",
+      "source_id": "ai",
+      "width": 1200,
+      "height": 672,
+      "sha256": "6165AC87B0B5702C25045B36DF850F5E9F3282D8346CF80E0CE9A427DBEF707A",
+      "purpose": "AI독서 학습 플로우에 쓰인 여덟 장면의 원본 합성 이미지; 글자·화살표가 포함되지 않아 단독으로 순서를 설명하지 않음",
+      "suggested_alt": "공식 AI독서 자료의 진단과 독서 활동 관련 장면 모음",
+      "priority": "optional",
+      "visual_verified": true
+    }
+  ],
+  "videos": [
+    {
+      "id": "59Tna9pZWrk",
+      "watch_url": "https://www.youtube.com/watch?v=59Tna9pZWrk",
+      "embed_url": "https://www.youtube.com/embed/59Tna9pZWrk",
+      "source_id": "brand",
+      "source_position": "Top brand call-to-action video link",
+      "verified_youtube_title": "[와와학습코칭센터] 와와학습코칭센터를 소개합니다!",
+      "suggested_label": "와와학습코칭센터 브랜드 소개",
+      "thumbnail_url": "https://i.ytimg.com/vi/59Tna9pZWrk/hqdefault.jpg",
+      "thumbnail_file": "video-brand-intro.jpg",
+      "thumbnail_sha256": "5970915E41AEB8AC79ABE958CE2525FB51E6C67C8BB831BE9A2B6D922859FB94",
+      "priority": "preferred",
+      "verification": "Official page link, live YouTube oEmbed metadata and thumbnail visual inspection; full video playback not tested."
+    },
+    {
+      "id": "f_skFu40U04",
+      "watch_url": "https://www.youtube.com/watch?v=f_skFu40U04",
+      "embed_url": "https://www.youtube.com/embed/f_skFu40U04",
+      "source_id": "brand",
+      "source_position": "LIVE second iframe",
+      "verified_youtube_title": "[와와학습코칭센터] 아이들의 진짜 학습성장을 돕는 학원, 와와학습코칭센터 원장님과의 인터뷰와 학원 후기",
+      "suggested_label": "와와학습코칭센터 원장 인터뷰",
+      "thumbnail_url": "https://i.ytimg.com/vi/f_skFu40U04/hqdefault.jpg",
+      "thumbnail_file": "video-director-interview.jpg",
+      "thumbnail_sha256": "6C5621D2F3C8440227AF38FA6DC9F912E8B33960530CFDD55506229DA04CC132",
+      "priority": "preferred",
+      "verification": "Official iframe, live YouTube oEmbed metadata and thumbnail visual inspection; full video playback not tested."
+    },
+    {
+      "id": "UIXUaBZdNXU",
+      "watch_url": "https://www.youtube.com/watch?v=UIXUaBZdNXU",
+      "embed_url": "https://www.youtube.com/embed/UIXUaBZdNXU",
+      "source_id": "brand",
+      "source_position": "LIVE third iframe",
+      "verified_youtube_title": "[와와학습코칭센터] 와와학습코칭센터 은평점에서 시험기간 빡공하는 방법!",
+      "suggested_label": "은평점에서 소개하는 시험기간 공부법",
+      "thumbnail_url": "https://i.ytimg.com/vi/UIXUaBZdNXU/hqdefault.jpg",
+      "thumbnail_file": "video-exam-eunpyeong.jpg",
+      "thumbnail_sha256": "0DACDE2F61773ACBB6DA7B62126C2CBD74DEE31A6F6A733B78CCD942D6DAE5F0",
+      "priority": "preferred",
+      "verification": "Official iframe, live YouTube oEmbed metadata and thumbnail visual inspection; full video playback not tested."
+    },
+    {
+      "id": "avpJfW7eIV0",
+      "watch_url": "https://www.youtube.com/watch?v=avpJfW7eIV0",
+      "embed_url": "https://www.youtube.com/embed/avpJfW7eIV0",
+      "source_id": "brand",
+      "source_position": "LIVE first iframe",
+      "verified_youtube_title": "[와와학습코칭센터] 한달만에 2등급? 전교1등까지? 성적을 올리는 마법!",
+      "suggested_label": "공식 채널 학생 학습 경험 인터뷰",
+      "thumbnail_url": "https://i.ytimg.com/vi/avpJfW7eIV0/hqdefault.jpg",
+      "thumbnail_file": "video-student-story.jpg",
+      "thumbnail_sha256": "A0F992FECC3F999195C7B3A6F51786557CE808921DE1EA3B7F8BE02A65DAF521",
+      "priority": "optional",
+      "outcome_caveat": "The thumbnail and source title contain individual ranking/improvement claims; not suitable as a general result promise or evidence for every branch.",
+      "verification": "Official iframe, live YouTube oEmbed metadata and thumbnail visual inspection; full video playback not tested."
+    }
+  ],
+  "video_author": {
+    "name": "와와학습코칭센터",
+    "url": "https://www.youtube.com/@wawacoachingcenter",
+    "verification": "All four live oEmbed responses reported this author name and channel URL."
+  }
+}
