@@ -1,0 +1,6 @@
+/* Only the new directory menu item is added to existing layouts. */
+.nav .nav-links{flex-wrap:wrap}
+.nav .nav-links a[href="/지점안내/"]{display:inline-flex;align-items:center;justify-content:center;min-height:44px}
+@media(max-width:900px){.nav .nav-links{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:4px;width:100%}.nav .nav-links>a{grid-column:auto!important;min-height:44px;display:flex;align-items:center;justify-content:center;font-size:13px;padding:9px 5px;white-space:normal;word-break:keep-all;line-height:1.5}.nav .nav-links a[href="/지점안내/"]{font-size:13px}}
+/* The linked brand remains the home control on narrow screens. */
+@media(max-width:600px){.nav .nav-links{grid-template-columns:repeat(3,minmax(0,1fr))!important}.nav .nav-links>a:first-child{display:none}.nav .nav-links>a{white-space:nowrap;font-size:13px}}
