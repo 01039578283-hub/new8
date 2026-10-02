@@ -1,0 +1,16 @@
+.naver-branch-basic-improved .nbb-section{scroll-margin-top:100px}
+.naver-branch-basic-improved .nbb-section p,.naver-branch-basic-improved .nbb-section li{line-height:1.8;overflow-wrap:anywhere}
+.naver-branch-basic-improved .nbb-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.naver-branch-basic-improved .nbb-card{min-width:0;border:1px solid #dfe7e4;border-radius:14px;background:#f7faf8;padding:22px}
+.naver-branch-basic-improved .nbb-card h3{font-size:1.1rem;line-height:1.5;margin:0 0 12px;color:#174d3a;overflow-wrap:anywhere}
+.naver-branch-basic-improved .nbb-card p{margin:0 0 12px}
+.naver-branch-basic-improved .nbb-card p:last-child{margin-bottom:0}
+.naver-branch-basic-improved .nbb-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.naver-branch-basic-improved .nbb-links a{display:block;max-width:100%;padding:8px 12px;border:1px solid #bad3c6;border-radius:8px;background:white;color:#174d3a;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-basic-improved .nbb-card .bd-button{white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.naver-branch-basic-improved .nbb-faq details{margin-bottom:12px;border:1px solid #dfe7e4;border-radius:12px;padding:16px}
+.naver-branch-basic-improved .nbb-faq summary{cursor:pointer;font-weight:700;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-basic-improved .nbb-faq p{margin:14px 0 0}
+.naver-branch-basic-improved .nbb-anchor{display:block;height:0;scroll-margin-top:100px}
+.naver-branch-basic-improved .nbb-toc a:focus-visible,.naver-branch-basic-improved .nbb-links a:focus-visible,.naver-branch-basic-improved .nbb-faq summary:focus-visible{outline:3px solid #266d50;outline-offset:4px}
+@media(max-width:800px){.naver-branch-basic-improved .nbb-grid{grid-template-columns:1fr}.naver-branch-basic-improved .nbb-card{padding:18px}.naver-branch-basic-improved .nbb-section{scroll-margin-top:92px}}

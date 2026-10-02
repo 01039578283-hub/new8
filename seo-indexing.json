@@ -1,0 +1,1806 @@
+{
+  "origin": "https://xn--zj4b74v1taq8c.com",
+  "modifiedAt": "2026-09-22T16:37:00+09:00",
+  "pages": [
+    {
+      "path": "과목별학원/고1수학학원/청라/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%B2%AD%EB%9D%BC/",
+      "center": "청라점",
+      "grade": "고1",
+      "subject": "수학",
+      "locality": "청라",
+      "description": "청라 고1 수학학원 안내. 학습 진단·복습 기준, 청라점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "1f18ea143ad3000b79dd02daa8cd9101681accaad9123d30b8ad92451986c130",
+        "centerPath": "/지점안내/인천/청라점/",
+        "confirmedGrade": "고1",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭청라학원",
+          "인천 서구 중봉대로 588 청라센트럴프라자 609",
+          "인천서부교육지원청 등록 서부 제1903호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고1영어학원/옥정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EB%8F%99/",
+      "center": "옥정점",
+      "grade": "고1",
+      "subject": "영어",
+      "locality": "옥정동",
+      "description": "옥정동 고1 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "d43a115c4dbb510e842df64851f7696589ee665fbfbac1851df6afc840f51876",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "고1",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고1영어학원/옥정신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "center": "옥정점",
+      "grade": "고1",
+      "subject": "영어",
+      "locality": "옥정신도시",
+      "description": "옥정신도시 고1영어학원 상담 전에 고1 영어 학습 진단 기준과 문장 구조·오답 분류 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "7eac64500d02c842a3a749f59b89b6cbf7d89f6ed56312d6e4994553e276dee8",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "고1",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고1영어학원/운양동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9A%B4%EC%96%91%EB%8F%99/",
+      "center": "운양점",
+      "grade": "고1",
+      "subject": "영어",
+      "locality": "운양동",
+      "description": "운양동 고1 영어학원 안내. 학습 진단·복습 기준, 운양점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "d9dc8737f28df62720f258eed3e217f24c5c2859eb93f737943c45ed2fe7966c",
+        "centerPath": "/지점안내/경기/운양점/",
+        "confirmedGrade": "고1",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "운양점와와학습코칭학원",
+          "경기 김포시 김포한강11로 288-37 헤리움리버테라스 205호",
+          "김포교육지원청 등록 제1913호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고1영어학원/청라/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%B2%AD%EB%9D%BC/",
+      "center": "청라점",
+      "grade": "고1",
+      "subject": "영어",
+      "locality": "청라",
+      "description": "청라 고1 영어학원 안내. 학습 진단·복습 기준, 청라점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "9d9690758e589fde964a332505d34b819f894d6c632e31fdf3fecac953e9286d",
+        "centerPath": "/지점안내/인천/청라점/",
+        "confirmedGrade": "고1",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "와와학습코칭청라학원",
+          "인천 서구 중봉대로 588 청라센트럴프라자 609",
+          "인천서부교육지원청 등록 서부 제1903호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/내발산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%82%B4%EB%B0%9C%EC%82%B0%EB%8F%99/",
+      "center": "내발산점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "내발산동",
+      "description": "내발산동 고2 수학학원 안내. 학습 진단·복습 기준, 내발산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "cd649e55e3aac9fd16234612a98091f679617348715c53533cbe40685591d873",
+        "centerPath": "/지점안내/서울/내발산점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "내발산점와와학습코칭학원",
+          "서울 강서구 마곡중앙4로 74 이웰메디파크 제4층 401,402호",
+          "강서양천교육지원청 등록 제 5444호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/보라동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B3%B4%EB%9D%BC%EB%8F%99/",
+      "center": "보라점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "보라동",
+      "description": "보라동 고2수학학원 상담 전에 고2 수학 시험 준비 기준과 오답 재풀이·개념 연결 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "72975f304d6fcd0433148bf1c264aeecd2c49ddfdc67ca71af2996a33610a1e8",
+        "centerPath": "/지점안내/경기/보라점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "보라점와와학습코칭학원",
+          "경기 용인시 기흥구 사은로126번길 6 신원프라자 303호",
+          "용인교육지원청 등록 제4991호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/화곡동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%99%94%EA%B3%A1%EB%8F%99/",
+      "center": "내발산점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "화곡동",
+      "description": "화곡동 고2 수학학원 안내. 학습 진단·복습 기준, 내발산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "bb5ab44c298b92eac9246dd2c9641b98d249fbdfbda9c4c6d1c673a9fad25d39",
+        "centerPath": "/지점안내/서울/내발산점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "내발산점와와학습코칭학원",
+          "서울 강서구 마곡중앙4로 74 이웰메디파크 제4층 401,402호",
+          "강서양천교육지원청 등록 제 5444호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/내발산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%82%B4%EB%B0%9C%EC%82%B0%EB%8F%99/",
+      "center": "내발산점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "내발산동",
+      "description": "내발산동 고2영어학원 상담 전에 고2 영어 학습 진단 기준과 오답 분류·독해 근거 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "a4897dc7b56e384a1b215a7039a5808556e037ab82a9cc1ddbbe64caa3412bbe",
+        "centerPath": "/지점안내/서울/내발산점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "내발산점와와학습코칭학원",
+          "서울 강서구 마곡중앙4로 74 이웰메디파크 제4층 401,402호",
+          "강서양천교육지원청 등록 제 5444호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/옥정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EB%8F%99/",
+      "center": "옥정점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "옥정동",
+      "description": "옥정동 고2 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "33aa3983cdc8eb9dd0a31971624e256c5ca5a873406f0844f071449afd9c01a1",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/옥정신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "center": "옥정점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "옥정신도시",
+      "description": "옥정신도시 고2 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "403d960095aaa07448eacd8057fdc297cdc0c8d1748c563a772ac4785fd9a650",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/운양동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9A%B4%EC%96%91%EB%8F%99/",
+      "center": "운양점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "운양동",
+      "description": "운양동 고2 영어학원 안내. 학습 진단·복습 기준, 운양점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "da614112b8d4aea09e0126ff7a17ea96a4fae834504361a173fe888cf2f92411",
+        "centerPath": "/지점안내/경기/운양점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "운양점와와학습코칭학원",
+          "경기 김포시 김포한강11로 288-37 헤리움리버테라스 205호",
+          "김포교육지원청 등록 제1913호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/화곡동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%99%94%EA%B3%A1%EB%8F%99/",
+      "center": "내발산점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "화곡동",
+      "description": "화곡동 고2 영어학원 안내. 학습 진단·복습 기준, 내발산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "d162ab3c44321fca987a6000054dc32e626ffe1c1cc3b78404c7af9e29764436",
+        "centerPath": "/지점안내/서울/내발산점/",
+        "confirmedGrade": "고2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "내발산점와와학습코칭학원",
+          "서울 강서구 마곡중앙4로 74 이웰메디파크 제4층 401,402호",
+          "강서양천교육지원청 등록 제 5444호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "highSchoolContentReview": {
+          "version": "20261001-1",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-high-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/둔산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%94%EC%82%B0%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "중1",
+      "subject": "수학",
+      "locality": "둔산동",
+      "description": "둔산동 중1 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "99a07e86049c89e45c5dd5d4eb9cc6d2383e15f8d37a0ac504f460fae79f857c",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "중1",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/탄방동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%83%84%EB%B0%A9%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "중1",
+      "subject": "수학",
+      "locality": "탄방동",
+      "description": "탄방동 중1 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "ef6ca8eeb8d553000f1c37e7bc68100842cf9178621ba09f5d9161fbd558fd9b",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "중1",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중1영어학원/옥정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EB%8F%99/",
+      "center": "옥정점",
+      "grade": "중1",
+      "subject": "영어",
+      "locality": "옥정동",
+      "description": "옥정동 중1 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "7f0ae42bcfc48dc16971bf57645ccd3bdf0eb1e23897476b4abce8f75d0f8c48",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "중1",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중1영어학원/옥정신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "center": "옥정점",
+      "grade": "중1",
+      "subject": "영어",
+      "locality": "옥정신도시",
+      "description": "옥정신도시 중1 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "336409bb81882485c057a8c3437132dfe68a30ed0f042d019bfd36618d2993ce",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "중1",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중1영어학원/운양동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9A%B4%EC%96%91%EB%8F%99/",
+      "center": "운양점",
+      "grade": "중1",
+      "subject": "영어",
+      "locality": "운양동",
+      "description": "운양동 중1영어학원 상담 전에 중1 영어 시험 준비 기준과 독해 근거·오답 분류 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "1a91ace3c28f2c0c9e642c32b3979061da3d3a584abfca764245e6fd2560afe7",
+        "centerPath": "/지점안내/경기/운양점/",
+        "confirmedGrade": "중1",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "운양점와와학습코칭학원",
+          "경기 김포시 김포한강11로 288-37 헤리움리버테라스 205호",
+          "김포교육지원청 등록 제1913호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/둔산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%94%EC%82%B0%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "중2",
+      "subject": "수학",
+      "locality": "둔산동",
+      "description": "둔산동 중2 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "4160e1d93d130dfa215073d759e08f1d55c7af406d247454bb7af1fac0a90083",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "중2",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/탄방동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%83%84%EB%B0%A9%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "중2",
+      "subject": "수학",
+      "locality": "탄방동",
+      "description": "탄방동 중2수학학원 상담 전에 중2 수학 시험 준비 기준과 오답 재풀이·계산 정확도 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "7411f901609cdab6f6d90058e55a73340224d0dd469b10f7704a0c92528d5d3e",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "중2",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중2영어학원/옥정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EB%8F%99/",
+      "center": "옥정점",
+      "grade": "중2",
+      "subject": "영어",
+      "locality": "옥정동",
+      "description": "옥정동 중2영어학원 상담 전에 중2 영어 학습 진단 기준과 오답 분류·독해 근거 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "b00a669d19d786b4d69a1616f5bdcd98c7162d976b2687e3e93a082a479258c1",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "중2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중2영어학원/옥정신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "center": "옥정점",
+      "grade": "중2",
+      "subject": "영어",
+      "locality": "옥정신도시",
+      "description": "옥정신도시 중2 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "f98bc17445d64224a520883806f65e66f5f06c6708d9c16b4e8fca76fa83314d",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "중2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중2영어학원/운양동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9A%B4%EC%96%91%EB%8F%99/",
+      "center": "운양점",
+      "grade": "중2",
+      "subject": "영어",
+      "locality": "운양동",
+      "description": "운양동 중2 영어학원 안내. 학습 진단·복습 기준, 운양점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "8cf07a456b8fb6759400cfd44388b5c7c776f807cc866b669c5b8c7d805d56ec",
+        "centerPath": "/지점안내/경기/운양점/",
+        "confirmedGrade": "중2",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "운양점와와학습코칭학원",
+          "경기 김포시 김포한강11로 288-37 헤리움리버테라스 205호",
+          "김포교육지원청 등록 제1913호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/둔산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%94%EC%82%B0%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "중3",
+      "subject": "수학",
+      "locality": "둔산동",
+      "description": "둔산동 중3 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "fce6ab7a421207d65135299ad94c81d37f19734f7bac67a1d25299bff2159d3b",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "중3",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/탄방동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%83%84%EB%B0%A9%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "중3",
+      "subject": "수학",
+      "locality": "탄방동",
+      "description": "탄방동 중3 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "88c79df04bda50b4e536c9cd1449fdd75643f6181b5f1d1b81b0b907b5bbe714",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "중3",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중3영어학원/옥정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EB%8F%99/",
+      "center": "옥정점",
+      "grade": "중3",
+      "subject": "영어",
+      "locality": "옥정동",
+      "description": "옥정동 중3영어학원 상담 전에 중3 영어 내신 대비 기준과 오답 분류·독해 근거 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "9df7b414cfaf30c465b51066c5c15ae5b1e3705d8deddd23857602b76de0a54b",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "중3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중3영어학원/옥정신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "center": "옥정점",
+      "grade": "중3",
+      "subject": "영어",
+      "locality": "옥정신도시",
+      "description": "옥정신도시 중3영어학원 상담 전에 중3 영어 시험 준비 기준과 오답 분류·독해 근거 보완 순서, 학교 시험 자료와 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "4b0a5309562b44ab557e4b87039f9cca7f7791b23b52eeebf2b2f4925412f22b",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "중3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중3영어학원/운양동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9A%B4%EC%96%91%EB%8F%99/",
+      "center": "운양점",
+      "grade": "중3",
+      "subject": "영어",
+      "locality": "운양동",
+      "description": "운양동 중3 영어학원 안내. 학습 진단·복습 기준, 운양점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "a132842c2bbdeb5a5889b55098aa9bfd7f651556bdae6e02ff89ae402fac2823",
+        "centerPath": "/지점안내/경기/운양점/",
+        "confirmedGrade": "중3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "운양점와와학습코칭학원",
+          "경기 김포시 김포한강11로 288-37 헤리움리버테라스 205호",
+          "김포교육지원청 등록 제1913호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "middleSchoolContentReview": {
+          "version": "20261001-2",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-middle-school-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/둔산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%94%EC%82%B0%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "초3",
+      "subject": "수학",
+      "locality": "둔산동",
+      "description": "둔산동 초3 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "64ee8d0ba98b0fac7a79780c567d1a1e2e3c91b2f28ba218054f2d173dc33f4d",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/목동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AA%A9%EB%8F%99/",
+      "center": "목동점",
+      "grade": "초3",
+      "subject": "수학",
+      "locality": "목동",
+      "description": "목동 초3 수학학원 안내. 학습 진단·복습 기준, 목동점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "42854906206d90c293447f3c5a705d129a8b9b9419a0a7f977bb5283045f554f",
+        "centerPath": "/지점안내/서울/목동점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭학원",
+          "서울 양천구 목동동로8길 23 메리트윈 3층 305",
+          "강서양천교육지원청 등록 제 5353호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/송천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%86%A1%EC%B2%9C%EB%8F%99/",
+      "center": "송천점",
+      "grade": "초3",
+      "subject": "수학",
+      "locality": "송천동",
+      "description": "송천동 초3 수학학원 안내. 학습 진단·복습 기준, 송천점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "190f0ba534344a4b5b0e3d1f7ce71a68c91b60a0ea2ba307c30c179654c88ad1",
+        "centerPath": "/지점안내/전북/송천점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭송천점학원",
+          "전북특별자치도 전주시 덕진구 솔내로 129 송천열방빌딩 501호 와와학습코칭학원",
+          "전주교육지원청 등록 제6679호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/신정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%A0%95%EB%8F%99/",
+      "center": "목동점",
+      "grade": "초3",
+      "subject": "수학",
+      "locality": "신정동",
+      "description": "신정동 초3수학학원 상담 전에 초3 수학 단원 학습 기준과 오답 재풀이·단원 복습 복습 순서, 교과서 단원과 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "83d52803d01860284b9f0ce67d3a56f0828aae79ce1d88b30c7117929eebd52d",
+        "centerPath": "/지점안내/서울/목동점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭학원",
+          "서울 양천구 목동동로8길 23 메리트윈 3층 305",
+          "강서양천교육지원청 등록 제 5353호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/탄방동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%83%84%EB%B0%A9%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "초3",
+      "subject": "수학",
+      "locality": "탄방동",
+      "description": "탄방동 초3 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "9648fe478c312de8a31f7f23d3767770399e129953f98dce138fc18536c2bc71",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/경화동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B2%BD%ED%99%94%EB%8F%99/",
+      "center": "석동점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "경화동",
+      "description": "경화동 초3 영어학원 안내. 학습 진단·복습 기준, 석동점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": true,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "8c24b2e224a87e362c16be46fbb885fb123f4c6e51a250d5b610e12859d044cc",
+        "centerPath": "/지점안내/경남/석동점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "석동점와와학습코칭학원",
+          "경남 창원시 진해구 석동로 51 세븐코아 504호",
+          "창원교육지원청 등록 제1933호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/목동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AA%A9%EB%8F%99/",
+      "center": "목동점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "목동",
+      "description": "목동 초3영어학원 상담 전에 초3 영어 단원 학습 기준과 읽기 이해·기본 문장 복습 순서, 교과서 단원과 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "9df3f64e88ffd0bdf330f32990f59ef6472884509464e6f5506129ec1d64c9b8",
+        "centerPath": "/지점안내/서울/목동점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "와와학습코칭학원",
+          "서울 양천구 목동동로8길 23 메리트윈 3층 305",
+          "강서양천교육지원청 등록 제 5353호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/반달마을/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B0%98%EB%8B%AC%EB%A7%88%EC%9D%84/",
+      "center": "반달점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "반달마을",
+      "description": "반달마을 초3 영어학원 안내. 학습 진단·복습 기준, 반달점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "42df44fbd807d4ab69e4cc6453d002afe30c38a6cece9d5ab905fd3bb4518ecd",
+        "centerPath": "/지점안내/경기/반달점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "반달점와와학습코칭보습학원",
+          "경기 부천시 원미구 상일로 69 반달마을 제상가동 제 3층 제 304호 와와학습코칭학원",
+          "부천교육지원청 등록 제6730호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EB%8F%99/",
+      "center": "석동점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "석동",
+      "description": "석동 초3 영어학원 안내. 학습 진단·복습 기준, 석동점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": true,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "292b7d104063d592f32b4a2d0409d17c06531d213eb8d7a77c53e72660df9fe0",
+        "centerPath": "/지점안내/경남/석동점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "석동점와와학습코칭학원",
+          "경남 창원시 진해구 석동로 51 세븐코아 504호",
+          "창원교육지원청 등록 제1933호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/송천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%86%A1%EC%B2%9C%EB%8F%99/",
+      "center": "송천점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "송천동",
+      "description": "송천동 초3 영어학원 안내. 학습 진단·복습 기준, 송천점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "d3e925d968f805ede127c7bf916aba032e8bc8749027674486233a433d190e85",
+        "centerPath": "/지점안내/전북/송천점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "와와학습코칭송천점학원",
+          "전북특별자치도 전주시 덕진구 솔내로 129 송천열방빌딩 501호 와와학습코칭학원",
+          "전주교육지원청 등록 제6679호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/신정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%A0%95%EB%8F%99/",
+      "center": "목동점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "신정동",
+      "description": "신정동 초3 영어학원 안내. 학습 진단·복습 기준, 목동점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "2a357195ac4ed1becd3b0201ed3c52ce225652484717031f9ff00b45ebd27841",
+        "centerPath": "/지점안내/서울/목동점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "와와학습코칭학원",
+          "서울 양천구 목동동로8길 23 메리트윈 3층 305",
+          "강서양천교육지원청 등록 제 5353호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/자은동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9E%90%EC%9D%80%EB%8F%99/",
+      "center": "석동점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "자은동",
+      "description": "자은동 초3영어학원 상담 전에 초3 영어 기초 진단 기준과 기본 문장·읽기 이해 복습 순서, 교과서 단원과 센터 정보를 확인해 보세요.",
+      "conditional": true,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "9ef4ad470124987cc5b98e8cfbd6b679f909d6355df1f3873a8d2155b87b366e",
+        "centerPath": "/지점안내/경남/석동점/",
+        "confirmedGrade": "초3",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "석동점와와학습코칭학원",
+          "경남 창원시 진해구 석동로 51 세븐코아 504호",
+          "창원교육지원청 등록 제1933호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/둔산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%94%EC%82%B0%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "초4",
+      "subject": "수학",
+      "locality": "둔산동",
+      "description": "둔산동 초4 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "34dd8c3a101aaf9df2ed2928e08a805f4f1c80a7f8ee4128f18e6f8e5654df60",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/주월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A3%BC%EC%9B%94%EB%8F%99/",
+      "center": "진월점",
+      "grade": "초4",
+      "subject": "수학",
+      "locality": "주월동",
+      "description": "주월동 초4수학학원 상담 전에 초4 수학 학교 진도 기준과 오답 재풀이·단원 복습 복습 순서, 교과서 단원과 센터 정보를 확인해 보세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "58be999e43297246cc0ffa78dfd97252dbac2680e805ca314fd85cb98e4bd8f7",
+        "centerPath": "/지점안내/광주/진월점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "진월점와와학습코칭센터학원",
+          "광주 남구 광복마을길 47 4층",
+          "광주서부교육지원청 등록 제7193호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/진월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EC%9B%94%EB%8F%99/",
+      "center": "진월점",
+      "grade": "초4",
+      "subject": "수학",
+      "locality": "진월동",
+      "description": "진월동 초4 수학학원 안내. 학습 진단·복습 기준, 진월점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "43dde96304f9065a81c55786402798cd7cea37534ca56e88fe7b7e94f80505d6",
+        "centerPath": "/지점안내/광주/진월점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "진월점와와학습코칭센터학원",
+          "광주 남구 광복마을길 47 4층",
+          "광주서부교육지원청 등록 제7193호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/탄방동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%83%84%EB%B0%A9%EB%8F%99/",
+      "center": "둔산점",
+      "grade": "초4",
+      "subject": "수학",
+      "locality": "탄방동",
+      "description": "탄방동 초4 수학학원 안내. 학습 진단·복습 기준, 둔산점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "7088c5e02631aa541971704e84b3b443b04a2d2f56ad5b9ccf1f03624073d3dd",
+        "centerPath": "/지점안내/대전/둔산점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "수학",
+        "requiredFacts": [
+          "와와학습코칭센터학원",
+          "대전광역시 서구 둔산동 둔산로 142 신화빌딩 401호",
+          "대전서부교육지원청 등록 제 서4002호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/경화동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B2%BD%ED%99%94%EB%8F%99/",
+      "center": "석동점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "경화동",
+      "description": "경화동 초4 영어학원 안내. 학습 진단·복습 기준, 석동점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "7982475613d69fa19db72d7b9fa1b732aa48900096f2090acd9930397ad0d425",
+        "centerPath": "/지점안내/경남/석동점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "석동점와와학습코칭학원",
+          "경남 창원시 진해구 석동로 51 세븐코아 504호",
+          "창원교육지원청 등록 제1933호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EB%8F%99/",
+      "center": "석동점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "석동",
+      "description": "석동 초4 영어학원 안내. 학습 진단·복습 기준, 석동점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "efd848b668882ed3965b734d93d286fbcfd78d5e3b89084d2a03bc8f395fe2a2",
+        "centerPath": "/지점안내/경남/석동점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "석동점와와학습코칭학원",
+          "경남 창원시 진해구 석동로 51 세븐코아 504호",
+          "창원교육지원청 등록 제1933호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/옥정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EB%8F%99/",
+      "center": "옥정점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "옥정동",
+      "description": "옥정동 초4 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "74f43ec5be508b37953322c96d7833e922e3e5915bb9806f6bf060d8cf40d929",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/옥정신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "center": "옥정점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "옥정신도시",
+      "description": "옥정신도시 초4 영어학원 안내. 학습 진단·복습 기준, 옥정점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "9ec964b0680faea1b8c86b119055f38a3dae6a26d5a81c4c4bebc011454fa40d",
+        "centerPath": "/지점안내/경기/옥정점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "옥정점와와학습코칭학원",
+          "경기 양주시 옥정로 218 신운정튼튼프라자 305호 와와학습코칭학원",
+          "경기도동두천양주교육지원청 제1331호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/운양동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9A%B4%EC%96%91%EB%8F%99/",
+      "center": "운양점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "운양동",
+      "description": "운양동 초4 영어학원 안내. 학습 진단·복습 기준, 운양점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "8573c8437a3776e055046ae5c76de8fb7a1cb3b129a6d6879d6ff1be6b050308",
+        "centerPath": "/지점안내/경기/운양점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "운양점와와학습코칭학원",
+          "경기 김포시 김포한강11로 288-37 헤리움리버테라스 205호",
+          "김포교육지원청 등록 제1913호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/자은동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9E%90%EC%9D%80%EB%8F%99/",
+      "center": "석동점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "자은동",
+      "description": "자은동 초4 영어학원 안내. 학습 진단·복습 기준, 석동점의 수업 대상과 상담 준비를 확인하세요.",
+      "conditional": false,
+      "sectionRefinementReview": {
+        "version": "20260923-2",
+        "reviewedAt": "2026-09-23",
+        "sourceSha256": "083086ebca632b515873d0861fb6ee6e532cd87a7362e4478008876a9efac9c5",
+        "centerPath": "/지점안내/경남/석동점/",
+        "confirmedGrade": "초4",
+        "confirmedSubject": "영어",
+        "requiredFacts": [
+          "석동점와와학습코칭학원",
+          "경남 창원시 진해구 석동로 51 세븐코아 504호",
+          "창원교육지원청 등록 제1933호"
+        ],
+        "neighborhoodFoundationReview": {
+          "version": "20260930-3",
+          "reviewedAt": "2026-09-30",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true
+        },
+        "elementaryContentReview": {
+          "version": "20261001-3",
+          "reviewedAt": "2026-10-01",
+          "gradeSubjectRechecked": true,
+          "canonicalRobotsFactsPreserved": true,
+          "fullValidation": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\naver-elementary-new8-20261001\\page-validation.json"
+        }
+      }
+    }
+  ]
+}

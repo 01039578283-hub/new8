@@ -1,0 +1,32 @@
+/* Applied only to the three reviewed Myeongil pages. */
+.naver-local-improved .academy-hero { grid-template-columns: minmax(0, 1.35fr) minmax(300px, 1fr); }
+.naver-local-improved .academy-hero h1 { font-size: clamp(30px, 4vw, 50px); line-height: 1.18; letter-spacing: -.045em; }
+.naver-local-improved .academy-hero-main { padding: 30px; }
+.naver-local-improved .academy-side-card { padding: 28px; gap: 16px; }
+.naver-local-improved .local-facts-title { margin: 0; font-size: 20px; line-height: 1.4; color: #fff; }
+.naver-local-improved .local-facts { display: grid; gap: 10px; margin: 0; font-size: 15px; line-height: 1.65; }
+.naver-local-improved .local-facts > div { display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 10px; }
+.naver-local-improved .local-facts dt { color: #c3e9d9; font-weight: 700; }
+.naver-local-improved .local-facts dd { margin: 0; color: #fff; overflow-wrap: anywhere; }
+.naver-local-improved .local-facts a { color: #d8ff98; text-decoration: underline; text-underline-offset: 3px; }
+.naver-local-improved .local-scope-note { margin: 0; font-size: 13px; }
+.naver-local-improved .local-roles { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.naver-local-improved .local-roles a { display: inline-flex; align-items: center; min-height: 44px; padding: 9px 14px; border: 1px solid #687c91; border-radius: 10px; color: #fff; text-decoration: none; font-size: 14px; }
+.naver-local-improved .local-roles a[aria-current="page"] { background: #d8ff98; color: #183a2e; border-color: #d8ff98; font-weight: 800; }
+.naver-local-improved .local-roles a:focus-visible { outline: 3px solid #d8ff98; outline-offset: 3px; }
+.naver-local-improved .local-link-note { display: inline-block; margin-top: 12px; font-weight: 700; }
+.naver-local-improved .local-updated { width: min(1060px, calc(100% - 40px)); margin: 24px auto; color: #d3e1e3; font-size: 14px; }
+@media (max-width: 900px) {
+  .naver-local-improved .academy-hero { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .naver-local-improved .academy-hero { margin-top: 20px; }
+  .naver-local-improved .academy-hero-main { padding: 22px 18px; }
+  .naver-local-improved .academy-side-card { padding: 22px 18px; }
+  .naver-local-improved .academy-hero h1 { font-size: 32px; }
+  .naver-local-improved .academy-hero-main > .eyebrow { display: none; }
+  .naver-local-improved .academy-hero-main > p { margin: 12px 0; font-size: 15px; line-height: 1.65; }
+  .naver-local-improved .local-roles { margin-top: 14px; gap: 6px; }
+  .naver-local-improved .local-roles a { padding: 8px 11px; }
+  .naver-local-improved .local-updated { width: calc(100% - 28px); }
+}

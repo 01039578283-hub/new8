@@ -1,0 +1,31 @@
+.naver-branch-exam-improved .nbe-section{scroll-margin-top:100px}
+.naver-branch-exam-improved .nbe-section p,.naver-branch-exam-improved .nbe-section li{line-height:1.8;overflow-wrap:anywhere}
+.naver-branch-exam-improved .nbe-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.naver-branch-exam-improved .nbe-card{min-width:0;border:1px solid #dfe7e4;border-radius:14px;background:#f7faf8;padding:22px}
+.naver-branch-exam-improved .nbe-card h3{font-size:1.1rem;line-height:1.5;margin:0 0 12px;color:#174d3a;overflow-wrap:anywhere}
+.naver-branch-exam-improved .nbe-card p{margin:0 0 12px}
+.naver-branch-exam-improved .nbe-card p:last-child{margin-bottom:0}
+.naver-branch-exam-improved .nbe-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.naver-branch-exam-improved .nbe-links a{display:block;max-width:100%;padding:8px 12px;border:1px solid #bad3c6;border-radius:8px;background:white;color:#174d3a;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-exam-improved .nbe-card .bd-button{white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.naver-branch-exam-improved .nbe-faq details{margin-bottom:12px;border:1px solid #dfe7e4;border-radius:12px;padding:16px}
+.naver-branch-exam-improved .nbe-faq summary{cursor:pointer;font-weight:700;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-exam-improved .nbe-faq p{margin:14px 0 0}
+.naver-branch-exam-improved .nbe-anchor{display:block;height:0;scroll-margin-top:100px}
+.naver-branch-exam-improved .nbe-toc a:focus-visible,.naver-branch-exam-improved .nbe-links a:focus-visible,.naver-branch-exam-improved .nbe-faq summary:focus-visible{outline:3px solid #266d50;outline-offset:4px}
+@media(max-width:800px){.naver-branch-exam-improved .nbe-grid{grid-template-columns:1fr}.naver-branch-exam-improved .nbe-card{padding:18px}.naver-branch-exam-improved .nbe-section{scroll-margin-top:92px}}
+
+.naver-branch-exam-improved .nbe-plan-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.naver-branch-exam-improved .nbe-example{padding:22px;border:1px solid #b8d0c2;border-radius:16px;background:#edf5f0;margin:22px 0}
+.naver-branch-exam-improved .nbe-example>h3{margin-top:0;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-exam-improved .nbe-note{font-size:.95rem}
+.naver-branch-exam-improved .nbe-table-wrap{max-width:100%;margin:24px 0}
+.naver-branch-exam-improved .nbe-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:1rem}
+.naver-branch-exam-improved .nbe-table caption{text-align:left;font-weight:700;margin-bottom:12px;line-height:1.6}
+.naver-branch-exam-improved .nbe-table th,.naver-branch-exam-improved .nbe-table td{padding:16px;border:1px solid #dfe7e4;text-align:left;vertical-align:top;line-height:1.8;overflow-wrap:anywhere}
+.naver-branch-exam-improved .nbe-table th:first-child{width:28%}
+.naver-branch-exam-improved .nbe-table th{background:#f0f6f2}
+@media(max-width:800px){.naver-branch-exam-improved .nbe-plan-grid{grid-template-columns:1fr}.naver-branch-exam-improved .nbe-example{padding:16px}.naver-branch-exam-improved .nbe-table th,.naver-branch-exam-improved .nbe-table td{padding:12px}}
+
+.naver-branch-exam-improved .bd-section,.naver-branch-exam-improved .nbe-anchor{scroll-margin-top:120px}
+@media(max-width:900px){.naver-branch-exam-improved .bd-section,.naver-branch-exam-improved .nbe-anchor{scroll-margin-top:215px}}

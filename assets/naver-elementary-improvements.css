@@ -1,0 +1,16 @@
+/* Original learning examples and consultation questions, scoped to this pass. */
+.naver-elementary-improved .nhs-section { scroll-margin-top: 100px; }
+.naver-elementary-improved .nhs-anchor { display: block; height: 0; scroll-margin-top: 100px; }
+.naver-elementary-improved .nhs-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin: 20px 0; }
+.naver-elementary-improved .nhs-card { padding: 20px; border: 1px solid #dbe5e0; border-radius: 14px; background: #f6faf8; min-width: 0; }
+.naver-elementary-improved .nhs-card h3 { margin: 0 0 12px; color: #164e3c; font-size: 1.08rem; }
+.naver-elementary-improved .nhs-card p { margin-bottom: 0; }
+.naver-elementary-improved .nhs-example { display: grid; gap: 16px; margin: 20px 0; }
+.naver-elementary-improved .nhs-example .nhs-card { border-left: 4px solid #39765f; }
+.naver-elementary-improved .nhs-note { padding: 14px 18px; border-radius: 10px; background: #f2f5f4; color: #3d5048; font-size: .95rem; }
+.naver-elementary-improved .nhs-section p, .naver-elementary-improved .nhs-section li, .naver-elementary-improved .nhs-faq summary { overflow-wrap: anywhere; line-height: 1.8; }
+.naver-elementary-improved .nhs-section li + li { margin-top: 10px; }
+.naver-elementary-improved .nhs-links { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+.naver-elementary-improved .nhs-links a { display: block; padding: 12px 16px; border: 1px solid #c9dcd2; border-radius: 10px; background: #f6faf8; color: #164e3c; }
+.naver-elementary-improved .nhs-links a:hover, .naver-elementary-improved .nhs-links a:focus-visible { background: #e5f0ea; color: #103729; }
+@media (max-width: 767px) { .naver-elementary-improved .nhs-grid { grid-template-columns: 1fr; } .naver-elementary-improved .nhs-card { padding: 16px; } }

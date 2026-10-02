@@ -1,0 +1,38 @@
+/* Existing neighborhood routes only: factual summaries and role-based navigation. */
+.naver-neighborhood-improved .academy-hero{grid-template-columns:minmax(0,1.15fr) minmax(300px,1fr)}
+.naver-neighborhood-improved .academy-hero-main{padding:30px}
+.naver-neighborhood-improved .academy-hero h1{font-size:clamp(30px,4vw,50px);line-height:1.2;letter-spacing:-.04em}
+.naver-neighborhood-improved .ng-quick{padding:26px;gap:14px;align-content:start;min-width:0;scroll-margin-top:205px}
+.naver-neighborhood-improved .ng-quick h2{margin:0 0 14px;font-size:22px;line-height:1.4;color:#fff;word-break:keep-all}
+.naver-neighborhood-improved .ng-facts{margin:0;display:grid;gap:10px}
+.naver-neighborhood-improved .ng-facts>div{display:grid;grid-template-columns:74px minmax(0,1fr);gap:12px;padding-bottom:10px;border-bottom:1px solid #ffffff29}
+.naver-neighborhood-improved .ng-facts dt{color:#c3e9d9;font-size:14px;font-weight:750;line-height:1.7}
+.naver-neighborhood-improved .ng-facts dd{color:#fff;margin:0;font-size:15px;line-height:1.75;overflow-wrap:anywhere}
+.naver-neighborhood-improved .ng-facts a{color:#d8ff98;font-weight:750;text-decoration:underline;text-underline-offset:3px}
+.naver-neighborhood-improved .ng-quick .ng-confirm{margin:12px 0 0;font-size:13px;line-height:1.8;font-weight:500}
+.naver-neighborhood-improved .ng-quick .ng-source{font-size:12px;line-height:1.7;margin:8px 0 0;font-weight:500}
+.naver-neighborhood-improved .ng-conditions{border-left:3px solid #d8ff98;padding:12px 14px;margin-top:14px;background:#ffffff0d;border-radius:0 10px 10px 0}
+.naver-neighborhood-improved .ng-conditions>p{font-size:13px;line-height:1.7;font-weight:750;margin:0 0 6px}
+.naver-neighborhood-improved .ng-conditions ul{margin:0;padding-left:18px;font-size:13px;line-height:1.85;color:#e2ede7}
+.naver-neighborhood-improved .ng-conditions li+li{margin-top:6px}
+.naver-neighborhood-improved .ng-roles{width:min(1060px,calc(100% - 40px));margin:20px auto;padding:18px 22px;border:1px solid #536977;border-radius:16px;background:#14283a}
+.naver-neighborhood-improved .ng-roles>p{color:#e2ede7;font-size:14px;line-height:1.7;margin:0 0 10px;font-weight:750}
+.naver-neighborhood-improved .ng-roles>div{display:flex;flex-wrap:wrap;gap:8px}
+.naver-neighborhood-improved .ng-roles a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 13px;color:#fff;border:1px solid #617a84;border-radius:10px;font-size:14px;line-height:1.6;text-decoration:none;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.naver-neighborhood-improved .ng-roles a:hover{background:#25423f;border-color:#a8cb71}
+.naver-neighborhood-improved .ng-roles a:focus-visible{outline:3px solid #d8ff98;outline-offset:3px}
+.naver-neighborhood-improved .ng-branch-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:30px;align-items:start}
+.naver-neighborhood-improved .ng-branch-quick{background:#fff;border:1px solid #d9e4dc;border-radius:20px;margin:0}
+.naver-neighborhood-improved .ng-branch-quick h2{color:#152c2c;font-size:23px}
+.naver-neighborhood-improved .ng-branch-quick .ng-facts dt{color:#165e50}
+.naver-neighborhood-improved .ng-branch-quick .ng-facts dd{color:#152c2c}
+.naver-neighborhood-improved .ng-branch-quick .ng-facts>div{border-bottom-color:#d9e4dc}
+.naver-neighborhood-improved .ng-branch-quick .ng-facts a{color:#165e50}
+.naver-neighborhood-improved .ng-branch-quick .ng-conditions{background:#edf4e9;border-left-color:#7aa66c}
+.naver-neighborhood-improved .ng-branch-quick .ng-conditions ul{color:#4f6260}
+.naver-neighborhood-improved.branch-directory .ng-roles{width:min(1120px,calc(100% - 40px));background:#fff;border-color:#d9e4dc}
+.naver-neighborhood-improved.branch-directory .ng-roles>p{color:#152c2c}
+.naver-neighborhood-improved.branch-directory .ng-roles a{color:#165e50;border-color:#bbd1c2}
+.naver-neighborhood-improved.branch-directory .ng-roles a:hover{background:#edf4e9}
+@media(max-width:900px){.naver-neighborhood-improved .academy-hero,.naver-neighborhood-improved .ng-branch-grid{grid-template-columns:minmax(0,1fr)}.naver-neighborhood-improved .ng-branch-grid{gap:22px}}
+@media(max-width:600px){.naver-neighborhood-improved .academy-hero-main,.naver-neighborhood-improved .ng-quick{padding:22px 18px}.naver-neighborhood-improved .academy-hero{margin-top:20px}.naver-neighborhood-improved .academy-hero h1{font-size:32px}.naver-neighborhood-improved .academy-hero-main>.eyebrow{display:none}.naver-neighborhood-improved .academy-hero-main>p{font-size:15px;line-height:1.7;margin:12px 0}.naver-neighborhood-improved .ng-quick h2{font-size:21px}.naver-neighborhood-improved .ng-facts>div{grid-template-columns:64px minmax(0,1fr);gap:10px}.naver-neighborhood-improved .ng-facts dd{font-size:14px}.naver-neighborhood-improved .ng-facts dt{font-size:13px}.naver-neighborhood-improved .ng-roles,.naver-neighborhood-improved.branch-directory .ng-roles{width:calc(100% - 32px);padding:16px;margin:16px auto}.naver-neighborhood-improved .ng-roles a{flex:1 1 125px;padding:9px 11px;font-size:13px}.naver-neighborhood-improved .ng-branch-quick{border-radius:16px}}

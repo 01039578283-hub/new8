@@ -1,0 +1,31 @@
+.naver-branch-commute-improved .nbc-section{scroll-margin-top:100px}
+.naver-branch-commute-improved .nbc-section p,.naver-branch-commute-improved .nbc-section li{line-height:1.8;overflow-wrap:anywhere}
+.naver-branch-commute-improved .nbc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:22px 0}
+.naver-branch-commute-improved .nbc-card{min-width:0;border:1px solid #dfe7e4;border-radius:14px;background:#f7faf8;padding:22px}
+.naver-branch-commute-improved .nbc-card h3{font-size:1.1rem;line-height:1.5;margin:0 0 12px;color:#174d3a;overflow-wrap:anywhere}
+.naver-branch-commute-improved .nbc-card p{margin:0 0 12px}
+.naver-branch-commute-improved .nbc-card p:last-child{margin-bottom:0}
+.naver-branch-commute-improved .nbc-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.naver-branch-commute-improved .nbc-links a{display:block;max-width:100%;padding:8px 12px;border:1px solid #bad3c6;border-radius:8px;background:white;color:#174d3a;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-commute-improved .nbc-card .bd-button{white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.naver-branch-commute-improved .nbc-faq details{margin-bottom:12px;border:1px solid #dfe7e4;border-radius:12px;padding:16px}
+.naver-branch-commute-improved .nbc-faq summary{cursor:pointer;font-weight:700;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-commute-improved .nbc-faq p{margin:14px 0 0}
+.naver-branch-commute-improved .nbc-anchor{display:block;height:0;scroll-margin-top:100px}
+.naver-branch-commute-improved .nbc-toc a:focus-visible,.naver-branch-commute-improved .nbc-links a:focus-visible,.naver-branch-commute-improved .nbc-faq summary:focus-visible{outline:3px solid #266d50;outline-offset:4px}
+@media(max-width:800px){.naver-branch-commute-improved .nbc-grid{grid-template-columns:1fr}.naver-branch-commute-improved .nbc-card{padding:18px}.naver-branch-commute-improved .nbc-section{scroll-margin-top:92px}}
+
+.naver-branch-commute-improved .nbc-two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.naver-branch-commute-improved .nbc-example{padding:22px;border:1px solid #b8d0c2;border-radius:16px;background:#edf5f0;margin:22px 0}
+.naver-branch-commute-improved .nbc-example>h3{margin-top:0;line-height:1.6;overflow-wrap:anywhere}
+.naver-branch-commute-improved .nbc-note{font-size:.95rem}
+.naver-branch-commute-improved .nbc-table-wrap{max-width:100%;margin:24px 0}
+.naver-branch-commute-improved .nbc-table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:1rem}
+.naver-branch-commute-improved .nbc-table caption{text-align:left;font-weight:700;margin-bottom:12px;line-height:1.6}
+.naver-branch-commute-improved .nbc-table th,.naver-branch-commute-improved .nbc-table td{padding:16px;border:1px solid #dfe7e4;text-align:left;vertical-align:top;line-height:1.8;overflow-wrap:anywhere}
+.naver-branch-commute-improved .nbc-table th:first-child{width:28%}
+.naver-branch-commute-improved .nbc-table th{background:#f0f6f2}
+@media(max-width:800px){.naver-branch-commute-improved .nbc-two{grid-template-columns:1fr}.naver-branch-commute-improved .nbc-example{padding:16px}.naver-branch-commute-improved .nbc-table th,.naver-branch-commute-improved .nbc-table td{padding:12px}}
+
+.naver-branch-commute-improved .bd-section,.naver-branch-commute-improved .nbc-anchor{scroll-margin-top:120px}
+@media(max-width:900px){.naver-branch-commute-improved .bd-section,.naver-branch-commute-improved .nbc-anchor{scroll-margin-top:215px}}
