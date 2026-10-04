@@ -1,0 +1,32 @@
+/* Homepage resource paths. Loaded only by the homepage. */
+.core-home .hc-section{width:min(1120px,calc(100% - 40px));margin:0 auto;padding:38px 0;color:#152b2a}
+.core-home :is(#home-content,#education-information,#curriculum-information){scroll-margin-top:24px!important}
+.core-home .hc-heading{margin-bottom:22px;max-width:760px}
+.core-home .hc-kicker{margin:0 0 8px;color:#135d50;font-size:13px;font-weight:800;line-height:1.7}
+.core-home .hc-heading h2{margin:0 0 12px;font-size:clamp(24px,3vw,32px);line-height:1.45;letter-spacing:-.035em;word-break:keep-all;overflow-wrap:anywhere}
+.core-home .hc-heading>p:last-child{margin:0;color:#4b6262;font-size:15px;line-height:1.85}
+.core-home .hc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.core-home .hc-card{min-width:0;padding:24px;background:#fff;border:1px solid #d9e4df;border-radius:16px;display:flex;flex-direction:column}
+.core-home .hc-card h3{margin:0 0 12px;color:#152b2a;font-size:20px;line-height:1.55;letter-spacing:-.035em;word-break:keep-all;overflow-wrap:anywhere}
+.core-home .hc-card>p{margin:0 0 18px;color:#4b6262;font-size:14px;line-height:1.85}
+.core-home .hc-card .hc-label{margin:0 0 8px;color:#135d50;font-size:12px;font-weight:800}
+.core-home .hc-actions{display:grid;gap:9px;margin-top:auto}
+.core-home .hc-link{display:flex;align-items:center;justify-content:space-between;gap:10px;box-sizing:border-box;min-height:48px;padding:12px 14px;border:1px solid #bdcdc6;border-radius:10px;background:#f6faf7;color:#174b3f;text-decoration:none;font-size:14px;font-weight:750;line-height:1.65;word-break:keep-all;overflow-wrap:anywhere}
+.core-home .hc-link span[aria-hidden]{flex-shrink:0}
+.core-home .hc-link:hover{background:#eaf3ed;border-color:#135d50;text-decoration:underline}
+.core-home .hc-link:focus-visible{outline:3px solid #18877c;outline-offset:4px}
+.core-home .hc-note{margin:22px 0 0;color:#4b6262;font-size:13px;line-height:1.85}
+.core-home .hc-cur .hc-grid{margin-top:24px}
+.core-home .hc-cur .hc-card{padding:22px}
+.core-home .hc-feature-links{display:grid;gap:10px;margin-top:18px}
+.core-home .edn-home-grid article{display:flex;flex-direction:column}
+.core-home .edn-home-grid article>div{display:flex;flex:1;flex-direction:column}
+.core-home .edn-home-grid .hc-feature-links{margin-top:auto;padding-top:8px}
+.core-home .edn-home-grid .hc-question{font-size:16px;font-weight:800;color:#344f2f;margin:0 0 12px;line-height:1.7}
+.core-home .hc-hero-link{background:transparent;border-color:#819b93;color:#fff}
+.core-home .hc-faq-links{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 4px}
+.core-home .hc-faq-links .hc-link{flex:0 1 auto}
+.core-home .hc-top-link{display:inline-flex;align-items:center;min-height:44px;margin-top:12px;color:#135d50;font-size:14px;font-weight:750;text-underline-offset:4px}
+@media(max-width:900px){.core-home .hc-grid{gap:12px}.core-home .hc-card{padding:20px}.core-home .hc-card h3{font-size:19px}}
+@media(max-width:700px){.core-home .hc-grid{grid-template-columns:1fr;gap:16px}.core-home .hc-section{padding:28px 0}.core-home .hc-card{padding:22px}.core-home .hc-faq-links{display:grid}.core-home .hc-top-link{width:100%}.core-home .hc-hero-link{width:100%}}
+@media(prefers-reduced-motion:reduce){.core-home{scroll-behavior:auto}}

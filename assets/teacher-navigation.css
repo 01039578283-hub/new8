@@ -1,0 +1,13 @@
+/* Shared menu layout, including the teacher directory. */
+.nav .nav-links{flex-wrap:wrap;min-width:0}
+.nav .nav-links>a[data-teacher-menu]{min-height:44px}
+.td-connection{box-sizing:border-box;width:min(1120px,calc(100% - 32px));margin:24px auto;padding:25px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px;background:#e9f1e6;border:1px solid #c2d3bc;border-radius:18px;color:#16382b;scroll-margin-top:140px}
+.td-connection .td-connection-copy{min-width:0}
+.td-connection .td-connection-label{font-size:13px;font-weight:800;color:#47644a;margin:0 0 6px;line-height:1.6}
+.td-connection .td-connection-copy h2{color:#16382b;font-size:23px;line-height:1.45;margin:0 0 8px;letter-spacing:-.035em;word-break:keep-all;overflow-wrap:anywhere}
+.td-connection .td-connection-copy p{color:#405744;font-size:15px;line-height:1.8;margin:0}
+.td-connection .td-connection-link{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;max-width:100%;min-height:48px;padding:12px 19px;border:1px solid #254c37;background:#254c37;color:#fff;border-radius:12px;font-weight:800;font-size:15px;text-decoration:none;line-height:1.6;text-align:center;word-break:keep-all;overflow-wrap:anywhere}
+.td-connection .td-connection-link:hover{background:#183926;text-decoration:underline}
+.td-connection .td-connection-link:focus-visible{outline:3px solid #1a704d;outline-offset:4px}
+@media(max-width:1100px){.nav{flex-direction:column!important;align-items:stretch!important;border-radius:20px!important}.nav .brand{align-self:center;justify-content:center}.nav .nav-links{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:4px!important;width:100%;border-radius:14px}.nav .nav-links>a{grid-column:auto!important;display:flex;align-items:center;justify-content:center;min-height:44px!important;font-size:13px!important;padding:8px 5px!important;line-height:1.5;white-space:normal;word-break:keep-all;overflow-wrap:anywhere}.branch-directory main [id],.core-page:not(.lg-page):not(.td-page) main [id]{scroll-margin-top:225px}}
+@media(max-width:600px){.nav .nav-links{grid-template-columns:repeat(3,minmax(0,1fr))!important}.nav .nav-links>a:first-child{display:none}.nav .brand{color:#fff}.td-connection{padding:22px 20px;flex-direction:column;align-items:stretch;gap:18px}.td-connection .td-connection-copy h2{font-size:21px}.td-connection .td-connection-link{align-self:flex-start}.branch-directory main [id],.core-page:not(.lg-page):not(.td-page) main [id]{scroll-margin-top:265px}}
