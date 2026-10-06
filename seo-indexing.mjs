@@ -18,6 +18,16 @@ function visit(node, fn) {
 export function transform(html, p) {
   const canonical = html.match(/<link\b(?=[^>]*rel=["']canonical["'])(?=[^>]*href=["']([^"']+))[^>]*>/i)?.[1];
   if (canonical !== p.canonical || new URL(canonical).origin !== manifest.origin) throw Error(`Canonical mismatch: ${p.path}`);
+  if (p.crawlRestorationReview) {
+    const review=p.crawlRestorationReview;
+    const tracker='<script defer src="https://wawa-visit-collector.clean-peach-8202.chatgpt.site/tracker.js" data-site="wawa-09" crossorigin="anonymous" referrerpolicy="no-referrer"></script>';
+    const fingerprint=createHash('sha256').update(html.replace(tracker,''),'utf8').digest('hex');
+    const visible=html.split('</head>')[1];
+    if (fingerprint!==review.sourceSha256 || !review.requiredFacts.every(s=>visible?.includes(escape(s)))) throw Error(`Restored page changed; review required: ${p.path}`);
+    const robots=[...html.matchAll(/<meta\b(?=[^>]*name=["']robots["'])[^>]*>/gi)];
+    if (robots.length!==1 || /\bnoindex\b/i.test(robots[0][0])) throw Error(`Restored indexability changed: ${p.path}`);
+    return {html,changed:false};
+  }
   // The older recovery rule below intentionally protects exact availability
   // wording. A reviewed section rewrite uses a stricter whole-page fingerprint
   // instead: it must still be one of these same 50 individually approved pages.

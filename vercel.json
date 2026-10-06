@@ -28,20 +28,29 @@
       ]
     },
     {
-      "source": "/assets/site.css",
+      "source": "/assets/(.*).css",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600, stale-while-revalidate=86400"
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     },
     {
-      "source": "/assets/core.js",
+      "source": "/assets/(.*).js",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600, stale-while-revalidate=86400"
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/assets/crawl-static/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
       ]
     },
@@ -54,11 +63,33 @@
         },
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600, stale-while-revalidate=86400"
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     }
   ],
   "buildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-09 .public-release && node seo-indexing.mjs --root=.public-release && node seo-descriptions.mjs --root=.public-release",
-  "outputDirectory": ".public-release"
+  "outputDirectory": ".public-release",
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*/index.html",
+      "destination": "/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/선생님찾기/둔산점\\(W \\)/",
+      "destination": "/선생님찾기/둔산점(W%2B)/",
+      "permanent": true
+    },
+    {
+      "source": "/선생님찾기/다산점\\(W \\)/",
+      "destination": "/선생님찾기/다산점(W%2B)/",
+      "permanent": true
+    }
+  ]
 }

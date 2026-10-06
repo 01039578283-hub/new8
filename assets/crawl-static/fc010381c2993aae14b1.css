@@ -1,0 +1,20 @@
+.crawl-media-stack{display:block!important;margin:0!important;padding:0!important;overflow:hidden;border-radius:12px;background:#fff;line-height:0}
+.crawl-media-stack a,.crawl-media-zoom{display:block;cursor:zoom-in;color:inherit}
+.crawl-media-stack img{display:block!important;width:100%!important;height:auto!important;max-width:none!important;margin:0!important;border:0!important;border-radius:0!important}
+.crawl-media-zoom img{display:block;width:100%;height:auto}
+.crawl-media-note{font-size:.9rem;line-height:1.65;margin:12px 0;color:#40525c}
+.crawl-image-dialog{width:min(1100px,96vw);height:94dvh;max-height:94dvh;max-width:96vw;padding:0;border:1px solid #bbc9cf;border-radius:14px;background:#f6f9f8;color:#15302d;overflow:hidden}
+.crawl-image-dialog::backdrop{background:rgb(0 15 20 / .78)}
+.crawl-image-toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:12px;border-bottom:1px solid #d2dfdb;background:#fff}
+.crawl-image-toolbar strong{flex:1 1 180px;font-size:1rem;line-height:1.5}
+.crawl-image-toolbar button,.crawl-image-toolbar a{min-height:44px;padding:8px 12px;border:1px solid #aac2b7;border-radius:8px;font:inherit;background:#fff;color:#15302d;cursor:pointer}
+.crawl-image-toolbar button:focus-visible,.crawl-media-zoom:focus-visible,.crawl-media-stack a:focus-visible{outline:3px solid #006641;outline-offset:3px}
+.crawl-image-scroll{overflow:auto;height:calc(100% - 116px);overscroll-behavior:contain;background:#e1e8e4;padding:8px}
+.crawl-image-scroll img{display:block;max-width:none!important;height:auto!important;margin:0 auto}
+.crawl-image-status{margin:0;padding:7px 12px;font-size:.85rem;line-height:1.5;background:#fff}
+.crawl-teacher-list,.crawl-curriculum-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:12px;list-style:none;padding:0;margin:12px 0}
+.crawl-teacher-list li,.crawl-curriculum-list li{border:1px solid #d3e1d9;background:#fff;border-radius:12px;padding:14px;line-height:1.75}
+.crawl-teacher-list a,.crawl-curriculum-list a{color:#125c40;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.crawl-curriculum-list p{margin:8px 0}.crawl-merged-note{padding:14px;background:#f0f7f2;border-radius:12px;line-height:1.75;margin:14px 0}
+.td-connection:has(.crawl-teacher-list){display:block}.crawl-merged-info{margin-bottom:24px}
+@media(max-width:600px){.crawl-image-toolbar{padding:8px;gap:6px}.crawl-image-toolbar strong{flex-basis:100%;font-size:.9rem}.crawl-image-toolbar button,.crawl-image-toolbar a{padding:7px 9px;font-size:.85rem}.crawl-image-scroll{height:calc(100% - 152px)}.crawl-image-dialog{width:96vw}.crawl-media-note{font-size:.875rem}}
