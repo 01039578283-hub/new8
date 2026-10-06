@@ -82,13 +82,13 @@
       "permanent": true
     },
     {
-      "source": "/선생님찾기/둔산점\\(W\\+\\)/",
-      "destination": "/선생님찾기/둔산점%28W%2B%29/",
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%91%94%EC%82%B0%EC%A0%90\\(W\\+\\)/",
+      "destination": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%91%94%EC%82%B0%EC%A0%90%28W%2B%29/",
       "permanent": true
     },
     {
-      "source": "/선생님찾기/다산점\\(W\\+\\)/",
-      "destination": "/선생님찾기/다산점%28W%2B%29/",
+      "source": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%8B%A4%EC%82%B0%EC%A0%90\\(W\\+\\)/",
+      "destination": "/%EC%84%A0%EC%83%9D%EB%8B%98%EC%B0%BE%EA%B8%B0/%EB%8B%A4%EC%82%B0%EC%A0%90%28W%2B%29/",
       "permanent": true
     }
   ]
