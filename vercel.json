@@ -83,12 +83,12 @@
     },
     {
       "source": "/선생님찾기/둔산점\\(W \\)/",
-      "destination": "/선생님찾기/둔산점(W%2B)/",
+      "destination": "/선생님찾기/둔산점%28W%2B%29/",
       "permanent": true
     },
     {
       "source": "/선생님찾기/다산점\\(W \\)/",
-      "destination": "/선생님찾기/다산점(W%2B)/",
+      "destination": "/선생님찾기/다산점%28W%2B%29/",
       "permanent": true
     }
   ]
