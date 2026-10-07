@@ -3,6 +3,8 @@
   "createdAt": "2026-10-07T06:11:17.132670+09:00",
   "sitemapPages": 13692,
   "files": {
+    "assets/site-favicon.png": "cad30777a6087371df411c91f09f9b84a680e2ce5b7b3c06de9cbed66a4bb0e4",
+    "assets/site-apple-touch-icon.png": "9fe80c92998d07337a9f5fac7fb901a6a782fc2634ea7c6fc5c5436dd691d974",
     "assets/brand-learning.css": "dc6a417483d8f1e111b8c0294268b922d73f8daefc3035e3980fb7038ebac547",
     "assets/brand-learning/planner.webp": "91c44f8ba2ff9d2fd3158fd591841bfd200bf5d616ab57dea5a4411438c4b86b",
     "assets/brand-learning/question-feedback.webp": "81c4414ac3ceda1f186a4a94fbaab6459b5dc636c7cc4acc2be4abb3d10e19e8",

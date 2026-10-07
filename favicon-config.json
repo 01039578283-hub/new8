@@ -1,0 +1,9 @@
+{
+  "domain": "코칭센터.com",
+  "outputDirectory": ".public-release",
+  "previousBuildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-09 .public-release && node seo-indexing.mjs --root=.public-release && node seo-descriptions.mjs --root=.public-release",
+  "assets": {
+    "assets/site-favicon.png": "cad30777a6087371df411c91f09f9b84a680e2ce5b7b3c06de9cbed66a4bb0e4",
+    "assets/site-apple-touch-icon.png": "9fe80c92998d07337a9f5fac7fb901a6a782fc2634ea7c6fc5c5436dd691d974"
+  }
+}
