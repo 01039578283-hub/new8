@@ -14,7 +14,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "7049a73a7fddd217f4012dc0fd4e87a7ccd59dc5cd2c9ac30572d7534e24fe1d",
+        "sourceSha256": "a504c159a11ddaf52013481a943b40501458fc18270acddb2f211e617da48271",
         "centerPath": "/지점안내/인천/청라점/",
         "confirmedGrade": "고1",
         "confirmedSubject": "수학",
@@ -62,6 +62,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -77,7 +82,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "68190a6e9c21bf773345cad875e2b6d5fcc946c9ff5a0d5fd895f909361b72c1",
+        "sourceSha256": "cbe3ecc374b12e94c24322e3205f835ff9b65b42a3715c41ebb9532f876ec5f6",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "고1",
         "confirmedSubject": "영어",
@@ -125,6 +130,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -140,7 +150,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "aebc35c96d5eb22491aba5e0677995332057a3770416179419cf24734e51b1f5",
+        "sourceSha256": "bc0dd3a8c914d02c1fe36ee598f276bfe55afbbba4f2a4049767dfb83a92bf57",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "고1",
         "confirmedSubject": "영어",
@@ -188,6 +198,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -203,7 +218,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "2f289ce98f86b185e6a9c068c70730bc3c0dc5c2f87bc7992244a0b7e671fd7a",
+        "sourceSha256": "cbb97649a1f820c967642257e55ff58e1fddfc8d2e19ef3ee88c2cfe9dc3f42a",
         "centerPath": "/지점안내/경기/운양점/",
         "confirmedGrade": "고1",
         "confirmedSubject": "영어",
@@ -251,6 +266,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -266,7 +286,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "b05fb427edf3e02bfb699136f0aab6e6dc398614b7dea156d8db9d22d4073ce1",
+        "sourceSha256": "756295232f519d428fd39c297ed650027fbd9eb743d361d024b7aa015fe966cf",
         "centerPath": "/지점안내/인천/청라점/",
         "confirmedGrade": "고1",
         "confirmedSubject": "영어",
@@ -314,6 +334,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -329,7 +354,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "ef81a80c08ab5ae5bcd855ee8fb6ff63072593a550ba531cc01c76abdbc97188",
+        "sourceSha256": "d5421e297e68e0b3c3bdb7d9b714118eb0bc7f9092810a653fa8cdf16b27f384",
         "centerPath": "/지점안내/서울/내발산점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "수학",
@@ -377,6 +402,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -392,7 +422,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "4baea54961fd479027d5575c9a3c7f4c9a6574ab131cecd878f34c5845f017b3",
+        "sourceSha256": "a81862cceecc807a3bfebae0fe87e0fb3eb581529ab7524e8c448426be08472c",
         "centerPath": "/지점안내/경기/보라점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "수학",
@@ -440,6 +470,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -455,7 +490,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "2c4a7857f2d04a93b3556738d022d16bd0df95ec523e7c5d35e14f014293a295",
+        "sourceSha256": "cf65d3c32ce5c903027414ec18c4546eaa163e8b49dc072daeb1f6108a48b63e",
         "centerPath": "/지점안내/서울/내발산점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "수학",
@@ -503,6 +538,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -518,7 +558,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "1b27643ae82aebc40d7a8187c475742d004eef03fdc29b85280976e205d425f7",
+        "sourceSha256": "a8a7f2cd02575896544ecebbf931e2954da6f8358b67039d61363dfcb1a1a50f",
         "centerPath": "/지점안내/서울/내발산점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "영어",
@@ -566,6 +606,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -581,7 +626,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "1f561f6cccad488bcfee8f7056804745907d9483c175c54a36ce65a7da3954c2",
+        "sourceSha256": "48bcc2ea95058959d35c03dd592b96796ae33cd2319d05ff1e1f1b5cd0cde0f3",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "영어",
@@ -629,6 +674,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -644,7 +694,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "6501f5136176e58ff14b557e3535847ce8c010fb0adea847951aed3cb3633e87",
+        "sourceSha256": "227f7f50b097573c3586ad3ef5e659dd73bacb5a834a145a2c9ee86bc9a36650",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "영어",
@@ -692,6 +742,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -707,7 +762,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "da89613094598f713ee2b380364b093f68eb8b04f151211f7546847ceef875db",
+        "sourceSha256": "0ce22e95505c3a24ae07c83e91a7f7bbd3c287ab03e3b03b6972f1d5205150f6",
         "centerPath": "/지점안내/경기/운양점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "영어",
@@ -755,6 +810,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -770,7 +830,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "ee8862ed0b8b6c5c9dbef25660e41426e78e8a466ac212a7eaaf4692d2d62c64",
+        "sourceSha256": "3a85d18e861dfd7246f99a8adafe74f9f577623d5d9e5b2fb0af7918961bdde1",
         "centerPath": "/지점안내/서울/내발산점/",
         "confirmedGrade": "고2",
         "confirmedSubject": "영어",
@@ -818,6 +878,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -833,7 +898,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "b1a0906748afd2ab0626021644b6293b90c428291ec78b80c292bb0ba17f33d8",
+        "sourceSha256": "c44869bc96e4633a6fb39d7e164ac0427165211289f2394a72274a918696e82f",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "중1",
         "confirmedSubject": "수학",
@@ -881,6 +946,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -896,7 +966,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "c2cd1748a94affbfc36303297eb23454f5fdb935f4ddeb6a6d811e72b1ac76da",
+        "sourceSha256": "57990bb8827dbfc7d511385c0bbbf518c7c167661095945f5faf1776cd1d0e62",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "중1",
         "confirmedSubject": "수학",
@@ -944,6 +1014,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -959,7 +1034,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "634f483242214f39fb6aed992df34d11f4a6d85f2e3d69beeabf5eefc1e93243",
+        "sourceSha256": "8248fbccdfddd668941ec812de568337c4edd13666e4efdf9dacf46e896b8420",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "중1",
         "confirmedSubject": "영어",
@@ -1007,6 +1082,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1022,7 +1102,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "58707b779f16fe0aad2e8570038cad9f51b0d1465e5e9680cef5b44b9834b225",
+        "sourceSha256": "93ef3025b874bb950e1763c8e34d583990d98cfcdc570abd0a3fb880b96e6b5f",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "중1",
         "confirmedSubject": "영어",
@@ -1070,6 +1150,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1085,7 +1170,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "e110b2e5f167b21a4752de86374cc9f76aa67dd57b903e03606b5934fca481d5",
+        "sourceSha256": "888de79779afb93f7305ea5518fd4a70c6c67fb50789b3065a2ef139b490a09b",
         "centerPath": "/지점안내/경기/운양점/",
         "confirmedGrade": "중1",
         "confirmedSubject": "영어",
@@ -1133,6 +1218,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1148,7 +1238,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "25da6394bb501c15ae1495c7d0fe2e9357e2f47b976c0301afb4bebdff558c91",
+        "sourceSha256": "5e10fe91c176fc786457a93f98aa843fa3723ef81eacf3fc6ff9515bda896bad",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "중2",
         "confirmedSubject": "수학",
@@ -1196,6 +1286,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1211,7 +1306,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "b1b3cfa4821c9d8c8e6fd5d5734d9900a41f7579fb5cc55f90dcf9dab7b80366",
+        "sourceSha256": "ffba44ec9106294127e40f564ade71c875498e4a1ddcee3a8c9795fcec2c9b61",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "중2",
         "confirmedSubject": "수학",
@@ -1259,6 +1354,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1274,7 +1374,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "7381dba2eb8635ce540323c3203f3f59487e86e163bf4a05e1360251af95ae20",
+        "sourceSha256": "deafae38f265fa1eeea880bb9da601129f7dcc660818e376cc740b5a5ffacc8a",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "중2",
         "confirmedSubject": "영어",
@@ -1322,6 +1422,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1337,7 +1442,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "f7fab3a53d32ca045bcd8e10fe1ec3d0170bb4df7776c8bd8d4e1f1cf5bdb0f8",
+        "sourceSha256": "3c60cf2e96376e72d4d895b2944fce80e24766c3b509e460a0b6a7cc429ea447",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "중2",
         "confirmedSubject": "영어",
@@ -1385,6 +1490,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1400,7 +1510,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "a51d2a49b33760d03e37e6ec7f9c93ab0aa65545173d6e95d853e23e0bf183bf",
+        "sourceSha256": "2817b88140479bcf55bd94c8457783d8d3462e6389a49b787ceb8b0633bf1e1b",
         "centerPath": "/지점안내/경기/운양점/",
         "confirmedGrade": "중2",
         "confirmedSubject": "영어",
@@ -1448,6 +1558,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1463,7 +1578,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "fba7b4e7b6d0db81cad78b21c0c9335e1c7aac4b7a64217628037ac2a164be51",
+        "sourceSha256": "bed1e71aa8747224011b7af9a1039d6775f810c2b92061626aa82328303fde9a",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "중3",
         "confirmedSubject": "수학",
@@ -1511,6 +1626,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1526,7 +1646,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "9ed6219a56e4ca2e71aed3553925c0c6bf8ebe2dede8de08ae9a66a3149ec1d7",
+        "sourceSha256": "fe480d5a2021036cf33277c878fbd9e23c9621c3fdda8c836ed8b1bafff1484a",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "중3",
         "confirmedSubject": "수학",
@@ -1574,6 +1694,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1589,7 +1714,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "733d2b87abcf972651bfa064bab6724beb2d5f0cf4a7b28a5373a6a8e2fc3d1e",
+        "sourceSha256": "04ae71d98b23050f59195cebbc502bea5495e5509445b648abe01766143ee907",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "중3",
         "confirmedSubject": "영어",
@@ -1637,6 +1762,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1652,7 +1782,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "30d60e1556d6692c83b0b31a846280ebb0519599b1683084cae3d9a3b2a2a648",
+        "sourceSha256": "931dc9d0ab5d3d5d0abbdf44ccae4c46554c5c2168efc12bdb79fb0c282adf4c",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "중3",
         "confirmedSubject": "영어",
@@ -1700,6 +1830,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1715,7 +1850,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "945bb18be92fdf3961b635ac494ea4e6ec00d13efb71c5ef4991df52c90479f0",
+        "sourceSha256": "46684544569e9dcf1edb5c522f62809cb01af0ce2a5813d63743c0a4df8be081",
         "centerPath": "/지점안내/경기/운양점/",
         "confirmedGrade": "중3",
         "confirmedSubject": "영어",
@@ -1763,6 +1898,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1778,7 +1918,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "28ab6b1cfaafb785fa3776223ed767e9557ac33e8592d18adfbf1c0e03cf0328",
+        "sourceSha256": "a523bfa741565b752471c108f53cd33b5146f86e340d4c6fbd3026fb8fb227a9",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "수학",
@@ -1826,6 +1966,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1841,7 +1986,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "bb1ecd9944a4ce7eaab6d5cc0a2ee18fca8f0a256cecbf2a95066fc569496196",
+        "sourceSha256": "c40f999ab5ada5fd73384b652ed8a24ea08fdce8f60a85f0c801660a76f1004c",
         "centerPath": "/지점안내/서울/목동점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "수학",
@@ -1889,6 +2034,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1904,7 +2054,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "0a7b2cafdcb73ea004e63ab3545e2cc3402ab0bf2e81249c50a6edd1a7fa9f87",
+        "sourceSha256": "1f7cff74ab4d16a4b923407c1276ffccdc1cbd3b095fb55931dd2c949449da32",
         "centerPath": "/지점안내/전북/송천점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "수학",
@@ -1952,6 +2102,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -1967,7 +2122,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "953fdcd4f8d0a7be2858dde3a24f4362d0e3efec234a49c63c586a8c70539ca7",
+        "sourceSha256": "ab34940e4d40c311f63e033ad846c49c84f3da1f9f2e44073ff89fd636f2524f",
         "centerPath": "/지점안내/서울/목동점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "수학",
@@ -2015,6 +2170,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2030,7 +2190,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "c4aa836397ca168997ae0ca928ec1fa111497469bbd2efc148686256fd9c413d",
+        "sourceSha256": "7f7bf7a76d60772ee1f908a8de92c42b6dd109f206a6c5a685ead35773fe701b",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "수학",
@@ -2078,6 +2238,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2093,7 +2258,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "02dccb485b03e04c1b7e8ed287e2a5b6d2874d825b40411158d47ede09cf1b91",
+        "sourceSha256": "2c1c3e292f3f77cd08f41345b728413a2d66ecb4eaf588b75551c1e7c0e18bb7",
         "centerPath": "/지점안내/경남/석동점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "영어",
@@ -2141,6 +2306,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2156,7 +2326,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "3c91362b06b44fda13ae1cb14b5089964c88fa9a8bd3d1d86b07073c1e3e5db4",
+        "sourceSha256": "fb44bda413ce1b5ccdaf931afba1ca8dbadfe712071b31b7060ea8984ccfe0fb",
         "centerPath": "/지점안내/서울/목동점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "영어",
@@ -2204,6 +2374,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2219,7 +2394,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "64eb19e32af26a7cb82c56cd4631776c5592ccb8293902f1a00540828fd7e7d1",
+        "sourceSha256": "b35c0f4046d1f5af7ed28af2b3717342d32d5e0bd5085d9709878979f6dba495",
         "centerPath": "/지점안내/경기/반달점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "영어",
@@ -2267,6 +2442,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2282,7 +2462,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "665a589b332ea042da44c7cb5078257092e33a0d8f3de8ea7436f7441a9ca1f6",
+        "sourceSha256": "f963ea62f4613246c1991944432242a279acb8fde0c094dba59ce9bbe8e15dab",
         "centerPath": "/지점안내/경남/석동점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "영어",
@@ -2330,6 +2510,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2345,7 +2530,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "09cb46d5be0fd65e0d02f390e408736d4f1fbb28d4800d745f242094b59c65a7",
+        "sourceSha256": "113e45947d65b0e6501f8c4fb6a22419212c274c27406ec2283e1b3c87af78cd",
         "centerPath": "/지점안내/전북/송천점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "영어",
@@ -2393,6 +2578,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2408,7 +2598,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "11035dbe20f8e7cb1852174be6e4062236c3ae19be87ef2f4c409fd9a0dbe875",
+        "sourceSha256": "040d2ecb28619255af1e76836d3338ba910fe1d6f924c50b098697d1e201b827",
         "centerPath": "/지점안내/서울/목동점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "영어",
@@ -2456,6 +2646,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2471,7 +2666,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "953b99c943ca74e92c753c8c5f9a9ff89b1059d9a92abdd53e75c46b2672a5c3",
+        "sourceSha256": "473eacaee2fc2dbc3293d755519d2487c70e72097fde7606b99c6082d860f7fc",
         "centerPath": "/지점안내/경남/석동점/",
         "confirmedGrade": "초3",
         "confirmedSubject": "영어",
@@ -2519,6 +2714,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2534,7 +2734,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "357ccadd4a2e5feb3d72d6e98f5628fd1a53c3525a21cbc51aca0cdf17671ade",
+        "sourceSha256": "9d3e37e05b70a7328781c196c59f3bf3cf5516b83e692c47f3fd06e1ead46af6",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "수학",
@@ -2582,6 +2782,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2597,7 +2802,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "8e37fa14646a5b97f2d9dd8056c5e98bba98e4383092c4884a5121d7c3230497",
+        "sourceSha256": "e2dbd177e9b7463525017d4dd1597df19bd8dfa8258d8f285a884d8c39088441",
         "centerPath": "/지점안내/광주/진월점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "수학",
@@ -2645,6 +2850,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2660,7 +2870,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "a25e63dea334eff56202c0c28fa6f8dffa1eb9e6638f20c55d0bc2ae5a6584d5",
+        "sourceSha256": "d9c4dbcb773d7067228e49bd33e45ac6fe242bfe6ce1c949af3d34d0626964b0",
         "centerPath": "/지점안내/광주/진월점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "수학",
@@ -2708,6 +2918,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2723,7 +2938,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "8a0c0308565840cf358a8a23101ec9e15ec886e52e253fecda5cfab41b95d5b9",
+        "sourceSha256": "024fae78c6c8e34d0fcc7a90f82a839cda53eef393c46e80fa2b5d8a81f72472",
         "centerPath": "/지점안내/대전/둔산점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "수학",
@@ -2771,6 +2986,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2786,7 +3006,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "c50cb96281d85a889b1f33f4a8a411307da67ea3fa7ee4251da781f9139144a2",
+        "sourceSha256": "7b1c0aa0d593e0737d1a9f7fd9fc622d3f80ffd00776053782a36e7b60e46af8",
         "centerPath": "/지점안내/경남/석동점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "영어",
@@ -2834,6 +3054,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2849,7 +3074,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "15dfbde21aa2749118b840d7d0424a0a029769e8f65ab25756867ed385c22025",
+        "sourceSha256": "3a64506c44aac07e368deb07f249045acd4cb0dd14d1d5f23c0ff6bb25125cde",
         "centerPath": "/지점안내/경남/석동점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "영어",
@@ -2897,6 +3122,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2912,7 +3142,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "ee4607842c6b0c40386308d465668c17e67f9cf9aa5dcc7a1a7c1114edfafdb6",
+        "sourceSha256": "edb7ef3be0c87cd9ec1f96551ade443c05ba365a86ce37139b926cbb70bb4d7a",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "영어",
@@ -2960,6 +3190,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -2975,7 +3210,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "c099507121e47caf80a7be0cb54286b6e56622ab5007a178e1cf2b953a58d15a",
+        "sourceSha256": "d63d3bfda3abc07cd02867172079f55928db3223da58220f11c74ac17a73d351",
         "centerPath": "/지점안내/경기/옥정점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "영어",
@@ -3023,6 +3258,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -3038,7 +3278,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "ee0979a9750c564ef15cab495de16206507003541c41514a2a2c6dfd5c8c7405",
+        "sourceSha256": "f210205f57fd8c9f7f1b420f68cf86aedc391c7650146d519042238d69060eb1",
         "centerPath": "/지점안내/경기/운양점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "영어",
@@ -3086,6 +3326,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -3101,7 +3346,7 @@
       "sectionRefinementReview": {
         "version": "20260923-2",
         "reviewedAt": "2026-09-23",
-        "sourceSha256": "1f9c8c5fecbe3f7722e6f9c99ae7491e856f8be6c4344335ccf88b1da98b0794",
+        "sourceSha256": "c9329d899f9a3d3d11cb389d70739ee56bdcc709c313dbf7e27231a3e2f407b2",
         "centerPath": "/지점안내/경남/석동점/",
         "confirmedGrade": "초4",
         "confirmedSubject": "영어",
@@ -3149,6 +3394,11 @@
           "batch": "20261006",
           "oldBodyAndGradeSubjectFactsPreserved": true,
           "change": "contextual education article links only"
+        },
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
         }
       }
     },
@@ -3163,7 +3413,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "8dbbdd95841b52a9d7b0e4cc4489aab5d8cd4ca2e389f374fc68e74de7400d52",
+        "sourceSha256": "3a6272da07511e014d148f83ab8db63c522a0c2c16e806126e00c3e424214544",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3171,7 +3421,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 고1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3185,7 +3440,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "5def69b65c3f4760497a5e989a1e5bc29d240b411a582fbdd498264588652444",
+        "sourceSha256": "2887a3d5567261ea7e79ec745c24f337851a9103502a5f4e0b8a3841674e543f",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3193,7 +3448,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 고1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3207,7 +3467,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "c7ad9ba7d9f185003cc673537036c73077c7202b1852c60fb2c73661cb1229eb",
+        "sourceSha256": "4fd3ed637c55f878c2c52ceaa3c835c0fa6829b84381d464aa760a2fb612e839",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3215,7 +3475,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 고1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3229,7 +3494,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "aecd8bb75bb7c52d52cf8c1a5f708e75dbb254f810e9b2eca8d5ab046ec5ffff",
+        "sourceSha256": "a385c0a7c1a0177f23c36e8e25ac8d28a1a19b63b53f4bac014f2f29b180fb0b",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3237,7 +3502,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 고1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3251,7 +3521,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "9e39cb9041b87c3ca43905f33165bc06330690dda6633605301cc33754d7533a",
+        "sourceSha256": "1ac2945190e18ff25229dc7d2f4814693a440608121b07a2665dac7c051c6671",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3259,7 +3529,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 고2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3273,7 +3548,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "4d9fdbcc2b0f3451adfdab4ef0528fb1b1cf2ee35aaef7736c02dd6f560a99d1",
+        "sourceSha256": "b8b35e0a9c8cc73f60213170ce8983728143bd00aaea05a0bed70cb056e91b2d",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3281,7 +3556,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 고2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3295,7 +3575,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "e435ee495ba2dc74543cd218434fb9913adde6989a4e8ff3767526beb8f3020d",
+        "sourceSha256": "0da901ae6501158ef4593471289dd20d94b1b2cd722ace33777dc9d118ff376e",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3303,7 +3583,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 고2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3317,7 +3602,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "8624111651f9d1831b78e518d99a5f2dc535f53f7677f3a91fe8de2a968d18a1",
+        "sourceSha256": "a04690e0437f459cf86210cea0c10e20279f549d378a2d6a5d9f32c9607d1663",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3325,7 +3610,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 고2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3339,7 +3629,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "16fedf1a9f29d868d3831aca323f4a14d8c7a352fe590c32026d292e97131f91",
+        "sourceSha256": "04464749ce49bba0c21d01e297358e137020648158336d5a6647a700b58350bc",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3347,7 +3637,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 중1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3361,7 +3656,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "4e1182a0545b10a190b2abd77f313faba9beff552a556933749c2823ba8cc8d2",
+        "sourceSha256": "5474b6478821b48bef4fbc9731300a1c97d5103d5823b8a12e209865025313f5",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3369,7 +3664,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 중1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3383,7 +3683,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "5e0ba4a3715d1ebd346cc6fe721fa5a7c7b08a1e71c386e34aa01396f7e8d39b",
+        "sourceSha256": "61cda300a6705e412dc98de0d8f087181dfd450989ef697d2a77b3d3675d7da3",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3391,7 +3691,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 중1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3405,7 +3710,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "cf61ecef160efa0696ca9b7c7f1e28426054a1a61507864876349af1aaa3e349",
+        "sourceSha256": "65e621d5ec25773cac58e62c39ff01164eddbd9f64fd30c25a46ef3c5566c04b",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3413,7 +3718,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 중1"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3427,7 +3737,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "7722d5912a872acbe3e089f0d9383487c3799ce532b994a8239b6b980f43aea4",
+        "sourceSha256": "4f19c77075702cc8e0e671c9dc758c85f58502c0252fb77dd08bccd87ad5c704",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3435,7 +3745,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 중2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3449,7 +3764,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "6aea31fbd3e4236a13c98c2b76cbee14ce2eadb36d35ff37580ba385016da159",
+        "sourceSha256": "b92114759df616089d1c4eaf73e613189c1b656bf834b7793f40f419801ae12f",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3457,7 +3772,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 중2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3471,7 +3791,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "53856316deca828379d24bf4e182e7180a616f004418ebdcb66f662f8933265f",
+        "sourceSha256": "c887781ccbf9f6d2b5dbdbbc5bf1ed6bb008512c162ad29ff9079a201483dd61",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3479,7 +3799,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 중2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3493,7 +3818,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "11414e7e394fb05c56e33b0dcfb768e2927702c61b8f6b304155bf5ce6fed8b4",
+        "sourceSha256": "66198d7e4e4a2dcf72995319798af7757b8f49f562bd4cda8f4eb85ac7d905ce",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3501,7 +3826,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 중2"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3515,7 +3845,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "02e5f46a63f9aade2d634596e7d5cadc35a64d0929f154ff2be846e0f9119be4",
+        "sourceSha256": "e2a55af22e821756989a6155e386e617a93beba9c6f684662931fe06e59711de",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3523,7 +3853,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 중3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3537,7 +3872,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "7102e2d8dae40b9218bb6fd53ae33168b1a91963716685c544d11bea8269c2c7",
+        "sourceSha256": "f947794449f4091e1a4300597720db6d11df63f4734c6c55ef91141d52b314b3",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3545,7 +3880,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 중3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3559,7 +3899,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "3300a95fe693a7954539fd2167eaba1429fc9c39ed07c8d107313dd19ba4fe25",
+        "sourceSha256": "0c67405a2c7edf81617f2e3735d24e6c139e556155555bfadc6244507be02d26",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3567,7 +3907,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 중3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3581,7 +3926,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "29bb377d50d425da11aa910dccde241e8ef17d7a5bbc6bb2340fc84441806874",
+        "sourceSha256": "0b1cd5fb5a872cfa23c44de653616e279f66f72f52ed13639c71d07e1a77c908",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3589,7 +3934,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 중3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3603,7 +3953,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "3754349761b37b1c2b33948aad24f7ff3d7278f61e4267a3f61ab51d286c04fd",
+        "sourceSha256": "5315cd702c18d90141a25f285ccb51e82dc0149cbfd33056ede9905d3bb75988",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3611,7 +3961,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 초3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3625,7 +3980,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "bc404b514f72eb8a2f1fa2631cdfc3f0af8e5158710d1af0a7d635d8a962d4ad",
+        "sourceSha256": "70912653fb4524a5ba0f864b41d47da03827a56d63654deca313b7d9cffbb46d",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3633,7 +3988,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 초3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3647,7 +4007,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "d1226de2decbae051bc9880a85b6ce802f13398c74b2dc33f6c78c0bf94d7351",
+        "sourceSha256": "361a98359dcd5ff8ad5aaf61209c691dc40337f64fed12c6e416e327ea5fcd7a",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3655,7 +4015,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 초3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3669,7 +4034,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "be07526da37bdd52ce753b3c1f67bfd31df088393e4b94a27858cd573d5636fe",
+        "sourceSha256": "67f06deb8274c99c7719e62d016ae710f3bbebde4233046ff84aff2eaf256307",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3677,7 +4042,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 초3"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3691,7 +4061,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "70073400b9139aa7413f1d712565685f181295ffe516d3b93181accb97edd076",
+        "sourceSha256": "8baf1443e24b9350c108cf87e108f2edf01dd41305b37dcc1f34497df1b375d7",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3699,7 +4069,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 초4"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3713,7 +4088,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "28ff209ff19081bd4f9598654df55a0f654d2e3a3b466cb5fa3bf2c37e00ab5a",
+        "sourceSha256": "3018f61ba8bd794902ccdc9517cfc4e6c97be442528d1459262fd71feba84dbb",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3721,7 +4096,12 @@
           "안산교육지원청 등록 제4176호",
           "수학 수강 학년: 초4"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3735,7 +4115,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "52d5f7bac15d4e728fcbb1ed8d4c0a6c05ac35d30645318634e4caf5f713a7a9",
+        "sourceSha256": "99710e2f89b2857ba6f2731ffb0249768b00955ea566c5aabf78a8459d2bf8f9",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3743,7 +4123,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 초4"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     },
     {
@@ -3757,7 +4142,7 @@
       "conditional": false,
       "crawlRestorationReview": {
         "reviewedAt": "2026-10-07",
-        "sourceSha256": "b62b38e4df41f0469dd16acb46a25242efb2141e6ea878cb95fcefa7ab4fe406",
+        "sourceSha256": "8377456a4c75fbfd3c4e3dc18afbdab79853aef9bb594e191ec0e6a9c4d12122",
         "centerPath": "/지점안내/경기/고잔점/",
         "requiredFacts": [
           "와와학습코칭센터안산학원",
@@ -3765,7 +4150,12 @@
           "안산교육지원청 등록 제4176호",
           "영어 수강 학년: 초4"
         ],
-        "sourceSignatureVerified": true
+        "sourceSignatureVerified": true,
+        "representativePhotoReview": {
+          "reviewedAt": "2026-10-10",
+          "bottomPositionPreserved": true,
+          "gradeSubjectFactsPreserved": true
+        }
       }
     }
   ]
