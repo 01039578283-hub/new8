@@ -4433,6 +4433,902 @@
           "change": "School FAQ preparation guidance; original facts, media, canonical and indexing policy preserved."
         }
       }
+    },
+    {
+      "path": "과목별학원/고1수학학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "center": "석사점",
+      "grade": "고1",
+      "subject": "수학",
+      "locality": "석사동",
+      "description": "석사동 고1 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "3238be66e3ebe092dc2d149ec6a4c34270c6d341fdb08fea04bfb1176ed38606",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "center": "석사점",
+      "grade": "고1",
+      "subject": "수학",
+      "locality": "퇴계동",
+      "description": "퇴계동 고1 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "958962ad7258202b94f9e2b6daeda1eefbb360fe8c1fbe75b58a7a1d2f932620",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "center": "은평점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "갈현동",
+      "description": "갈현동 고2 수학학원 안내에서 은평점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "bde82d49cf0f164c9ec114e333fe45a08bc620b80eb2c47549df022bfca531ec",
+        "centerPath": "/지점안내/서울/은평점/",
+        "requiredFacts": [
+          "서울특별시 은평구 진관동 진관2로 29-21 드림스퀘어 제 8층 804호 805호",
+          "와와학습코칭학원",
+          "은평점 참고사항에는 고2(예비고3) 수학은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE151",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "center": "은평점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "구파발",
+      "description": "구파발 고2 수학학원 안내에서 은평점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "b4aede4c84fe22ffce5a4721537ff04a034ba381dd3c59a84c1fea2e50fe152a",
+        "centerPath": "/지점안내/서울/은평점/",
+        "requiredFacts": [
+          "서울특별시 은평구 진관동 진관2로 29-21 드림스퀘어 제 8층 804호 805호",
+          "와와학습코칭학원",
+          "은평점 참고사항에는 고2(예비고3) 수학은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE151",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/당산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%B9%EC%82%B0%EB%8F%99/",
+      "center": "당산점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "당산동",
+      "description": "당산동 고2 수학학원 안내에서 당산점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "def09eea61cdc74ccb323b3a9298c470f9511a5752ab056abf02ac0a6bafa39d",
+        "centerPath": "/지점안내/서울/당산점/",
+        "requiredFacts": [
+          "서울 영등포구 당산로44길 3 삼성타운 504",
+          "당산점와와학습코칭학원",
+          "당산점 참고사항에는 고2(예비고3) 수학은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE30",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/동백동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8F%99%EB%B0%B1%EB%8F%99/",
+      "center": "동백점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "동백동",
+      "description": "동백동 고2 수학학원 안내에서 동백점의 성적 조건과 평가 기준·실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "66270490ab6f923d15ceacce7457c76e290c82f7799fa728a380061462ac87c2",
+        "centerPath": "/지점안내/경기/동백점/",
+        "requiredFacts": [
+          "경기도 용인시 기흥구 중동 동백3로11번길 3 2층 201호",
+          "동백점와와학습코칭학원",
+          "동백점 비고에는 고2 수학은 4등급 이내라는 수강 조건이 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "V40",
+          "kind": "assessment_condition",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "center": "석사점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "석사동",
+      "description": "석사동 고2 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "12f1f6bc88e4adf51aa580ff590fb266fd7b5effb1328749c2fc7633a1479bb4",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/식사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%9D%EC%82%AC%EB%8F%99/",
+      "center": "풍동점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "식사동",
+      "description": "식사동 고2 수학학원 안내에서 풍동점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "f5ce7ed5bbb6dd9482bb8475117305c46096ffc9c5e1d24def1b8ebaa223d51e",
+        "centerPath": "/지점안내/경기/풍동점/",
+        "requiredFacts": [
+          "경기 고양시 일산동구 숲속마을로 44 미래타워 6",
+          "풍동와와학습코칭학원",
+          "풍동점 참고사항에는 고2(예비고3) 수학은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE190",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/양평동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%96%91%ED%8F%89%EB%8F%99/",
+      "center": "당산점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "양평동",
+      "description": "양평동 고2 수학학원 안내에서 당산점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "667a5fa81fa75698380544d8dd460ee15b3a54add923590ba8be3411bb77c991",
+        "centerPath": "/지점안내/서울/당산점/",
+        "requiredFacts": [
+          "서울 영등포구 당산로44길 3 삼성타운 504",
+          "당산점와와학습코칭학원",
+          "당산점 참고사항에는 고2(예비고3) 수학은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE30",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "center": "은평점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "진관동",
+      "description": "진관동 고2 수학학원 안내에서 은평점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "846e8521df45e336906fc8fe43c7b4160c996e1e081326c3ed70a94884c8b4dc",
+        "centerPath": "/지점안내/서울/은평점/",
+        "requiredFacts": [
+          "서울특별시 은평구 진관동 진관2로 29-21 드림스퀘어 제 8층 804호 805호",
+          "와와학습코칭학원",
+          "은평점 참고사항에는 고2(예비고3) 수학은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE151",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "center": "석사점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "퇴계동",
+      "description": "퇴계동 고2 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "caeb248f0a3cf4ce2e2d8176f78c63c63cea0528155bf57cc5227bcccd3f2a5e",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/풍동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%92%8D%EB%8F%99/",
+      "center": "풍동점",
+      "grade": "고2",
+      "subject": "수학",
+      "locality": "풍동",
+      "description": "풍동 고2 수학학원 안내에서 풍동점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "ef7009fc9f347ee1cfb1f7a9ead8551b5ce41720acbf982131773a731b92054e",
+        "centerPath": "/지점안내/경기/풍동점/",
+        "requiredFacts": [
+          "경기 고양시 일산동구 숲속마을로 44 미래타워 6",
+          "풍동와와학습코칭학원",
+          "풍동점 참고사항에는 고2(예비고3) 수학은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE190",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "center": "은평점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "갈현동",
+      "description": "갈현동 고2 영어학원 안내에서 은평점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "47a3e58033e6566dd0e1bb6ae225cfa895862bec272c175a7caa20d2ca151028",
+        "centerPath": "/지점안내/서울/은평점/",
+        "requiredFacts": [
+          "서울특별시 은평구 진관동 진관2로 29-21 드림스퀘어 제 8층 804호 805호",
+          "와와학습코칭학원",
+          "은평점 참고사항에는 고2(예비고3) 영어은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE151",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "center": "은평점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "구파발",
+      "description": "구파발 고2 영어학원 안내에서 은평점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "feceab52873366509a420af35072c057f67d11807387e9cd846902e6ab77d369",
+        "centerPath": "/지점안내/서울/은평점/",
+        "requiredFacts": [
+          "서울특별시 은평구 진관동 진관2로 29-21 드림스퀘어 제 8층 804호 805호",
+          "와와학습코칭학원",
+          "은평점 참고사항에는 고2(예비고3) 영어은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE151",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/당산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%B9%EC%82%B0%EB%8F%99/",
+      "center": "당산점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "당산동",
+      "description": "당산동 고2 영어학원 안내에서 당산점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "9ec3bc6bdf8493e58b243ee4f83af5e36267d65f355d9a80c93be3da8ade4f08",
+        "centerPath": "/지점안내/서울/당산점/",
+        "requiredFacts": [
+          "서울 영등포구 당산로44길 3 삼성타운 504",
+          "당산점와와학습코칭학원",
+          "당산점 참고사항에는 고2(예비고3) 영어은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE30",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/동백동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8F%99%EB%B0%B1%EB%8F%99/",
+      "center": "동백점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "동백동",
+      "description": "동백동 고2 영어학원 안내에서 동백점의 성적 조건과 평가 기준·실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "e33d71a120c5ea9b5f0107c6f5ff98898db437917db6caa9c861c9bf6ce2b801",
+        "centerPath": "/지점안내/경기/동백점/",
+        "requiredFacts": [
+          "경기도 용인시 기흥구 중동 동백3로11번길 3 2층 201호",
+          "동백점와와학습코칭학원",
+          "동백점 비고에는 고2 영어은 4등급 이내라는 수강 조건이 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "V40",
+          "kind": "assessment_condition",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/식사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%9D%EC%82%AC%EB%8F%99/",
+      "center": "풍동점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "식사동",
+      "description": "식사동 고2 영어학원 안내에서 풍동점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "fc1f12df3885c7c3fd40ff6411f9e6a59e6b0f445086135781b4fbf91408b129",
+        "centerPath": "/지점안내/경기/풍동점/",
+        "requiredFacts": [
+          "경기 고양시 일산동구 숲속마을로 44 미래타워 6",
+          "풍동와와학습코칭학원",
+          "풍동점 참고사항에는 고2(예비고3) 영어은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE190",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/양평동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%96%91%ED%8F%89%EB%8F%99/",
+      "center": "당산점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "양평동",
+      "description": "양평동 고2 영어학원 안내에서 당산점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "85b37d02e5572379a789e17ccf1bf6d470efebe6a15b443778ec6b97aed3983b",
+        "centerPath": "/지점안내/서울/당산점/",
+        "requiredFacts": [
+          "서울 영등포구 당산로44길 3 삼성타운 504",
+          "당산점와와학습코칭학원",
+          "당산점 참고사항에는 고2(예비고3) 영어은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE30",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "center": "은평점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "진관동",
+      "description": "진관동 고2 영어학원 안내에서 은평점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "5dad29dacfda7b4122a08ba4af98d26406b031cb8a6b4462efd16932afe5286a",
+        "centerPath": "/지점안내/서울/은평점/",
+        "requiredFacts": [
+          "서울특별시 은평구 진관동 진관2로 29-21 드림스퀘어 제 8층 804호 805호",
+          "와와학습코칭학원",
+          "은평점 참고사항에는 고2(예비고3) 영어은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE151",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/풍동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%92%8D%EB%8F%99/",
+      "center": "풍동점",
+      "grade": "고2",
+      "subject": "영어",
+      "locality": "풍동",
+      "description": "풍동 고2 영어학원 안내에서 풍동점의 화상 병행 조건과 실제 과목·시간·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "7affbb90df7d80fa3ad748ed6e6b7f42ddbf1b8f305b2e1d5dde901cc1a51282",
+        "centerPath": "/지점안내/경기/풍동점/",
+        "requiredFacts": [
+          "경기 고양시 일산동구 숲속마을로 44 미래타워 6",
+          "풍동와와학습코칭학원",
+          "풍동점 참고사항에는 고2(예비고3) 영어은 화상수업과 병행할 때 수업 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE190",
+          "kind": "hybrid",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "center": "석사점",
+      "grade": "중1",
+      "subject": "수학",
+      "locality": "석사동",
+      "description": "석사동 중1 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "eeebbf56a2217d0719fa5eb5d1d1177f68f98e9db0d5780a26cc70bbd4dd4f82",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "center": "석사점",
+      "grade": "중1",
+      "subject": "수학",
+      "locality": "퇴계동",
+      "description": "퇴계동 중1 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "cb17d35f217c909da266ce50fc5372b0d186b0698a8dd932ec1be710c240ce57",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "center": "석사점",
+      "grade": "중2",
+      "subject": "수학",
+      "locality": "석사동",
+      "description": "석사동 중2 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "c2e2419c718624a175c8e8233643e17cc3c81eb6b71fcc2ce64c46c241af351f",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "center": "석사점",
+      "grade": "중2",
+      "subject": "수학",
+      "locality": "퇴계동",
+      "description": "퇴계동 중2 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "fab27ee76aab1a0f09228be6bb67489e92913efbec421b7c3a56015490b447b7",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "center": "석사점",
+      "grade": "중3",
+      "subject": "수학",
+      "locality": "석사동",
+      "description": "석사동 중3 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "4ab0c29edf150e5c3a694624ed2af24a9e2afd2cace2f7adde70b66399e6568a",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "center": "석사점",
+      "grade": "중3",
+      "subject": "수학",
+      "locality": "퇴계동",
+      "description": "퇴계동 중3 수학학원 안내에서 석사점의 토요일 일부 수업 조건과 실제 과목·상담 준비를 확인하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "47436666d08cc54dc4dc0a6cbc50f12e73e32975d69ce2ef0f2015ea0d0ab301",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 주말 수업 안내에는 토요일 일부 시간에 중·고등 수학이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AC98",
+          "kind": "weekend_math",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/동백동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8F%99%EB%B0%B1%EB%8F%99/",
+      "center": "동백점",
+      "grade": "초3",
+      "subject": "수학",
+      "locality": "동백동",
+      "description": "동백동 초3 수학학원 안내에서 동백점의 3타임 조건과 교과서 점검·수업 시간 상담을 준비하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "f71946759eee75b533914ebc3575167084ef3764dd8d875444636dadfc06464f",
+        "centerPath": "/지점안내/경기/동백점/",
+        "requiredFacts": [
+          "경기도 용인시 기흥구 중동 동백3로11번길 3 2층 201호",
+          "동백점와와학습코칭학원",
+          "동백점 참고사항에는 초3 수학 수업이 가능하며 3타임으로 안내돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE40",
+          "kind": "elementary_sessions",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/동백동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8F%99%EB%B0%B1%EB%8F%99/",
+      "center": "동백점",
+      "grade": "초3",
+      "subject": "영어",
+      "locality": "동백동",
+      "description": "동백동 초3 영어학원 안내에서 동백점의 2타임 조건과 교과서 점검·수업 시간 상담을 준비하세요.",
+      "conditional": true,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "c4ec51831fd16265dfa8e742992b1ed31e6ab1379641e984318d36ae49af9388",
+        "centerPath": "/지점안내/경기/동백점/",
+        "requiredFacts": [
+          "경기도 용인시 기흥구 중동 동백3로11번길 3 2층 201호",
+          "동백점와와학습코칭학원",
+          "동백점 참고사항에는 초3 영어 수업이 가능하며 2타임으로 안내돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE40",
+          "kind": "elementary_sessions",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "center": "석사점",
+      "grade": "초4",
+      "subject": "수학",
+      "locality": "석사동",
+      "description": "석사동 초4 수학학원 안내에서 석사점의 수강 대상과 수업 방식·교과서 점검·상담 준비를 확인하세요.",
+      "conditional": false,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "5b6f89af1be18a9e83bfad35aaef0b6733a5b8cb7981aae8979671799ac9edf1",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 참고사항에는 초4부터 국어·영어·수학 수업이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE98",
+          "kind": "grade4",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "center": "석사점",
+      "grade": "초4",
+      "subject": "수학",
+      "locality": "퇴계동",
+      "description": "퇴계동 초4 수학학원 안내에서 석사점의 수강 대상과 수업 방식·교과서 점검·상담 준비를 확인하세요.",
+      "conditional": false,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "377924431b2cff99b59677be3d8e153a2ed03e23a4ea78dc56643d74bd2098b1",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 참고사항에는 초4부터 국어·영어·수학 수업이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE98",
+          "kind": "grade4",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "center": "석사점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "석사동",
+      "description": "석사동 초4 영어학원 안내에서 석사점의 수강 대상과 수업 방식·교과서 점검·상담 준비를 확인하세요.",
+      "conditional": false,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "5aa032b6fef85ef36abf0633dfd576f9c71bbbc3e3d54f7433ebf9774451c832",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 참고사항에는 초4부터 국어·영어·수학 수업이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE98",
+          "kind": "grade4",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "center": "석사점",
+      "grade": "초4",
+      "subject": "영어",
+      "locality": "퇴계동",
+      "description": "퇴계동 초4 영어학원 안내에서 석사점의 수강 대상과 수업 방식·교과서 점검·상담 준비를 확인하세요.",
+      "conditional": false,
+      "crawlRestorationReview": {
+        "reviewedAt": "2026-10-13",
+        "sourceSha256": "4451262f554105588e6a13d31787725247da9258738d2872bc26d13e52d85608",
+        "centerPath": "/지점안내/강원/석사점/",
+        "requiredFacts": [
+          "강원특별자치도 춘천시 지석로 85 703호",
+          "석사2호점와와학습코칭학원",
+          "석사점 참고사항에는 초4부터 국어·영어·수학 수업이 가능하다고 기재돼 있습니다."
+        ],
+        "sourceSignatureVerified": true,
+        "sourceEvidence": {
+          "file": "코칭센터_데이터_.xlsx",
+          "sheet": "센터정보",
+          "cell": "AE98",
+          "kind": "grade4",
+          "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
+        }
+      }
     }
   ]
 }
