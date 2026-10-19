@@ -5329,6 +5329,3064 @@
           "originalSourceSha256": "fb9f2b92874d247cfa0826ed2a74fda40e824d8f6f05d7e87c0b38ef37bd2324"
         }
       }
+    },
+    {
+      "path": "과목별학원/고1수학학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "39de881b07d20259777e2a8a0b97f5f91d246e29e5c4697284b1e0f5d08c0b87"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "bbd1a7c4f1fb3ca9245ecdd51f8e22be679f3ce19cd835532d8065c69e749441"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "81646d43e41dee9c44ed101a816bd33b2fba8317534b8a4023d7428009413d27"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "07186b1313636b20abb7fb7f7199a9500b6428cb74f63c20814dc7143fcc67e6"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/둔산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%94%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a2da2f79cdd5fe506dd5070c53439b333c12b8c92df23fbcb576145f7c12e9bc"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/부천중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "af211bc02593740c88b9eb2db429d74e35b6fd4a628bb3301cb916b53d840fcf"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/북변동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%81%EB%B3%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5dc17c6ae1114cd9cd3db5077ed52b25fa433a9afe7bee62067c40ed51335069"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/사우동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%82%AC%EC%9A%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "45e0286220cc33d33cce0f0998f1d5a4fa9d7d96f366049c9569cc5a56302da8"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/약대동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%95%BD%EB%8C%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c1551448a207cd77f2c8c0b4d9e2ab242394c9c30a4c72d19035d4b73f15fc60"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "dbf514f1b16a0342476bcffdef6b6be835ea818e34d3affb658737ac382bed04"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/탄방동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%83%84%EB%B0%A9%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "02ba78dc4b43ca07c5f493e0f2f61b0a2f8d7123fdb03d6b10f624ed421ced79"
+      }
+    },
+    {
+      "path": "과목별학원/고1수학학원/화성태안/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%99%94%EC%84%B1%ED%83%9C%EC%95%88/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "85e54ef08553880e9f9f511a7e69be628458c997a8008156b7b902202804f0fb"
+      }
+    },
+    {
+      "path": "과목별학원/고1영어학원/교하/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%90%ED%95%98/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f129ddd898290517d20b44c3135bb0b4ad79a74207db29a1c06f3cb23eab73d7"
+      }
+    },
+    {
+      "path": "과목별학원/고1영어학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3471c6531f8b3bbe316fac1da7539b6e6daea05a97e16fde4778221833890c64"
+      }
+    },
+    {
+      "path": "과목별학원/고1영어학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A01%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "cffc28f9bb40a5ee4a7a8b67268df63fdce3f6f5a8a43b49dec3f04d116bc7e3"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/경화동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B2%BD%ED%99%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d48f038216065193b62b3f8e16845fe59324f502d486d2f59dc6a030f4f0d252"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/관교동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B4%80%EA%B5%90%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3ecb81951149172a80e282fad45543b932c9b4df9db6affe8ffcbeaeb3bc09f2"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/구월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ea85f79ae3b2ee76a7b4571f2c6ae64afea71a4cd8e5c416448e6aa75bb7aa50"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c7febbb3ce578674a92c8c27b558d24e24f85103b0298faab85ba1ba4f4619d7"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b12c283cdfefa51aff9c9d19ab51bc9562f520e2eb970e8715f85ddade569d14"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/도농동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8F%84%EB%86%8D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a2732eea8d197ed8148426004f896c9a99d384ba98a2d37c7ca6107ea71ad3d3"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/둔산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%94%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "8277e52060bb485e787e0c35902612a363d7f202f99f2a4c01e4b60825241ad7"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/만촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%A7%8C%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5d5d80cd8d2038f480f7fb1374c0d0a8827c239285abf84fe1fbc0e05dfa626f"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/미사/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AF%B8%EC%82%AC/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a1b9ff3d017970b82f9eec36b6ee321839af0cf902c0619f2fff3f2c1b1e18b0"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/미사신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AF%B8%EC%82%AC%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "60ec2345c28dd3f8d07b256e72533b9362631acfeaa0e3352d8a329213bcb512"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/반송동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B0%98%EC%86%A1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "99b070725479de85abf78c2feed7070d46742d97900d62bc178c9c288ec0a3b4"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/범어동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B2%94%EC%96%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4d244391f4af96844855cd282d25aa904720e87b5de6b93c4df58d03c7636741"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/부천중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f529e4a31092c04b179b704b0075efc9cd62ce94420e47b5b1ebeb0cffdfc4f1"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/북변동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%81%EB%B3%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "64fc0c8c3bf9fa74fdcb06ed5469f4a19b72139bf9c91a8a591ed0eae5b6543a"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/사우동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%82%AC%EC%9A%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f211672eb9984e3742e647dc5179a0ac41c1e3645535041b4f6829ce6e401428"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/사파동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%82%AC%ED%8C%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0ae7224970787b1a14d67f4df95b5b5dcaf35bb23a3c51863e70eb2789f4e9c3"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/상남동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%83%81%EB%82%A8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "edd5650c1a39a5bf97dce6c43ecd07cf3fecc4150e38cff5415a797c097d1f0b"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "e16531f7c8ebdccd51c4289b85631e1da9333cffb5a3174d23e6d6de960cf1d9"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/석우동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%9A%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c00b58a6270afeb970873be9cb704a61b9e3bc84c1f7fa1d39deead2090581c3"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/수성동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%88%98%EC%84%B1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "e81d106967c24ee0867f0420771f6c9a93f05f15b115b2cb8245003dacffa1f2"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/신월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c2acfc9c127a0d116dfcd0d6667ccd2a91cabc6c5e0a2283e9c85bc7247cacad"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/신천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%B2%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ba28a67792062cb6eda5bb5d4b01585a8a87f4220d21ed651ac7b1c9435a68c6"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/약대동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%95%BD%EB%8C%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "136e139d785a6ee8aa2e4089441bb44b8e533e8b9ac52510da33fbc2a1e8afc9"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/자은동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%9E%90%EC%9D%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "1c2c7e1ae99b71cf3702f70f71381d16fed03245536d805a205d1b0dbcb49dbb"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/장곡동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%9E%A5%EA%B3%A1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "dd586de37c9e3493880557ea7df2ce767ea0ba21bc041e6c5bea51a7ab69d2ad"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/장현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%9E%A5%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5478ca332548291ac2f26adf35e6663acd578c6daae4477d6170057b673a494f"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/청라/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%B2%AD%EB%9D%BC/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "fb175a88c5316d388bfb8c31242d865b4e0c5980947599b5b36f3817343d24aa"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/탄방동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%83%84%EB%B0%A9%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5a930483d92fbaa598697764ca6ee8bc42884173b75985c19ad959f89c65ad4a"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/풍산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%92%8D%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "e84667d717ec181a24ded0e2d206d9b229bb4d188f8e1318af5a66b10979bf33"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/향남읍/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%96%A5%EB%82%A8%EC%9D%8D/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7bb195876262da25cec93290074d3bb5820a3b0d9de2d59b310b3be33aaaaf58"
+      }
+    },
+    {
+      "path": "과목별학원/고2수학학원/화성태안/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%99%94%EC%84%B1%ED%83%9C%EC%95%88/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0888eb355d4387c9ea13bb43141681131b9826081a217964f83d711c1b3998b1"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/경화동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B2%BD%ED%99%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f1b7ea0d04ecf58e3c0a6d5a7097c74effdc55160ec520b8acb7197b53ad5089"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/교하/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%90%ED%95%98/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5fd1b6ac3e88f7b4f400213a217625b67e47187fdbbd8690c9ab1f630ca98ad7"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/당진읍내동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%B9%EC%A7%84%EC%9D%8D%EB%82%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "51f450eeb3ea91b297f58462d3bde8522da6a64ba74f12de054d312d3af0638a"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/도농동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8F%84%EB%86%8D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "9925c9e9e47c65227670550261ce6fd04bdc201959d1e05acee63b7ad7c6db59"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/만촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%A7%8C%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "371574aadac201e77077a4c9d035763cd7522f95b8d19ea8ebeb19e0ba578a92"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/미사/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AF%B8%EC%82%AC/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "85665870d9407fa59290261b2da265239fb3c438967373197bb4ba5e76abacbe"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/미사신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AF%B8%EC%82%AC%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7f6a576c69911a86101553c6728bfe24063f0467f9ff4a16340e31b3a49e6e99"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/반송동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B0%98%EC%86%A1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "11721c5b120b833663782ae15c1461c4d77dded3869bc497d41ce826a1a24908"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/범어동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B2%94%EC%96%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "6e4bd01851be3235544e75ea04771eca50a1c6b4afd19eeb2c105ede703d7c9c"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/사파동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%82%AC%ED%8C%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "da3b9bc1a542ecb6315c699707402ac03a6e8e44395e5897410688bb23e0d0d0"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/상남동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%83%81%EB%82%A8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "cd5e873beaa7b350ba7430274eb6c0864d75817c113409264529e0398eea4664"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "90012887ab7682250635a9b5bd33281263255aef38d5f88a59e109efb302a15d"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "47568a05ffaae4d2e260793ab07150b0386437f396ff93341341209246e6d628"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/석우동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%9A%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "654bd1037604c37f7007e488d9c1f57f3348c99d2badbe8d338526fead2d3a58"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/수성동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%88%98%EC%84%B1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "76f8ce29cde630a86dc65139e331d5f0d265002ad3a4409c58ea92ed46b430b9"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/수원금곡동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%88%98%EC%9B%90%EA%B8%88%EA%B3%A1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "722389ff2e91b2b3a74185fe012012510f7e7eda791cc084065f0b343dbec5ad"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/신월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c3c2aed593407ac347a1f1d049c9599263be95411bca3f3da2ea8d45ee2264a2"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/신천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%B2%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "17d8429bd832e9f30ea09d8f80ef4a7756ec148908e89d9f8cf3ca55dec00775"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/자은동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9E%90%EC%9D%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "8d5cb7ba22ebc8b60b15ee57e284cf42abf3196c55e447b6aeb6c14d35a0af5c"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/청라/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%B2%AD%EB%9D%BC/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a744f1cde378f6a59151c300f64c12d3e790dc6e5cbc688f610bc97395513b9f"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "eaa11a0013c73ec92c04efa347528be51ca336219bb8f10be6d3f35b1d00f4b3"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/풍산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%92%8D%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "2d3d18266c800b8f6ec1cea64397f62a294c4368d6cf287fbace8f9728f7d75e"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/향남읍/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%96%A5%EB%82%A8%EC%9D%8D/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "91c28f17fc5d69d91293ee742a9cca93c05cfde223313fb0e4c34cb37423667a"
+      }
+    },
+    {
+      "path": "과목별학원/고2영어학원/호매실/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A02%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%98%B8%EB%A7%A4%EC%8B%A4/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "48c89bf02a936f6b9219f75aeef7326fa1c0a0407ddc05e82dca41653c46cd92"
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c6f47857cdbfa6c68aedd2db955b552be74aeaf93d89b60dea15c434986a0b40"
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f1d813fea87bb9f62c7d82d77de8d5640d66017dbc5613a4d83a5ed173515e4b"
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "890da45a8fe536ff36c00c8c09517043a8af98d3e76acb54ee5e81e578bebc33"
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "514771e82b86c5affea63a13df2a8cbb2fa524108a2c00d73c97ff482b55ad1e"
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/부천중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b72128da1993a5f9bdaeb6f91a0f16dd3e29f83c382c533bb7756f5c5e466e7f"
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/약대동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%95%BD%EB%8C%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b6772ca08b668a08a278447a47b1c9402a162f405c65d692e4e4631fe8bb8886"
+      }
+    },
+    {
+      "path": "과목별학원/중1수학학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "cfb517a83abeb5737a1b3809c02f5eb2d5d79811bfcdac00073d86a845a706c9"
+      }
+    },
+    {
+      "path": "과목별학원/중1영어학원/교하/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%90%ED%95%98/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4c67342243add782b26bacbc7568634ea5a719fd922bb9a54429730653900609"
+      }
+    },
+    {
+      "path": "과목별학원/중1영어학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0455dcf3b6ab4afa21bbeeb66ee55d05f93e3a59cbf936ac167598cb24ff31ce"
+      }
+    },
+    {
+      "path": "과목별학원/중1영어학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%911%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f44beab0c9e8c892224796701380d2d043ce8a2b5941c0a142a61f1a030a71ae"
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ce8d15235e98ab70fdb2e80981c7a31ab573b29c398e91b6d880b65d84437e80"
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d82c703cdb3a44ef9e3f2bab805a01f0567ea2e05c26d9ac5e6e059d63ad88eb"
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a69ab580cb22383b9735fb68e8b2c0685c6980481938c1064ed246c19b4231c9"
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f22594ddee06f0df9b3835e5cdc56114659975692e47afa5f57ae02c1d3325ef"
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/부천중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "acde6cdbdd287c86dcfbe4ea907c3ad3ba78c058a6be582ea2c7ca02eb021e8b"
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/약대동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%95%BD%EB%8C%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "21ed4bd88d4bc08df8085e15c6e444ac6870954b2f3750f23215557e648efc8d"
+      }
+    },
+    {
+      "path": "과목별학원/중2수학학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "49a9ab813c45132c990e3705e9235dc38b761eebc4aae28c87fe485f0686fdca"
+      }
+    },
+    {
+      "path": "과목별학원/중2영어학원/교하/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%90%ED%95%98/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "2b7f8fdb84b8bbb10d853b1542248d7933dc05ffb0ed4d1e953b852c69fd2df9"
+      }
+    },
+    {
+      "path": "과목별학원/중2영어학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "2d4ea13d1eef76e1b27b1b171b171b3259e03934b13bddf92d1624b060dc86f3"
+      }
+    },
+    {
+      "path": "과목별학원/중2영어학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%912%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c306bf7e723d1ad300683fd9adc68dfa7ac89421227d5c43d8386bd1009da2f9"
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ee87f0e62fca99b61a08d89e8d6f7b3df0ed6b11f4f2a10b0d332d4f0f803fe5"
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "04a400fbfa56f714a8a08ec25a4579bf40c4d3e02f2f0dd99f55f534a5ba6bb4"
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "1b2797faff4da4f51fcfe1df5f89fd545b7b76f310da2b211f26578f12c3025d"
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0b1550a255526e51f466baa457e46d32d8fe70040afbed6ec6f4aad803cd746c"
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/부천중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7103a6c30fcf3aa30527414e71a97d932fae7d1e6fce18f6604d4e3d4a046d22"
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/약대동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%95%BD%EB%8C%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "18cde842745fb3fdc66d9cae3eb102663987fd23c6aafbb392cda1662f068d60"
+      }
+    },
+    {
+      "path": "과목별학원/중3수학학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "944c8755ffacf7fa3964d097125d3077a81a8346e89a4c9d6937eb82fe4a6097"
+      }
+    },
+    {
+      "path": "과목별학원/중3영어학원/교하/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%90%ED%95%98/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "42a512da2cb026f8ce250822cc7b78da9264786d3e8e31988fe4f8ae5f0b188b"
+      }
+    },
+    {
+      "path": "과목별학원/중3영어학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0f8ced4c62bc64bde89d40acb598c6e59062e7b83f335add0f542f5b01328896"
+      }
+    },
+    {
+      "path": "과목별학원/중3영어학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%A4%913%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "6dc8c03dc63253ccdcc6fdc8f27572a9bb9137fee226666713f8ae220df7e981"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/가정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%80%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "8266207096e1a2d1d4f2f36b9e37bea6b69fc2dded9739c05cfc4116326f8162"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "6ba8c3daefaf6d9d8f9274ca64b7450d3e4b82b3a30a1e832f2175e9244f83e0"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/개운동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%9C%EC%9A%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a39836913f766cedce7773cb51787ecaa4200de5b9e6d543243a8e55ae96e3d7"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/경화동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B2%BD%ED%99%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a1368a64bb646db15fc98388780c10e73d62770444cbca4771709cfc47856699"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/고현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B3%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "355b08eff592f32fc03bf9b1899e9b44e12c78e098d5de8d2d3bb8a26f5d136e"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/광장동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B4%91%EC%9E%A5%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0989ca6c3e44b930af52d5b230f4dfcb2ea759a93765ee80f6d7bdf2ed37a411"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/구산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "9b212b82361f6ca55447013a995ba4fe90173ed3aeb16da6d59e3c0f2dc1978e"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/구의동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%EC%9D%98%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5593d60d779556a1fd3c234e2910d59786968d0bee197035f48a088e53515306"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3a7ac80844cef684208a6503b6be4eb6daca68e6860894bdee9f4da40b2e269b"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d0d3a0f12e32fc2171c4a0c1e5ba9c6c94f1a838074521b0ba6c3ee2da8edb2b"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a47368cb34d41aeee27aa462a2ffd763109a3eeac1e7aca27cdd0715ed5ef34b"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/다정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ee0f77fbcc0253e30ad3ad3614eac6d1eb3cd84e74c0de2518c54d56d83d8479"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/단계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A8%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "246c1cc660987be642e31faa078481b92ec83b2c20824de484b5f6d13fced563"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/단구동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A8%EA%B5%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3b163faf1c43091e7de3bc5c8bc9fde7aaef19ace3cbfe3d50efabf07493a604"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/당진읍내동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%B9%EC%A7%84%EC%9D%8D%EB%82%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3ac5a4a2f3e8b863e939365c66b554d0b466d8f0df712d94f4b2fd8ca3576927"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/두정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%90%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b450d9f15f6c34afb508d5b50ffe243e535e6b1ca50777fd67057d4402de1ffb"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/등촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%93%B1%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d683daccd3c8b06e05dde72ad27eddbab0ab6a0c6e1dda723b729fc6b3a47854"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/만촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%A7%8C%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "87b98e76fe3bb78acdbabbd7d988696da808335eae16ad68d9e17d5702966d9a"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/망포동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%A7%9D%ED%8F%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f73ae9f8e7f0506f41b4cf29f94c847cacb768018ae9d5c284b6d95183d305cf"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/명륜동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AA%85%EB%A5%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4d08b8c857dd87050a429f5b52819131e9cdd23254216b5df85bd66de7b64dbf"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/명일동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AA%85%EC%9D%BC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "eb0997d5ee77f84f65a310ddb3d1b778167bb0cc38a41538c40e18e51e409b11"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/무실동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AC%B4%EC%8B%A4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "92ab29bf3727149164fada07f9578c7766caafa1ec5174f5a414c78e9c55c352"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/반곡동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B0%98%EA%B3%A1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "982272c386f114b2a7c4bf0980cbcfbb1ae226db208db890d21d4b0f3768dd3b"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/반석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B0%98%EC%84%9D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "da191d9cb8d5af37fe5786e8ac9e16d12a3ddc8460380d3cbaee9e4d99c255fb"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/범어동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B2%94%EC%96%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0a11ae1092af887cf2d0695b009a8cbb4604bd7dc200d5307e10c81045beee77"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/법동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B2%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "305601fcb116a12b15f1a4ea9944ff1e0d13d5ecde1287ab3feef21d24bd0b4c"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/부천상동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%83%81%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "98fdd299d6935b630511218df52d903517f09236e39e0b105b68b03db81ec194"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/부천중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0f5e52e74d32fe8c580d9800adb0b5a5125985fae0b0767c5ce04e7350006b94"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/비래동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B9%84%EB%9E%98%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "21e4350be0b65e807a3eeed14fcb3bf6a06f5140cfac79f801aa5d5d8d71ca77"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/사파동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%82%AC%ED%8C%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7af11653189651042538c0f5dfa179c0c838ac1633ec768497250649bc4fc767"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/상남동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%83%81%EB%82%A8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "23848b743aaee417255d0402d52318405634f822fc98e76eb6c986daad15ca6d"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/상인동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%83%81%EC%9D%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a3f9b1ee09df8dccffa0726c6dd46ad0730bcfc13339cbf033a355ab51530af3"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/상현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%83%81%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "040ec0fda4ace0d29f4ef79d05e940bd789454104feb27ec63ed6a8382f994cf"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/새롬동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%83%88%EB%A1%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d88a0300f58b96487c4acf39c6cbc38d3959377b709ebc84eb9ea5f465607322"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "767889216a10bca80c1dccb309af971ac1ca56ee3ba7957c48a506cc620adbdb"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "1b536845b20c2288d1e62f1a39bf6fea65aea2225490d0fa5a527b63ef6956e8"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/성정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%B1%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7b52e2a9edf92d16c02bb446147807d39c2300455ba3546d558d91b2fdaf5d64"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/송촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%86%A1%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "67fbc08ee079653f1f0b3348b13c95de326bef7320f72819fb37c9e0dda62f5f"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/수성동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%88%98%EC%84%B1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "300b2b1584e4178663c00fdddac064f27f3520dda88a966f7218e43aad879049"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/수월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%88%98%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "2e9c004700587c1e83099833667657faeed9c03fec47b316afc914fe93a85a3a"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/신월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "05ae394751f20ff1a67abc331b19e0aa7d157d4edb3b38aff8f3e8d804d364a7"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/신월성/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EC%84%B1/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "56aa337049bae925761ccd94342436dab76751d6e2ed838e5e6cdeec4c75021f"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/신중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7133362bf917dee6e92e3ee0c1251622c3e6cc7dd1f6bdbcbcb76976888c326a"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/신천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%B2%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "078d50e791377a6cee54297d2c7c14ebb176480db71557725b346f42ee0a6025"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/신현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "896397c03b59fa3a6b5c05a8b54fcc879ccf19fc5342c327d7dc49584e5383e2"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/심곡동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%AC%EA%B3%A1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "cffb043b97dddec6f9dafadb18746e7495f52a90f62a3c3d0b4de847d20ef05e"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/약대동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%95%BD%EB%8C%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "93dd00c6d27c21aea927d4b7b1762d53e5e424b67276fcae03756f735098d147"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/양정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%96%91%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ed3771cb83f1a492c0f34a33f591b5c9646607938aeae7c77028b98e76bc59a6"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/역촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%97%AD%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ef57e0ad26349e603735dc4f5376146ee524e94ffcb87da5626337d8b181ea28"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/염창동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%97%BC%EC%B0%BD%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "313fa8172ef2f6d7dbe145c2b574f709dea5c0dc64447c348a9fc46ac6930f31"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/영통동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%98%81%ED%86%B5%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4a5e5d664b987d9d7758a5e0d1e6cac0d8a2d5161009b1267883845e0b547bd6"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/옥길동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%98%A5%EA%B8%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d88d0719fb46d322a56292d6b6e5558af7935718288e67bb73f35d9bcdfb84ac"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/온천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%98%A8%EC%B2%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "6e483fe70f057c8d29f0ad58898341c8437d69e5e59608de4799638df446a875"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/원주혁신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%9B%90%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "271e78b86fdf268a83be8b0fc9eddeab581729ac5ea33ed3dbe52cc2a815f129"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/월성동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%9B%94%EC%84%B1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4192ae148abcf9bbee7eb02afd57c32a7df57217ac2569a585e11d100bea1d46"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/자은동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%9E%90%EC%9D%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5a6ddfc52e21f221f1ee3c105fb423657c1955c8f8f67c7a2e6d0fc49b18cc72"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/전주장동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A0%84%EC%A3%BC%EC%9E%A5%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "adc762ee730304b66f881f3f8a6f432dac9e01dcee46f7e64e57caee8d0cc6b4"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/전주혁신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3a8d65e6697d312fcec9b3d65e886ea08cd888cd88f184536c3d88028951283e"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/좌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A2%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "91341836045dd83308780d7411755040eba426fecc98dc0f7a1f1af39bec5914"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/주월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A3%BC%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3c57fa8fe44e53956f0d5ef1e869bf439cf5bc9cacee905b442462023f046d47"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "57cfcee0dee5698c327512b3e109d23e6514e970ee712e0ad45cd6c551f6d2e4"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/진월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "10fb2ee57886208af6369b3afac79978edab22be35e2c3a1395923480b9550b4"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/천호동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%B2%9C%ED%98%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "2b833e45e7b63a190baf2a89b9ef644cc9bf6d5c085fd2f9132946a99dcfe032"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "6a4f7be273fd1066d0430015a780952f0a665ba91118de60417e5f42c95a0aa3"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/해운대중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "478c88d0ad833011375431a19fcefe43d51dd46ff34413373a4ebdae06a49d85"
+      }
+    },
+    {
+      "path": "과목별학원/초3수학학원/후평동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%9B%84%ED%8F%89%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "58d8bd246e08e9c536102d2de050181e183d28a7c076eea6bba3397c45ed836f"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/가정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B0%80%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "59c47ff829690edfa32a729af0983f7fa68a7b2c8944368f6f6f643b3b47b276"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/개운동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B0%9C%EC%9A%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "8a48c0b9276a7a4e02e4a9378d747098a6e39fa0680bb314adc849819e5196a8"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/고현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B3%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "e351850f4f77a67250d0d4585a6ee3cf514955144376a1ec7ccd8addbe1b689e"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/광장동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B4%91%EC%9E%A5%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c95877e8701076c162754719eea647fd55d14fe42c2b779e698cb94126366bce"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/교하/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%90%ED%95%98/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "837f013ced672e487e891b8cb4879cb3d6a48f173b71cee2c3bf4af40dbde846"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/구산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%AC%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "efd240bc1ee3b5e6914889496c24d5a60c8c906bb79c47904a722abcfce40d17"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/구의동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%AC%EC%9D%98%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "e10e480a370396625821af9218e5a4abc4da8d4af4b0d8d4f825a8ed102680b5"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "9a4c27f1a7da38804d1e71439ca8bb35eeb8964a4375feb614860bdc08da4a84"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b77b7f3c06ee0d0217d4172bff0ff2667e2d30af96a586eb31daa56fb0a234f3"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/다정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%A4%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "fef84222703be31823294512935e3979da24d20973bfcff20869ad4881dcd9b8"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/단계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%A8%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "508c2229ff4473775a108ae6395ad9a698a05a54f8da2da5817087a5ad714f0b"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/단구동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%A8%EA%B5%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "07958a7eb2c809ef1cc8e1a60f47129eb72b10054c4ba40806b21999410ea7ae"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/당진읍내동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%B9%EC%A7%84%EC%9D%8D%EB%82%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "afecb41ef9605147851e62d519eb5b83fa34ff391e4e362758b83449cc48dbaf"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/두정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%91%90%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f8266c39146dc11dbd59eaa31690df9c48070c566d3961b03585c80c88d23d85"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/두호동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%91%90%ED%98%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "821d35df99431a9cea8bb9151dafb0c9b3a880f1057265c577337f8ca4582894"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/등촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%93%B1%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3ec57c14e5cc3614a1e5d8f1a4b29f539871acdc99d1825cd404b225b3d339cd"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/만촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%A7%8C%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7469a7cec9629dec265d374638bd173fb635db90ed8894b088f4250c1ef1c201"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/망포동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%A7%9D%ED%8F%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "aad663477763375fdf8821e61e83d2d8d9a96449962c074c127bbfc4c448cbb5"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/명륜동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AA%85%EB%A5%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "eb73c4c3c13bd6c3f021085652c82ee64a07f9f1df6573d688bfc3064c877dfb"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/명일동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AA%85%EC%9D%BC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7c7bed4b420343e18ad65a7af43324f2aa7e3dccf71441d6be3ef4b3770100ec"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/무실동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AC%B4%EC%8B%A4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "203efbbcf874ae5311ce22976cba56739c4f48595944dfee0ad003f64533f9c3"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/반석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B0%98%EC%84%9D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ea951ed44300e26e6a47ddd7e2d09693f490e5cc0b82f1eb61e5f7e7565efd65"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/범어동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B2%94%EC%96%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "dc42c056bea3ff5732d65694a8d6101321a7cf207be48eca1c92702d9fdaf6a3"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/법동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B2%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c1a86a397eaafe948391b091b0779cd4660af78404cb392289071dc2cd0a4374"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/부천상동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%83%81%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "478bd839b7c9a0bbb4d78945b9fca405530ef62a247d149e872b8ec8552892a9"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/비래동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%B9%84%EB%9E%98%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f5544b4fa3254c1322d03a4c8f06bce5dfd0449db6cf4f416a8213aa98df0bbc"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/사파동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%82%AC%ED%8C%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a31d5dedb0e0484e9cc4443902032d5271e96e2dc9472021f58cdaf082e67235"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/상남동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%83%81%EB%82%A8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "9706522c1fd48d64fc1aaca62ca158798d1dd095175e5c8b73d2fec32f51d998"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/상인동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%83%81%EC%9D%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "071577e7d74b32ce02d51f9b320e1ba23c4783b466eed3718a5a757d9ca0be9b"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/상현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%83%81%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "844e42d94c2a1dcca24dfd629d990357d16a35db8e7a42bd9adab3e5ddd29d0e"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/새롬동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%83%88%EB%A1%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "58aed2d3e104dce9d2fdf8eff5e2cae3c0c1e2342f9378b715786442e9079949"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/석사동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%9D%EC%82%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c5d2eb0f192813c7a37d516facb5fbd055e8d36a36d88fbfd78ee278fa4e2819"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/성정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%B1%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "43f1cc0896d6beb777ded0332f82f8d2468c2243379df01e6abb490aed3baa82"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/송촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%86%A1%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ee29d5835a49129816690ef3aea557430671cd3d81f48724b83a77605543220a"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/수성동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%88%98%EC%84%B1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "df796b60fc291e63fb8bd40a692ebe4cdd1cf556b363c57c50c76194f433f6b4"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/수월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%88%98%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d47263ed673caed97acc43df978ca012055578a43d208b2aa687900344f6e0d2"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/신월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "850ed614a5b5f99f91be8a9371f860038bb73aa9166eb258e91969fe92e77fe6"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/신월성/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EC%84%B1/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3caada516cb7a96de1483499cc067034d68f6dcfb9081a14fc707de1568988c0"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/신중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "477d532be683df784ab58c1c9f67f1512d59401dc01b87f5b1108b10fd8088ef"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/신천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%B2%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4da641200bac3f1aef7dba179e2f72f810b3bb37ae3dba52613dae748ddfdc3a"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/신현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a4a16adc1331e5c39bbe673ab9ea50d9fb512f3cac5572d022cdb433763365db"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/심곡동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%AC%EA%B3%A1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "bfb3200f5fa630dc01f775e6c91fb7c3f3968afee965e1d713d99310be61fcc7"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/양정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%96%91%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "47b5613f460f46cc6a68d890cfa29905d4a248b1cf88c7c0905362901a2abc11"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/역촌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%97%AD%EC%B4%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "dd734a508854ddbcb89ab95b361d47ec7908cae684faba0cbf384bac8a148fda"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/염창동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%97%BC%EC%B0%BD%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c33300288c6d8f234a94c84c39294b4de7d5669332108289e8afae15367885ba"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/영통동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%81%ED%86%B5%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b632c9d933aebf8f93eb522d2b75cef27ffa82ff5d5a422db056c5290f5fb613"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/옥길동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EA%B8%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "20edac6291213e16287dc4e899e23c4c0adaa807779cca0bf1cd573285bcaf5f"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/옥정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "20fa7583eaf027b15b764353ca1cbc8ea624dd5cf29ef8cb7eae2b951d443513"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/옥정신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A5%EC%A0%95%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "39d76ea25c2e33d5c30d0a19cbf4001e71a9649b9abe86bac8b35c1528624b3d"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/온천동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%98%A8%EC%B2%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "016ab44ca8c6ec8e20c6acc9a50479da72e9091023d72820f76af4c430984376"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/운양동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9A%B4%EC%96%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "9a8cdd47aa32ac8b40491006005d84b2e79140672b99b539ad8a8412299a82f2"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/월성동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9B%94%EC%84%B1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ce43b01aec56fa6feb1e517ef05a5d0b2f187a29a23c2a19ddb71b6bb09a40d5"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/장성동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%9E%A5%EC%84%B1%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ed6c9fbe6f01bdb0684462b1788209edac18ecb8f3ece7c22516bdf4547fbe0a"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/전주장동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A0%84%EC%A3%BC%EC%9E%A5%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c1b338a66e78bd21274a221993340277e33e0e8dda4485282b6c65cf1da8cdb0"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/전주혁신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5c925ffc46d6c1a6b2449d377f88d3fea939c9a65cc905fba74197ea72b3e950"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/좌동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A2%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f7102eee34f220d0196a58e53034850445d5eb82e94ce16b7db2e516ed486df3"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/주월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A3%BC%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "ef9525994c2200490b56fe1d82541cd25cd1ef244cf31d932dba3c8d882afdc5"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/진월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A7%84%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "68f211e78947d2c21effe3f09bf17a51f72945fe3cae243442a8bc3a689a072d"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/천호동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%B2%9C%ED%98%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "6597ce589e32aa4e8be2b86ae08fe8f4f77d53455e6795592db417d2f2b087fb"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/퇴계동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%87%B4%EA%B3%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c7800e3b6bbf418a25bc9a608111503c2beb398f596c770fe036e7e31eb45349"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/해운대중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%95%B4%EC%9A%B4%EB%8C%80%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "36e8806a016b6fc651134ff68a273e04cec2c48da76476505712f02eb20d516a"
+      }
+    },
+    {
+      "path": "과목별학원/초3영어학원/후평동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%883%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%9B%84%ED%8F%89%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0304566f07c4c53f3276765d4d452fbdff6175ca292bb934406922576790c499"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/가정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%80%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a1378e2a175d76de7d016807007078f71de2b5d3815404a92cd8d8cebcdec3f5"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/갈현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%88%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b95c7616b16c9524c00c8b14c90e27aff788b3279988e4ceaf44d8ed1f4aea3e"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/개운동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B0%9C%EC%9A%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f0fd01a6438988b094b8eb91ba6e01ebf21847b23bc5a0530b0d4ffdc9d05097"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/경화동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B2%BD%ED%99%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "2c45c6e876170ec944c14ff64b835590f3065eb9df1e33939fa27b05b67b1cb9"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/고현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B3%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "581cd1823727a3645a6c7914c9cb4a911e9f51cee4667f1370652737d3fef21c"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/구파발/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B5%AC%ED%8C%8C%EB%B0%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "74daa20df72e11714bfb60e3990704eaf8f664d725bd2ec6fea52089b84a3a7b"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/다산동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "13f54773b4acce7508774bbece16c23d5f46603fbebf16d4e13f89bc99b68727"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/다산신도시/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%82%B0%EC%8B%A0%EB%8F%84%EC%8B%9C/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f18592597480285ad7529115d1221bfbb13c23a97c6373b80f753be1c84d9338"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/다정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A4%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "913aaec699d0d3455999cb1eb36bd4d18e6299e4c1e53f0b8e607ab93a3b035b"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/단구동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%A8%EA%B5%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c22faeb0e4aac111eb9b848a32f33c0724c5250e20a36e2e1f3c75e228aff8b4"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/당진읍내동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%8B%B9%EC%A7%84%EC%9D%8D%EB%82%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "3042c13988ba61e2bc89ff1c2e195864f8f861b423ade8d4db35b5b08f4df7d8"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/두정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%91%90%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "96b6665f7b6cfa6bc4a86fd391fcc27f8648fc4b96b1e690a54fed5f065e448a"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/명륜동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%AA%85%EB%A5%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "66c8faf714af8ae0bcf6f417023042782cc138d9ebe0fedf85347424bd81b668"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/부천상동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%83%81%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "96d6fcc46e3537d447521e5fb1a4755f13b4432166c0ea4c3503468381fa3a46"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/부천중동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EB%B6%80%EC%B2%9C%EC%A4%91%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "eac467f67bacbc60ca7679899105fb09de166a35eb7d945c16abd36dec4d9d0c"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/사파동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%82%AC%ED%8C%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "37f770e127ffcb1744669615d2ee59a81ef4b43e196252962a2be7d011603d7e"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/상남동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%83%81%EB%82%A8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "a2e6dd73c3ae27f8ad42132600773f7cfcc0ffd9909c525bca805021ae4dd3ba"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/새롬동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%83%88%EB%A1%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "e3a4bfd875032a89d10b06341a5837294ac8f4739b0d8da3845202949de985e8"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/석동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%9D%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "1ed6d07d8f8d1a01586796b5c0a762867c9ca5fada4bf5c2e4bec135c4cdfffc"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/성정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%84%B1%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "966da5ea48b1e70d270d5ce1e062ebd96fcab0427a5d47185f2d2a9d44d48255"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/수월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%88%98%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "98521e4cf65a5795c1bac8a2d01053de8cf1051ffcc54c642b5bcfc5326f0080"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/신월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "693fabb9d782e5805bbe64b915784d9d40fb23602150ac48df42f5ee28638506"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/신현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%8B%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c95cba6ac71cd5124f95c565e5ab373bd43ade29fd89714e29a671bdfd5f15d4"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/약대동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%95%BD%EB%8C%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "2171e79e0c2547411b1e1066373c1913b78e7c489813d5b0361009de237b3dbb"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/양정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%96%91%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "516d35b302f322b1537f6762cef3008884db872ae003e736665408cc279ba336"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/자은동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%9E%90%EC%9D%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "beee8a3d53ec9595ff3e4bf81e4fcdc93a344dffd5db1c5114797787cb4d55e4"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/진관동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A7%84%EA%B4%80%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "0a4eaff38e0e9107b76ebf65ede2d0e9192cfa6a93ff6cb8da30f1df7e62c627"
+      }
+    },
+    {
+      "path": "과목별학원/초4수학학원/후평동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%ED%9B%84%ED%8F%89%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b6455b380c71bfc46accdac41270286c816e758d52d561dfc2aca2bdce350025"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/가정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B0%80%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c035c1f2cbc97fd07d4408278cefebce8540320fe80336deeda70e78440bc4cc"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/개운동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B0%9C%EC%9A%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "19760cddcf1495b6189f499e975c8446a8fd139c185af30ca46ce6b9118d24c9"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/고현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B3%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "b6bf4fa8aa83df9fc16ba052fdef78b8aba2a0f2c008d0618a48d24a7463a0e3"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/교하/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B5%90%ED%95%98/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "96b7546386088c4df2ed2d3fca816c2c7c8bb36f90a93c0e11396ebd83281aff"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/다정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%A4%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "7683b3e8c4cec8a02f7e9b325fe8ac480ccacba807669cf231f829e44f75e902"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/단구동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%A8%EA%B5%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "e4738c44c401e1661e22267d5fb3f6b0be4d5a5abbaaaefce0cfe572699220d2"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/당진읍내동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%8B%B9%EC%A7%84%EC%9D%8D%EB%82%B4%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "afacce02ff64055a8aaa5e839ea6f54d0ae17b33aec4699430a96cd1978281d1"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/두정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%91%90%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5d9b66f09f7e155e57101c388628b0ec278d9ff9cfd8edb7bd53d6aa7b211cb4"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/명륜동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AA%85%EB%A5%9C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "c76fe7a48c5467a48f287dce9ba805cf28633bf3ba196c2097d5a02c06f12a48"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/명일동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EB%AA%85%EC%9D%BC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d02e7ddf24a8f8490c6906b22906a4fcacf02def7f1c6538f7f559f62d86d7bd"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/사파동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%82%AC%ED%8C%8C%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "cfbd5a976a6634033ffba970ae389b7e887f08ab1276239587336494cdf68afd"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/상남동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%83%81%EB%82%A8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "d83d2d94c0431e12fa772f45142637c89383dc76f423174efcc66cea884ab697"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/새롬동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%83%88%EB%A1%AC%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "5a74d04ceedc61d3b36aa307d906cecfbe44f15fd7d0322613dab32a2bec2009"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/성정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%84%B1%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "56e48d4ad198ca1384e5b5dc47d3d4ed1c6ff72ba220714163b3aac65de3e1f9"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/수월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%88%98%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "6d4d916d513d108dc40f535e69603494b3c837d12c5a3a8ff5593f62065fa982"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/신월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "9125546f7a35a00845f6c366cd94805d018dd269c2f3bd9af15d63eb92758a5e"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/신현동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%8B%A0%ED%98%84%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4d00149cd2046f639056b7372c408242c8ef0a73af30bc58f13bab7eeb7e2438"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/양정동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%96%91%EC%A0%95%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "231c9fce27d45c921dd5f5f7f0caf2c201356daa11f3eb825c8fc335f4d6de45"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/주월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A3%BC%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "4b7d0fd2b69b4a2215e8455e4ae295e163a0c162e96b098397183852cebad72a"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/진월동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A7%84%EC%9B%94%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "dea2332a4e17ff868a6ac3c4a1d750465b3cd7a987c432e2f25f825cd41cbf58"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/천호동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%B2%9C%ED%98%B8%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "f45dd5017808f721772990e5f0457644d96e7ccd0968da19b0edc7f1b10231d4"
+      }
+    },
+    {
+      "path": "과목별학원/초4영어학원/후평동/index.html",
+      "canonical": "https://xn--zj4b74v1taq8c.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EC%B4%884%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%ED%9B%84%ED%8F%89%EB%8F%99/",
+      "publicationPermissionReview": {
+        "approvedAt": "2026-10-19",
+        "approvalSource": "site-owner-explicit-request",
+        "courseAvailabilityInferred": false,
+        "contentAndMediaPreserved": true,
+        "sourceSha256": "453ae445d57a378bd3da603799d8bedc4c9390135bea8921c7475123f79acde9"
+      }
     }
   ]
 }

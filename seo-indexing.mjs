@@ -1,4 +1,4 @@
-/** Restore only individually reviewed pages; never remove all noindex tags. */
+/** Restore exact reviewed paths; publication approval is separate from course facts. */
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -18,6 +18,20 @@ function visit(node, fn) {
 export function transform(html, p) {
   const canonical = html.match(/<link\b(?=[^>]*rel=["']canonical["'])(?=[^>]*href=["']([^"']+))[^>]*>/i)?.[1];
   if (canonical !== p.canonical || new URL(canonical).origin !== manifest.origin) throw Error(`Canonical mismatch: ${p.path}`);
+  if (p.publicationPermissionReview) {
+    const review=p.publicationPermissionReview;
+    if (review.approvalSource!=='site-owner-explicit-request' || review.courseAvailabilityInferred!==false) throw Error(`Publication approval missing: ${p.path}`);
+    // Owner approval permits discovery of these exact existing pages. It does
+    // not confirm a class, enrollment availability, teacher assignment or fee.
+    const next=html.replace(/<meta\b(?=[^>]*name=["'](?:robots|googlebot|naverbot|yeti)["'])[^>]*>/gi,
+      tag=>tag.replace(/\bnoindex\b/gi,'index'));
+    const tracker='<script defer src="https://wawa-visit-collector.clean-peach-8202.chatgpt.site/tracker.js" data-site="wawa-09" crossorigin="anonymous" referrerpolicy="no-referrer"></script>';
+    const fingerprint=createHash('sha256').update(next.replace(tracker,''),'utf8').digest('hex');
+    if (fingerprint!==review.sourceSha256) throw Error(`Publication-approved page changed; review required: ${p.path}`);
+    const robots=[...next.matchAll(/<meta\b(?=[^>]*name=["']robots["'])[^>]*>/gi)];
+    if (robots.length!==1 || /\b(?:noindex|none)\b/i.test(robots[0][0])) throw Error(`Publication indexability changed: ${p.path}`);
+    return {html:next,changed:next!==html};
+  }
   if (p.crawlRestorationReview) {
     const review=p.crawlRestorationReview;
     const tracker='<script defer src="https://wawa-visit-collector.clean-peach-8202.chatgpt.site/tracker.js" data-site="wawa-09" crossorigin="anonymous" referrerpolicy="no-referrer"></script>';
